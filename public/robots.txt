@@ -1,0 +1,6 @@
+# robots.txt for CEO Bars
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://ceobars.shop/sitemap.xml
