@@ -1,5 +1,7 @@
 # CEO BARS™.
 
+**Live:** https://www.ceobars.shop ❤️‍🔥
+
 Spit Bars Like a Boss. Lead Like a Legend.
 
 CEO Bars™ is a cultural-tech manifesto disguised as a product.  
