@@ -1649,14 +1649,14 @@ export default function Home() {
 
           {/* Funding Options */}
           <div className="grid md:grid-cols-3 gap-6 mb-12">
-            {/* ₹299 Option */}
+            {/* ₹55 Option */}
             <button
-              onClick={() => handleCheckout(299)}
+              onClick={() => handleCheckout(55)}
               disabled={isCheckoutLoading}
               className="group relative p-8 rounded-2xl border border-[#4a4a52] bg-gradient-to-br from-[#1a1a1e] to-[#0f0f12]
                          hover:border-[#ff00ff]/50 transition-all duration-300 disabled:opacity-50"
             >
-              <div className="text-4xl font-bold text-white mb-2">₹299</div>
+              <div className="text-4xl font-bold text-white mb-2">₹55</div>
               <div className="text-gray-400 mb-4">Supporter</div>
               <div className="text-sm text-gray-500">
                 Show love to the vision
@@ -1664,9 +1664,9 @@ export default function Home() {
               <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-[#ff00ff]/0 to-[#ff00ff]/0 group-hover:from-[#ff00ff]/5 group-hover:to-[#ff00ff]/10 transition-all duration-300" />
             </button>
 
-            {/* ₹1 Option - Featured */}
+            {/* ₹33 Option - Featured */}
             <button
-              onClick={() => handleCheckout(1)}
+              onClick={() => handleCheckout(33)}
               disabled={isCheckoutLoading}
               className="group relative p-8 rounded-2xl border-2 border-[#ff00ff]/50 bg-gradient-to-br from-[#1a1a1e] to-[#0f0f12]
                          hover:border-[#ff00ff] transition-all duration-300 disabled:opacity-50 transform hover:scale-105"
@@ -1674,22 +1674,22 @@ export default function Home() {
               <div className="absolute -top-3 left-1/2 -translate-x-1/2 px-4 py-1 bg-[#ff00ff] rounded-full text-xs font-bold">
                 POPULAR
               </div>
-              <div className="text-5xl font-bold neon-text mb-2">₹1</div>
+              <div className="text-5xl font-bold neon-text mb-2">₹33</div>
               <div className="text-[#ff00ff] font-semibold mb-4">
-                Adi 55 Tier
+                Adi 33 Tier
               </div>
               <div className="text-sm text-gray-400">The sacred number</div>
               <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-[#ff00ff]/5 to-[#ff00ff]/10 group-hover:from-[#ff00ff]/10 group-hover:to-[#ff00ff]/20 transition-all duration-300" />
             </button>
 
-            {/* ₹1111 Option */}
+            {/* ₹99 Option */}
             <button
-              onClick={() => handleCheckout(1111)}
+              onClick={() => handleCheckout(99)}
               disabled={isCheckoutLoading}
               className="group relative p-8 rounded-2xl border border-[#4a4a52] bg-gradient-to-br from-[#1a1a1e] to-[#0f0f12]
                          hover:border-[#ff00ff]/50 transition-all duration-300 disabled:opacity-50"
             >
-              <div className="text-4xl font-bold text-white mb-2">₹1111</div>
+              <div className="text-4xl font-bold text-white mb-2">₹99</div>
               <div className="text-gray-400 mb-4">Executive</div>
               <div className="text-sm text-gray-500">
                 Major investment energy
