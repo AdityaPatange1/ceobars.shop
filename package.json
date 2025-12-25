@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "ceo:mix-master": "./scripts/ceo_bars_mix_master.sh",
+    "ceo:video-to-audio": "./scripts/video_to_audio.sh"
   },
   "dependencies": {
     "@cashfreepayments/cashfree-js": "^1.0.5",

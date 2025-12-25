@@ -39,3 +39,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Audio/Video Production (large intermediate files)
+inputs/videos/*.mov
+inputs/videos/*.mp4
+inputs/*.wav
+inputs/*.mp3
+outputs/masters/*.wav
