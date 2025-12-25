@@ -44,6 +44,8 @@ export async function POST(request: NextRequest) {
     const { amount, customerEmail, customerPhone } = await request.json();
     const baseUrl = getBaseUrl(request);
 
+    console.log("Checkout request:", { amount, baseUrl });
+
     if (!amount || amount < 1) {
       return NextResponse.json(
         { error: "Invalid amount" },
@@ -54,7 +56,7 @@ export async function POST(request: NextRequest) {
     const orderId = `order_${Date.now()}_${Math.random().toString(36).substring(7)}`;
 
     const orderRequest = {
-      order_amount: amount,
+      order_amount: Number(amount),
       order_currency: "INR",
       order_id: orderId,
       customer_details: {
@@ -65,28 +67,46 @@ export async function POST(request: NextRequest) {
       },
       order_meta: {
         return_url: `${baseUrl}/success?order_id=${orderId}`,
-        notify_url: `${baseUrl}/api/webhook`,
       },
       order_note: "Fund The CEO - CEO Bars",
     };
 
+    console.log("Order request:", JSON.stringify(orderRequest, null, 2));
+
     const response = await cashfree.PGCreateOrder(orderRequest);
 
-    if (response.data) {
+    console.log("Cashfree response:", JSON.stringify(response.data, null, 2));
+
+    if (response.data && response.data.payment_session_id) {
       return NextResponse.json({
         paymentSessionId: response.data.payment_session_id,
         orderId: response.data.order_id,
       });
     }
 
+    console.error("No payment_session_id in response:", response);
     return NextResponse.json(
-      { error: "Failed to create order" },
+      { error: "Failed to create order", details: response },
       { status: 500 }
     );
-  } catch (error) {
+  } catch (error: unknown) {
     console.error("Cashfree checkout error:", error);
+
+    // Extract detailed error info
+    const errorDetails = error instanceof Error ? {
+      message: error.message,
+      name: error.name,
+      stack: error.stack,
+    } : error;
+
+    // Check if it's an axios error with response data
+    const axiosError = error as { response?: { data?: unknown } };
+    if (axiosError?.response?.data) {
+      console.error("Cashfree API error response:", axiosError.response.data);
+    }
+
     return NextResponse.json(
-      { error: "Failed to create checkout session" },
+      { error: "Failed to create checkout session", details: errorDetails },
       { status: 500 }
     );
   }
