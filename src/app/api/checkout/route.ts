@@ -8,7 +8,9 @@ function getCashfree() {
     throw new Error("Cashfree credentials not configured");
   }
 
-  const environment = process.env.NODE_ENV === "production"
+  // Detect environment from secret key prefix (prod vs sandbox)
+  const isProductionKey = process.env.CASHFREE_SECRET_KEY.includes("_prod_");
+  const environment = isProductionKey
     ? CFEnvironment.PRODUCTION
     : CFEnvironment.SANDBOX;
 
@@ -20,11 +22,19 @@ function getCashfree() {
 }
 
 function getBaseUrl(request: NextRequest): string {
+  const host = request.headers.get("host") || "localhost:3000";
+
+  // Always use localhost URL for local development
+  if (host.includes("localhost") || host.includes("127.0.0.1")) {
+    return `http://${host}`;
+  }
+
+  // Use env var for production, fallback to request headers
   if (process.env.NEXT_PUBLIC_BASE_URL) {
     return process.env.NEXT_PUBLIC_BASE_URL;
   }
-  const host = request.headers.get("host") || "localhost:3000";
-  const protocol = request.headers.get("x-forwarded-proto") || "http";
+
+  const protocol = request.headers.get("x-forwarded-proto") || "https";
   return `${protocol}://${host}`;
 }
 
