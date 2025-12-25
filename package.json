@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "eslint",
     "ceo:mix-master": "./scripts/ceo_bars_mix_master.sh",
-    "ceo:video-to-audio": "./scripts/video_to_audio.sh"
+    "ceo:video-to-audio": "./scripts/video_to_audio.sh",
+    "ceo:ig-pipeline": "./scripts/ig_pipeline.sh"
   },
   "dependencies": {
     "@cashfreepayments/cashfree-js": "^1.0.5",
