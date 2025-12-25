@@ -44,6 +44,19 @@ const tracks: Track[] = [
     featuring: ["Adi 55"],
     instrumental: "All The Power by SADCG — Licensed beat with exclusive unlimited access",
   },
+  {
+    id: 3,
+    title: "D OFF THE BLOCK FREESTYLE",
+    artist: "Adi 55",
+    album: "DETBOM FREESTYLES",
+    duration: "3:37",
+    file: "/assets/D_OFF_THE_BLOCK_FREESTYLE_ADI55_MASTER.mp3",
+    coverArt: "/assets/DETBOM_FREESTYLES_COVER_ART.jpg",
+    description: "D Off The Block Freestyle marks the historic integration of Detroit Executes with Mumbai Streets—a transatlantic collision powering up the Hip-Hop Universe and fueling the Tech Innovation Chambers. This track bridges the gritty Motor City grind with the relentless hustle of Maximum City, forging a new sonic pipeline where American street poetry meets Indian entrepreneurial fire. When Detroit's underground legacy shakes hands with Mumbai's startup spirit, bars become blueprints and flows become frameworks. This is where the block meets the blockchain, where freestyle meets future-state—raw, uncut, and engineered for global domination.",
+    releaseDate: "25th December 2025",
+    featuring: ["Adi 55"],
+    instrumental: "1st Official — Licensed beat with exclusive unlimited access",
+  },
 ];
 
 export default function TracksPage() {
