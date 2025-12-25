@@ -1,18 +1,10 @@
 "use client";
 
-import { useState, useCallback, useEffect } from "react";
+import { useState, useCallback, useEffect, useRef } from "react";
 import { useForm, ValidationError } from "@formspree/react";
-import Script from "next/script";
+import { load } from "@cashfreepayments/cashfree-js";
 
 type ModalType = "privacy" | "terms" | "healthcare" | null;
-
-declare global {
-  interface Window {
-    Cashfree?: (config: { mode: string }) => {
-      checkout: (options: { paymentSessionId: string; redirectTarget: string }) => Promise<void>;
-    };
-  }
-}
 
 export default function Home() {
   const [modalOpen, setModalOpen] = useState<ModalType>(null);
@@ -20,15 +12,27 @@ export default function Home() {
   const [isCheckoutLoading, setIsCheckoutLoading] = useState(false);
   const [customAmount, setCustomAmount] = useState("");
   const [cashfreeReady, setCashfreeReady] = useState(false);
+  const cashfreeRef = useRef<Awaited<ReturnType<typeof load>> | null>(null);
+
+  // Initialize Cashfree SDK on mount
+  useEffect(() => {
+    const initCashfree = async () => {
+      try {
+        const cashfree = await load({ mode: "production" });
+        cashfreeRef.current = cashfree;
+        setCashfreeReady(true);
+        console.log("Cashfree SDK loaded successfully via npm");
+      } catch (error) {
+        console.error("Failed to load Cashfree SDK:", error);
+        setCashfreeReady(false);
+      }
+    };
+    initCashfree();
+  }, []);
 
   const handleCheckout = useCallback(async (amount: number) => {
-    // Check both flag AND actual window.Cashfree
-    if (!cashfreeReady || typeof window === "undefined" || !window.Cashfree) {
-      console.error("Cashfree SDK not loaded", {
-        cashfreeReady,
-        hasWindow: typeof window !== "undefined",
-        hasCashfree: typeof window !== "undefined" && !!window.Cashfree
-      });
+    if (!cashfreeReady || !cashfreeRef.current) {
+      console.error("Cashfree SDK not loaded");
       alert("Payment system is loading. Please try again in a moment.");
       return;
     }
@@ -43,8 +47,7 @@ export default function Home() {
       const data = await response.json();
 
       if (data.paymentSessionId) {
-        const cashfree = window.Cashfree({ mode: "production" });
-        await cashfree.checkout({
+        await cashfreeRef.current.checkout({
           paymentSessionId: data.paymentSessionId,
           redirectTarget: "_self",
         });
@@ -71,29 +74,7 @@ export default function Home() {
   }, []);
 
   return (
-    <>
-      <Script
-        src="https://sdk.cashfree.com/js/v3/cashfree.js"
-        strategy="afterInteractive"
-        onLoad={() => {
-          // Give it a microtick so the global attach finishes
-          setTimeout(() => {
-            const ok = typeof window !== "undefined" && !!window.Cashfree;
-            setCashfreeReady(ok);
-            console.log("Cashfree script loaded:", {
-              Cashfree: typeof window !== "undefined" ? !!window.Cashfree : "no-window",
-            });
-            if (!ok) {
-              console.error("Cashfree script loaded but window.Cashfree missing (blocked or changed)");
-            }
-          }, 0);
-        }}
-        onError={() => {
-          console.error("Failed to load Cashfree SDK script (network/CSP/adblock)");
-          setCashfreeReady(false);
-        }}
-      />
-      <main className="min-h-screen bg-[#0a0a0a] text-white">
+    <main className="min-h-screen bg-[#0a0a0a] text-white">
         {/* Top Banner */}
       <div className="w-full bg-gradient-to-b from-[#0a0a0a] via-[#12081a] to-[#0a0a0a]">
         <div className="max-w-5xl mx-auto px-4 pt-6 pb-16 md:pt-8 md:pb-24 text-center">
@@ -2235,7 +2216,6 @@ export default function Home() {
           </div>
         </div>
       )}
-      </main>
-    </>
+    </main>
   );
 }
