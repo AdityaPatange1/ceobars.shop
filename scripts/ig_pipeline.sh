@@ -124,6 +124,17 @@ python3 -m pip install --quiet --upgrade instaloader
 command -v instaloader >/dev/null || die "Instaloader install failed"
 
 # --------------------------
+# Proxy configuration
+# --------------------------
+PROXY_URL="http://kwquljos:4qhu071wiob4@45.41.179.14:6549"
+export HTTP_PROXY="$PROXY_URL"
+export HTTPS_PROXY="$PROXY_URL"
+export http_proxy="$PROXY_URL"
+export https_proxy="$PROXY_URL"
+
+log "Using proxy: 45.41.179.14:6549"
+
+# --------------------------
 # Download Instagram videos
 # --------------------------
 log "Downloading Instagram videos"

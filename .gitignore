@@ -53,3 +53,4 @@ outputs/masters/**/*.wav
 outputs/masters/*.wav
 outputs/masters/**/*.mp3
 outputs/masters/*.mp3
+inputs/ig_downloads/
