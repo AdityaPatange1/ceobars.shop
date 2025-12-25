@@ -41,8 +41,13 @@ yarn-error.log*
 next-env.d.ts
 
 # Audio/Video Production (large intermediate files)
+inputs/videos/**/*.mov
+inputs/videos/**/*.mp4
 inputs/videos/*.mov
 inputs/videos/*.mp4
 inputs/*.wav
 inputs/*.mp3
+inputs/**/*.wav
+inputs/**/*.mp3
+outputs/masters/**/*.wav
 outputs/masters/*.wav
