@@ -79,6 +79,16 @@ body {
 .modal-backdrop {
   background: rgba(0, 0, 0, 0.9);
   backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior: contain;
+}
+
+/* iOS Safari modal scroll fix */
+@supports (-webkit-touch-callout: none) {
+  .modal-backdrop {
+    min-height: -webkit-fill-available;
+  }
 }
 
 /* Scrollbar styling */

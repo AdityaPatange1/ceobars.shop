@@ -383,96 +383,99 @@ export default function TracksPage() {
       {/* Track Info Modal */}
       {modalTrack && (
         <div
-          className="fixed inset-0 z-50 flex items-center justify-center p-4 modal-backdrop"
+          className="fixed inset-0 z-50 modal-backdrop overflow-y-auto"
+          style={{ WebkitOverflowScrolling: 'touch' }}
           onClick={closeModal}
         >
-          <div
-            className="relative w-full max-w-md bg-gradient-to-br from-[#1a1a1e] via-[#141418] to-[#0f0f12] rounded-2xl border border-[#2a2a2e] shadow-2xl overflow-hidden"
-            onClick={(e) => e.stopPropagation()}
-          >
-            {/* Close Button */}
-            <button
-              onClick={closeModal}
-              className="absolute top-4 right-4 z-10 w-8 h-8 rounded-full bg-[#2a2a2e] hover:bg-[#3a3a3e] flex items-center justify-center transition-colors text-gray-400 hover:text-white"
+          <div className="min-h-full flex items-center justify-center p-4 py-8">
+            <div
+              className="relative w-full max-w-md bg-gradient-to-br from-[#1a1a1e] via-[#141418] to-[#0f0f12] rounded-2xl border border-[#2a2a2e] shadow-2xl"
+              onClick={(e) => e.stopPropagation()}
             >
-              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-              </svg>
-            </button>
-
-            {/* Cover Art */}
-            <div className="relative">
-              <img
-                src={modalTrack.coverArt}
-                alt={modalTrack.title}
-                className="w-full aspect-square object-cover"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-[#0f0f12] via-transparent to-transparent" />
-            </div>
-
-            {/* Content */}
-            <div className="p-6 -mt-16 relative">
-              {/* Title & Artist */}
-              <h2 className="text-2xl font-bold text-white mb-1">{modalTrack.title}</h2>
-              <p className="text-[#ff00ff] font-medium mb-4">
-                {modalTrack.featuring?.join(", ") || modalTrack.artist}
-              </p>
-
-              {/* Release Date */}
-              <div className="flex items-center gap-2 text-gray-400 text-sm mb-3">
+              {/* Close Button */}
+              <button
+                onClick={closeModal}
+                className="absolute top-4 right-4 z-10 w-8 h-8 rounded-full bg-[#2a2a2e] hover:bg-[#3a3a3e] flex items-center justify-center transition-colors text-gray-400 hover:text-white"
+              >
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
                 </svg>
-                <span>Released: {modalTrack.releaseDate}</span>
+              </button>
+
+              {/* Cover Art */}
+              <div className="relative">
+                <img
+                  src={modalTrack.coverArt}
+                  alt={modalTrack.title}
+                  className="w-full aspect-square object-cover rounded-t-2xl"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#0f0f12] via-transparent to-transparent" />
               </div>
 
-              {/* Instrumental Credit */}
-              <div className="flex items-center gap-2 text-gray-400 text-sm mb-4">
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3" />
-                </svg>
-                <span>{modalTrack.instrumental}</span>
-              </div>
+              {/* Content */}
+              <div className="p-6 -mt-16 relative">
+                {/* Title & Artist */}
+                <h2 className="text-2xl font-bold text-white mb-1">{modalTrack.title}</h2>
+                <p className="text-[#ff00ff] font-medium mb-4">
+                  {modalTrack.featuring?.join(", ") || modalTrack.artist}
+                </p>
 
-              {/* Description */}
-              <p className="text-gray-300 text-sm leading-relaxed mb-6">
-                {modalTrack.description}
-              </p>
+                {/* Release Date */}
+                <div className="flex items-center gap-2 text-gray-400 text-sm mb-3">
+                  <svg className="w-4 h-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                  </svg>
+                  <span>Released: {modalTrack.releaseDate}</span>
+                </div>
 
-              {/* Mini Player */}
-              <div className="bg-[#0a0a0a] rounded-xl p-4 border border-[#1a1a1e]">
-                <div className="flex items-center gap-4">
-                  {/* Play/Pause Button */}
-                  <button
-                    onClick={handleModalPlay}
-                    className="w-12 h-12 rounded-full bg-[#ff00ff] hover:bg-[#ff66ff] flex items-center justify-center transition-all hover:scale-105 shadow-lg shadow-[#ff00ff]/25 flex-shrink-0"
-                  >
-                    {modalPlaying ? (
-                      <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M6 4h4v16H6V4zm8 0h4v16h-4V4z" />
-                      </svg>
-                    ) : (
-                      <svg className="w-5 h-5 text-white ml-0.5" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M8 5v14l11-7z" />
-                      </svg>
-                    )}
-                  </button>
+                {/* Instrumental Credit */}
+                <div className="flex items-start gap-2 text-gray-400 text-sm mb-4">
+                  <svg className="w-4 h-4 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3" />
+                  </svg>
+                  <span>{modalTrack.instrumental}</span>
+                </div>
 
-                  {/* Progress Bar & Info */}
-                  <div className="flex-1 min-w-0">
-                    <p className="text-white text-sm font-medium truncate">{modalTrack.title}</p>
-                    <p className="text-gray-500 text-xs truncate">{modalTrack.artist}</p>
-                    {/* Progress Bar */}
-                    <div className="mt-2 h-1 bg-[#2a2a2e] rounded-full overflow-hidden">
-                      <div
-                        className="h-full bg-[#ff00ff] transition-all duration-100"
-                        style={{ width: `${modalProgress}%` }}
-                      />
+                {/* Description */}
+                <p className="text-gray-300 text-sm leading-relaxed mb-6">
+                  {modalTrack.description}
+                </p>
+
+                {/* Mini Player */}
+                <div className="bg-[#0a0a0a] rounded-xl p-4 border border-[#1a1a1e]">
+                  <div className="flex items-center gap-4">
+                    {/* Play/Pause Button */}
+                    <button
+                      onClick={handleModalPlay}
+                      className="w-12 h-12 rounded-full bg-[#ff00ff] hover:bg-[#ff66ff] flex items-center justify-center transition-all hover:scale-105 shadow-lg shadow-[#ff00ff]/25 flex-shrink-0"
+                    >
+                      {modalPlaying ? (
+                        <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
+                          <path d="M6 4h4v16H6V4zm8 0h4v16h-4V4z" />
+                        </svg>
+                      ) : (
+                        <svg className="w-5 h-5 text-white ml-0.5" fill="currentColor" viewBox="0 0 24 24">
+                          <path d="M8 5v14l11-7z" />
+                        </svg>
+                      )}
+                    </button>
+
+                    {/* Progress Bar & Info */}
+                    <div className="flex-1 min-w-0">
+                      <p className="text-white text-sm font-medium truncate">{modalTrack.title}</p>
+                      <p className="text-gray-500 text-xs truncate">{modalTrack.artist}</p>
+                      {/* Progress Bar */}
+                      <div className="mt-2 h-1 bg-[#2a2a2e] rounded-full overflow-hidden">
+                        <div
+                          className="h-full bg-[#ff00ff] transition-all duration-100"
+                          style={{ width: `${modalProgress}%` }}
+                        />
+                      </div>
                     </div>
-                  </div>
 
-                  {/* Duration */}
-                  <span className="text-gray-500 text-xs flex-shrink-0">{modalTrack.duration}</span>
+                    {/* Duration */}
+                    <span className="text-gray-500 text-xs flex-shrink-0">{modalTrack.duration}</span>
+                  </div>
                 </div>
               </div>
             </div>
