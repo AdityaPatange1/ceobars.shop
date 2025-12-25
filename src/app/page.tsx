@@ -30,38 +30,41 @@ export default function Home() {
     initCashfree();
   }, []);
 
-  const handleCheckout = useCallback(async (amount: number) => {
-    if (!cashfreeReady || !cashfreeRef.current) {
-      console.error("Cashfree SDK not loaded");
-      alert("Payment system is loading. Please try again in a moment.");
-      return;
-    }
-
-    setIsCheckoutLoading(true);
-    try {
-      const response = await fetch("/api/checkout", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ amount }),
-      });
-      const data = await response.json();
-
-      if (data.paymentSessionId) {
-        await cashfreeRef.current.checkout({
-          paymentSessionId: data.paymentSessionId,
-          redirectTarget: "_self",
-        });
-      } else {
-        console.error("Failed to get payment session:", data.error);
-        alert("Failed to create payment session. Please try again.");
+  const handleCheckout = useCallback(
+    async (amount: number) => {
+      if (!cashfreeReady || !cashfreeRef.current) {
+        console.error("Cashfree SDK not loaded");
+        alert("Payment system is loading. Please try again in a moment.");
+        return;
       }
-    } catch (error) {
-      console.error("Checkout error:", error);
-      alert("Payment error. Please try again.");
-    } finally {
-      setIsCheckoutLoading(false);
-    }
-  }, [cashfreeReady]);
+
+      setIsCheckoutLoading(true);
+      try {
+        const response = await fetch("/api/checkout", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ amount }),
+        });
+        const data = await response.json();
+
+        if (data.paymentSessionId) {
+          await cashfreeRef.current.checkout({
+            paymentSessionId: data.paymentSessionId,
+            redirectTarget: "_self",
+          });
+        } else {
+          console.error("Failed to get payment session:", data.error);
+          alert("Failed to create payment session. Please try again.");
+        }
+      } catch (error) {
+        console.error("Checkout error:", error);
+        alert("Payment error. Please try again.");
+      } finally {
+        setIsCheckoutLoading(false);
+      }
+    },
+    [cashfreeReady]
+  );
 
   const openModal = useCallback((type: ModalType) => {
     setModalOpen(type);
@@ -75,7 +78,7 @@ export default function Home() {
 
   return (
     <main className="min-h-screen bg-[#0a0a0a] text-white">
-        {/* Top Banner */}
+      {/* Top Banner */}
       <div className="w-full bg-gradient-to-b from-[#0a0a0a] via-[#12081a] to-[#0a0a0a]">
         <div className="max-w-5xl mx-auto px-4 pt-6 pb-16 md:pt-8 md:pb-24 text-center">
           <p className="text-sm md:text-base tracking-wide text-gray-300 mb-12 md:mb-16">
@@ -128,22 +131,47 @@ export default function Home() {
 
         {/* CTA Button */}
         <button
-          onClick={() => handleCheckout(555)}
+          onClick={() => handleCheckout(1)}
           disabled={isCheckoutLoading}
           className="mt-10 px-10 py-4 neon-button rounded-xl text-xl font-bold tracking-wide
                      disabled:opacity-50 disabled:cursor-not-allowed flex items-center gap-3"
         >
           {isCheckoutLoading ? (
-            <svg className="animate-spin w-6 h-6" fill="none" viewBox="0 0 24 24">
-              <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
-              <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" />
+            <svg
+              className="animate-spin w-6 h-6"
+              fill="none"
+              viewBox="0 0 24 24"
+            >
+              <circle
+                className="opacity-25"
+                cx="12"
+                cy="12"
+                r="10"
+                stroke="currentColor"
+                strokeWidth="4"
+              />
+              <path
+                className="opacity-75"
+                fill="currentColor"
+                d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
+              />
             </svg>
           ) : (
-            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+            <svg
+              className="w-6 h-6"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M13 10V3L4 14h7v7l9-11h-7z"
+              />
             </svg>
           )}
-          Fund The CEO - ₹555
+          Fund The CEO - ₹1
         </button>
 
         <div className="absolute bottom-8 animate-bounce">
@@ -1165,7 +1193,7 @@ export default function Home() {
           <div className="flex items-center justify-center mb-10">
             <div className="relative">
               {/* Metallic Signature Logo */}
-              <div className="px-10 py-5 border border-[#555]/40 bg-gradient-to-b from-[#1a1a1a] via-[#111] to-[#0a0a0a] shadow-2xl">
+              <div className="px-10 py-5 border border-[#1]/40 bg-gradient-to-b from-[#1a1a1a] via-[#111] to-[#0a0a0a] shadow-2xl">
                 <div
                   className="text-5xl md:text-6xl font-thin tracking-[0.4em] bg-gradient-to-b from-[#e8e8e8] via-[#a0a0a0] to-[#606060] bg-clip-text text-transparent"
                   style={{ fontFamily: "Georgia, serif" }}
@@ -1311,7 +1339,7 @@ export default function Home() {
         <div className="max-w-4xl mx-auto">
           <div className="flex items-center justify-center mb-10">
             <div className="relative">
-              <div className="px-10 py-5 border border-[#555]/40 bg-gradient-to-b from-[#1a1a1a] via-[#111] to-[#0a0a0a] shadow-2xl">
+              <div className="px-10 py-5 border border-[#1]/40 bg-gradient-to-b from-[#1a1a1a] via-[#111] to-[#0a0a0a] shadow-2xl">
                 <div
                   className="text-4xl md:text-5xl font-thin tracking-[0.2em] bg-gradient-to-b from-[#10a37f] via-[#0d8a6a] to-[#086652] bg-clip-text text-transparent"
                   style={{ fontFamily: "Georgia, serif" }}
@@ -1412,7 +1440,7 @@ export default function Home() {
         <div className="max-w-4xl mx-auto">
           <div className="flex items-center justify-center mb-10">
             <div className="relative">
-              <div className="px-10 py-5 border border-[#555]/40 bg-gradient-to-b from-[#1a1a1a] via-[#111] to-[#0a0a0a] shadow-2xl">
+              <div className="px-10 py-5 border border-[#1]/40 bg-gradient-to-b from-[#1a1a1a] via-[#111] to-[#0a0a0a] shadow-2xl">
                 <div
                   className="text-4xl md:text-5xl font-thin tracking-[0.15em] bg-gradient-to-b from-[#d4a574] via-[#c4956a] to-[#a67c52] bg-clip-text text-transparent"
                   style={{ fontFamily: "Georgia, serif" }}
@@ -1630,13 +1658,15 @@ export default function Home() {
             >
               <div className="text-4xl font-bold text-white mb-2">₹299</div>
               <div className="text-gray-400 mb-4">Supporter</div>
-              <div className="text-sm text-gray-500">Show love to the vision</div>
+              <div className="text-sm text-gray-500">
+                Show love to the vision
+              </div>
               <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-[#ff00ff]/0 to-[#ff00ff]/0 group-hover:from-[#ff00ff]/5 group-hover:to-[#ff00ff]/10 transition-all duration-300" />
             </button>
 
-            {/* ₹555 Option - Featured */}
+            {/* ₹1 Option - Featured */}
             <button
-              onClick={() => handleCheckout(555)}
+              onClick={() => handleCheckout(1)}
               disabled={isCheckoutLoading}
               className="group relative p-8 rounded-2xl border-2 border-[#ff00ff]/50 bg-gradient-to-br from-[#1a1a1e] to-[#0f0f12]
                          hover:border-[#ff00ff] transition-all duration-300 disabled:opacity-50 transform hover:scale-105"
@@ -1644,8 +1674,10 @@ export default function Home() {
               <div className="absolute -top-3 left-1/2 -translate-x-1/2 px-4 py-1 bg-[#ff00ff] rounded-full text-xs font-bold">
                 POPULAR
               </div>
-              <div className="text-5xl font-bold neon-text mb-2">₹555</div>
-              <div className="text-[#ff00ff] font-semibold mb-4">Adi 55 Tier</div>
+              <div className="text-5xl font-bold neon-text mb-2">₹1</div>
+              <div className="text-[#ff00ff] font-semibold mb-4">
+                Adi 55 Tier
+              </div>
               <div className="text-sm text-gray-400">The sacred number</div>
               <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-[#ff00ff]/5 to-[#ff00ff]/10 group-hover:from-[#ff00ff]/10 group-hover:to-[#ff00ff]/20 transition-all duration-300" />
             </button>
@@ -1659,7 +1691,9 @@ export default function Home() {
             >
               <div className="text-4xl font-bold text-white mb-2">₹1111</div>
               <div className="text-gray-400 mb-4">Executive</div>
-              <div className="text-sm text-gray-500">Major investment energy</div>
+              <div className="text-sm text-gray-500">
+                Major investment energy
+              </div>
               <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-[#ff00ff]/0 to-[#ff00ff]/0 group-hover:from-[#ff00ff]/5 group-hover:to-[#ff00ff]/10 transition-all duration-300" />
             </button>
           </div>
@@ -1668,7 +1702,9 @@ export default function Home() {
           <div className="max-w-md mx-auto">
             <div className="relative p-[2px] rounded-xl bg-gradient-to-r from-[#4a4a52] via-[#ff00ff]/30 to-[#4a4a52]">
               <div className="flex rounded-xl bg-[#0f0f12] overflow-hidden">
-                <span className="flex items-center px-4 text-gray-400 text-xl font-bold bg-[#1a1a1e]">₹</span>
+                <span className="flex items-center px-4 text-gray-400 text-xl font-bold bg-[#1a1a1e]">
+                  ₹
+                </span>
                 <input
                   type="number"
                   min="1"
@@ -1678,7 +1714,9 @@ export default function Home() {
                   className="flex-1 px-4 py-4 bg-transparent text-white text-lg placeholder-gray-600 focus:outline-none"
                 />
                 <button
-                  onClick={() => customAmount && handleCheckout(parseInt(customAmount))}
+                  onClick={() =>
+                    customAmount && handleCheckout(parseInt(customAmount))
+                  }
                   disabled={isCheckoutLoading || !customAmount}
                   className="px-6 py-4 bg-gradient-to-r from-[#ff00ff] to-[#cc00cc] font-bold hover:from-[#ff33ff] hover:to-[#ff00ff]
                              transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed"
@@ -1691,6 +1729,11 @@ export default function Home() {
               Secure payments powered by Cashfree
             </p>
           </div>
+
+          {/* Quote */}
+          <p className="text-center text-gray-400 text-sm italic mt-12">
+            &ldquo;You know I&apos;m infinite, you know Heaven, I was sent from it&rdquo; 🔥
+          </p>
         </div>
       </section>
 
