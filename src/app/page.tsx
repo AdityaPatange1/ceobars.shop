@@ -91,6 +91,112 @@ export default function Home() {
 
       <div className="section-divider" />
 
+      {/* Get Song Section */}
+      <section className="py-24 px-4 md:px-8 bg-gradient-to-b from-[#0a0a0a] via-[#0f0f12] to-[#0a0a0a]">
+        <div className="max-w-5xl mx-auto">
+          {/* Header with icon and underline */}
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold neon-text inline-flex items-center gap-4">
+              Get Song
+              <svg
+                className="w-10 h-10 md:w-12 md:h-12 text-[#ff00ff] animate-spin"
+                style={{ animationDuration: "8s" }}
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={1.5}
+                  d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"
+                />
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={1.5}
+                  d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                />
+              </svg>
+            </h2>
+            {/* Gradient underline */}
+            <div className="mt-4 mx-auto w-64 h-[2px] bg-gradient-to-r from-transparent via-[#ff00ff] to-transparent" />
+          </div>
+
+          {/* Metallic Matte Frame Container */}
+          <div className="relative p-[3px] rounded-2xl bg-gradient-to-br from-[#4a4a52] via-[#2a2a2e] to-[#1a1a1e] shadow-2xl">
+            {/* Inner metallic border */}
+            <div className="absolute inset-[1px] rounded-2xl bg-gradient-to-br from-[#5a5a62] via-[#3a3a3e] to-[#2a2a2e] opacity-50" />
+
+            {/* Content container with subtle brushed metal texture */}
+            <div className="relative rounded-2xl bg-gradient-to-br from-[#1a1a1e] via-[#141418] to-[#0f0f12] p-10 md:p-16">
+              {/* Subtle metallic sheen overlay */}
+              <div className="absolute inset-0 rounded-2xl bg-gradient-to-tr from-transparent via-white/[0.02] to-transparent pointer-events-none" />
+
+              <div className="relative flex flex-col md:flex-row items-center gap-10 md:gap-16">
+                {/* Album Art with metallic frame */}
+                <div className="flex-shrink-0">
+                  <div className="relative p-[3px] rounded-xl bg-gradient-to-br from-[#5a5a62] via-[#3a3a3e] to-[#2a2a2e] shadow-2xl">
+                    <div className="absolute inset-[1px] rounded-xl bg-gradient-to-br from-[#4a4a52] to-[#2a2a2e]" />
+                    <img
+                      src="/assets/CEO_BARS_ADI55_COVER_ART.jpg"
+                      alt="CEO Bars - Adi 55 Cover Art"
+                      className="relative w-72 h-72 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-xl object-cover"
+                    />
+                  </div>
+                </div>
+
+                {/* Content */}
+                <div className="flex-1 text-center md:text-left">
+                  {/* Lyric Quote */}
+                  <blockquote className="text-gray-300 text-xl md:text-2xl lg:text-3xl italic leading-relaxed mb-10 font-light">
+                    <span className="text-[#ff00ff] text-3xl md:text-4xl font-serif">
+                      &ldquo;
+                    </span>
+                    We aim like Snoop our cooks look like cryogenic doobs,
+                    <br />
+                    You noobs, we coded avatars, you drowning in fantasy books.
+                    <span className="text-[#ff00ff] text-3xl md:text-4xl font-serif">
+                      &rdquo;
+                    </span>
+                  </blockquote>
+
+                  {/* Download Button */}
+                  <a
+                    href="/assets/CEO_BARS_ADI55_MASTER.mp3"
+                    download="CEO_BARS_ADI55.mp3"
+                    className="inline-flex items-center gap-4 px-10 py-5 rounded-xl bg-gradient-to-r from-[#2a2a2e] via-[#3a3a3e] to-[#2a2a2e] border border-[#4a4a52] hover:border-[#ff00ff]/50 transition-all duration-300 group shadow-lg hover:shadow-[#ff00ff]/20"
+                  >
+                    <svg
+                      className="w-7 h-7 text-[#ff00ff] group-hover:scale-110 transition-transform"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
+                      />
+                    </svg>
+                    <span className="text-gray-200 font-semibold text-xl group-hover:text-white transition-colors">
+                      Download MP3
+                    </span>
+                    <span className="text-gray-500 text-base">(.mp3)</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Subtle reflection effect */}
+          <div className="h-8 bg-gradient-to-b from-[#1a1a1e]/20 to-transparent rounded-b-2xl mx-4" />
+        </div>
+      </section>
+
+      <div className="section-divider" />
+
       {/* Blog Section */}
       <section className="py-20 px-4 md:px-8 max-w-4xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center neon-text">
