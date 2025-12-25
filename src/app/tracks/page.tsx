@@ -468,6 +468,9 @@ export default function TracksPage() {
           <p className="mt-6 text-gray-400 text-lg">
             Stream and download exclusive CEO Bars™ tracks
           </p>
+          <p className="mt-3 text-gray-500 text-sm max-w-xl mx-auto">
+            If you do not see the desired audio quality after download, this could be because of an older master file. Please redownload the entire collection again.
+          </p>
         </div>
 
         {/* Search & Download All */}
