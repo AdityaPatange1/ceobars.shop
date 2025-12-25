@@ -241,7 +241,7 @@ export default function Home() {
                   <div className="relative p-[3px] rounded-xl bg-gradient-to-br from-[#5a5a62] via-[#3a3a3e] to-[#2a2a2e] shadow-2xl">
                     <div className="absolute inset-[1px] rounded-xl bg-gradient-to-br from-[#4a4a52] to-[#2a2a2e]" />
                     <img
-                      src="/assets/CEO_BARS_ADI55_COVER_ART.jpg"
+                      src="/assets/ceo-bars-album/ceo-bars/cover.jpg"
                       alt="CEO Bars - Adi 55 Cover Art"
                       className="relative w-72 h-72 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-xl object-cover"
                     />
@@ -265,7 +265,7 @@ export default function Home() {
 
                   {/* Download Button */}
                   <a
-                    href="/assets/CEO_BARS_ADI55_MASTER.mp3"
+                    href="/assets/ceo-bars-album/ceo-bars/master.mp3"
                     download="CEO_BARS_ADI55.mp3"
                     className="inline-flex items-center gap-4 px-10 py-5 rounded-xl bg-gradient-to-r from-[#2a2a2e] via-[#3a3a3e] to-[#2a2a2e] border border-[#4a4a52] hover:border-[#ff00ff]/50 transition-all duration-300 group shadow-lg hover:shadow-[#ff00ff]/20"
                   >
