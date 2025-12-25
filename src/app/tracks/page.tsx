@@ -33,7 +33,7 @@ const tracks: Track[] = [
   },
   {
     id: 2,
-    title: "Boomday",
+    title: "BOOMDAY - P1",
     artist: "Adi 55",
     album: "CEO Bars™",
     duration: "4:15",
