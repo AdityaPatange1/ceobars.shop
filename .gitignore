@@ -51,3 +51,5 @@ inputs/**/*.wav
 inputs/**/*.mp3
 outputs/masters/**/*.wav
 outputs/masters/*.wav
+outputs/masters/**/*.mp3
+outputs/masters/*.mp3
