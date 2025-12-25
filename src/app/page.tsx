@@ -8,7 +8,7 @@ type ModalType = "privacy" | "terms" | "healthcare" | null;
 
 declare global {
   interface Window {
-    Cashfree: (config: { mode: string }) => {
+    Cashfree?: (config: { mode: string }) => {
       checkout: (options: { paymentSessionId: string; redirectTarget: string }) => Promise<void>;
     };
   }
@@ -22,8 +22,14 @@ export default function Home() {
   const [cashfreeReady, setCashfreeReady] = useState(false);
 
   const handleCheckout = useCallback(async (amount: number) => {
-    if (!cashfreeReady) {
-      console.error("Cashfree SDK not loaded");
+    // Check both flag AND actual window.Cashfree
+    if (!cashfreeReady || typeof window === "undefined" || !window.Cashfree) {
+      console.error("Cashfree SDK not loaded", {
+        cashfreeReady,
+        hasWindow: typeof window !== "undefined",
+        hasCashfree: typeof window !== "undefined" && !!window.Cashfree
+      });
+      alert("Payment system is loading. Please try again in a moment.");
       return;
     }
 
@@ -44,9 +50,11 @@ export default function Home() {
         });
       } else {
         console.error("Failed to get payment session:", data.error);
+        alert("Failed to create payment session. Please try again.");
       }
     } catch (error) {
       console.error("Checkout error:", error);
+      alert("Payment error. Please try again.");
     } finally {
       setIsCheckoutLoading(false);
     }
@@ -66,8 +74,24 @@ export default function Home() {
     <>
       <Script
         src="https://sdk.cashfree.com/js/v3/cashfree.js"
-        onLoad={() => setCashfreeReady(true)}
         strategy="afterInteractive"
+        onLoad={() => {
+          // Give it a microtick so the global attach finishes
+          setTimeout(() => {
+            const ok = typeof window !== "undefined" && !!window.Cashfree;
+            setCashfreeReady(ok);
+            console.log("Cashfree script loaded:", {
+              Cashfree: typeof window !== "undefined" ? !!window.Cashfree : "no-window",
+            });
+            if (!ok) {
+              console.error("Cashfree script loaded but window.Cashfree missing (blocked or changed)");
+            }
+          }, 0);
+        }}
+        onError={() => {
+          console.error("Failed to load Cashfree SDK script (network/CSP/adblock)");
+          setCashfreeReady(false);
+        }}
       />
       <main className="min-h-screen bg-[#0a0a0a] text-white">
         {/* Top Banner */}
