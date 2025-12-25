@@ -294,6 +294,43 @@ export default function Home() {
 
           {/* Subtle reflection effect */}
           <div className="h-8 bg-gradient-to-b from-[#1a1a1e]/20 to-transparent rounded-b-2xl mx-4" />
+
+          {/* View Tracks CTA */}
+          <div className="mt-16 text-center">
+            <a
+              href="/tracks"
+              className="inline-flex items-center gap-3 px-8 py-4 neon-button rounded-xl text-xl font-bold tracking-wide group"
+            >
+              {/* Bomb Icon (Lucide) */}
+              <svg
+                className="w-6 h-6 group-hover:animate-pulse"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                viewBox="0 0 24 24"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <circle cx="11" cy="13" r="9" />
+                <path d="M14.35 4.65 16.3 2.7a2.41 2.41 0 0 1 3.4 0l1.6 1.6a2.4 2.4 0 0 1 0 3.4l-1.95 1.95" />
+                <path d="m22 2-1.5 1.5" />
+              </svg>
+              View Tracks
+              <svg
+                className="w-5 h-5 group-hover:translate-x-1 transition-transform"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M13 7l5 5m0 0l-5 5m5-5H6"
+                />
+              </svg>
+            </a>
+          </div>
         </div>
       </section>
 
