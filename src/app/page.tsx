@@ -8,6 +8,27 @@ type ModalType = "privacy" | "terms" | "healthcare" | null;
 export default function Home() {
   const [modalOpen, setModalOpen] = useState<ModalType>(null);
   const [formState, handleSubmit] = useForm("xpqagawg");
+  const [isCheckoutLoading, setIsCheckoutLoading] = useState(false);
+  const [customAmount, setCustomAmount] = useState("");
+
+  const handleCheckout = useCallback(async (amount: number) => {
+    setIsCheckoutLoading(true);
+    try {
+      const response = await fetch("/api/checkout", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ amount }),
+      });
+      const data = await response.json();
+      if (data.url) {
+        window.location.href = data.url;
+      }
+    } catch (error) {
+      console.error("Checkout error:", error);
+    } finally {
+      setIsCheckoutLoading(false);
+    }
+  }, []);
 
   const openModal = useCallback((type: ModalType) => {
     setModalOpen(type);
@@ -71,6 +92,26 @@ export default function Home() {
             className="w-full h-full"
           />
         </div>
+
+        {/* CTA Button */}
+        <button
+          onClick={() => handleCheckout(55)}
+          disabled={isCheckoutLoading}
+          className="mt-10 px-10 py-4 neon-button rounded-xl text-xl font-bold tracking-wide
+                     disabled:opacity-50 disabled:cursor-not-allowed flex items-center gap-3"
+        >
+          {isCheckoutLoading ? (
+            <svg className="animate-spin w-6 h-6" fill="none" viewBox="0 0 24 24">
+              <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
+              <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" />
+            </svg>
+          ) : (
+            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+            </svg>
+          )}
+          Fund The CEO - $55
+        </button>
 
         <div className="absolute bottom-8 animate-bounce">
           <svg
@@ -1511,6 +1552,110 @@ export default function Home() {
               gratitude, flow from a place of service, and your bars will carry
               the weight of genuine human connection. That&apos;s the CEO
               way—leading through listening, inspiring through intention.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div className="section-divider" />
+
+      {/* Fund The CEO Section */}
+      <section className="py-24 px-4 md:px-8 bg-gradient-to-b from-[#0a0a0a] via-[#0a0f0a] to-[#0a0a0a]">
+        <div className="max-w-4xl mx-auto">
+          {/* Header */}
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold neon-text inline-flex items-center gap-4">
+              Fund The CEO
+              <svg
+                className="w-10 h-10 md:w-12 md:h-12 text-[#ff00ff]"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={1.5}
+                  d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+              </svg>
+            </h2>
+            <div className="mt-4 mx-auto w-64 h-[2px] bg-gradient-to-r from-transparent via-[#ff00ff] to-transparent" />
+            <p className="mt-6 text-gray-400 text-lg max-w-2xl mx-auto">
+              Support the movement. Every contribution fuels the fire.
+            </p>
+          </div>
+
+          {/* Funding Options */}
+          <div className="grid md:grid-cols-3 gap-6 mb-12">
+            {/* $22 Option */}
+            <button
+              onClick={() => handleCheckout(22)}
+              disabled={isCheckoutLoading}
+              className="group relative p-8 rounded-2xl border border-[#4a4a52] bg-gradient-to-br from-[#1a1a1e] to-[#0f0f12]
+                         hover:border-[#ff00ff]/50 transition-all duration-300 disabled:opacity-50"
+            >
+              <div className="text-4xl font-bold text-white mb-2">$22</div>
+              <div className="text-gray-400 mb-4">Supporter</div>
+              <div className="text-sm text-gray-500">Show love to the vision</div>
+              <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-[#ff00ff]/0 to-[#ff00ff]/0 group-hover:from-[#ff00ff]/5 group-hover:to-[#ff00ff]/10 transition-all duration-300" />
+            </button>
+
+            {/* $55 Option - Featured */}
+            <button
+              onClick={() => handleCheckout(55)}
+              disabled={isCheckoutLoading}
+              className="group relative p-8 rounded-2xl border-2 border-[#ff00ff]/50 bg-gradient-to-br from-[#1a1a1e] to-[#0f0f12]
+                         hover:border-[#ff00ff] transition-all duration-300 disabled:opacity-50 transform hover:scale-105"
+            >
+              <div className="absolute -top-3 left-1/2 -translate-x-1/2 px-4 py-1 bg-[#ff00ff] rounded-full text-xs font-bold">
+                POPULAR
+              </div>
+              <div className="text-5xl font-bold neon-text mb-2">$55</div>
+              <div className="text-[#ff00ff] font-semibold mb-4">Adi 55 Tier</div>
+              <div className="text-sm text-gray-400">The sacred number</div>
+              <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-[#ff00ff]/5 to-[#ff00ff]/10 group-hover:from-[#ff00ff]/10 group-hover:to-[#ff00ff]/20 transition-all duration-300" />
+            </button>
+
+            {/* $100 Option */}
+            <button
+              onClick={() => handleCheckout(100)}
+              disabled={isCheckoutLoading}
+              className="group relative p-8 rounded-2xl border border-[#4a4a52] bg-gradient-to-br from-[#1a1a1e] to-[#0f0f12]
+                         hover:border-[#ff00ff]/50 transition-all duration-300 disabled:opacity-50"
+            >
+              <div className="text-4xl font-bold text-white mb-2">$100</div>
+              <div className="text-gray-400 mb-4">Executive</div>
+              <div className="text-sm text-gray-500">Major investment energy</div>
+              <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-[#ff00ff]/0 to-[#ff00ff]/0 group-hover:from-[#ff00ff]/5 group-hover:to-[#ff00ff]/10 transition-all duration-300" />
+            </button>
+          </div>
+
+          {/* Custom Amount */}
+          <div className="max-w-md mx-auto">
+            <div className="relative p-[2px] rounded-xl bg-gradient-to-r from-[#4a4a52] via-[#ff00ff]/30 to-[#4a4a52]">
+              <div className="flex rounded-xl bg-[#0f0f12] overflow-hidden">
+                <span className="flex items-center px-4 text-gray-400 text-xl font-bold bg-[#1a1a1e]">$</span>
+                <input
+                  type="number"
+                  min="1"
+                  placeholder="Custom amount"
+                  value={customAmount}
+                  onChange={(e) => setCustomAmount(e.target.value)}
+                  className="flex-1 px-4 py-4 bg-transparent text-white text-lg placeholder-gray-600 focus:outline-none"
+                />
+                <button
+                  onClick={() => customAmount && handleCheckout(parseInt(customAmount))}
+                  disabled={isCheckoutLoading || !customAmount}
+                  className="px-6 py-4 bg-gradient-to-r from-[#ff00ff] to-[#cc00cc] font-bold hover:from-[#ff33ff] hover:to-[#ff00ff]
+                             transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed"
+                >
+                  {isCheckoutLoading ? "..." : "Pay"}
+                </button>
+              </div>
+            </div>
+            <p className="text-center text-gray-500 text-sm mt-4">
+              Secure payments powered by Stripe
             </p>
           </div>
         </div>
