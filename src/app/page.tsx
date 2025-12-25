@@ -1,17 +1,32 @@
 "use client";
 
-import { useState, useCallback } from "react";
+import { useState, useCallback, useEffect } from "react";
 import { useForm, ValidationError } from "@formspree/react";
+import Script from "next/script";
 
 type ModalType = "privacy" | "terms" | "healthcare" | null;
+
+declare global {
+  interface Window {
+    Cashfree: (config: { mode: string }) => {
+      checkout: (options: { paymentSessionId: string; redirectTarget: string }) => Promise<void>;
+    };
+  }
+}
 
 export default function Home() {
   const [modalOpen, setModalOpen] = useState<ModalType>(null);
   const [formState, handleSubmit] = useForm("xpqagawg");
   const [isCheckoutLoading, setIsCheckoutLoading] = useState(false);
   const [customAmount, setCustomAmount] = useState("");
+  const [cashfreeReady, setCashfreeReady] = useState(false);
 
   const handleCheckout = useCallback(async (amount: number) => {
+    if (!cashfreeReady) {
+      console.error("Cashfree SDK not loaded");
+      return;
+    }
+
     setIsCheckoutLoading(true);
     try {
       const response = await fetch("/api/checkout", {
@@ -20,15 +35,22 @@ export default function Home() {
         body: JSON.stringify({ amount }),
       });
       const data = await response.json();
-      if (data.url) {
-        window.location.href = data.url;
+
+      if (data.paymentSessionId) {
+        const cashfree = window.Cashfree({ mode: "production" });
+        await cashfree.checkout({
+          paymentSessionId: data.paymentSessionId,
+          redirectTarget: "_self",
+        });
+      } else {
+        console.error("Failed to get payment session:", data.error);
       }
     } catch (error) {
       console.error("Checkout error:", error);
     } finally {
       setIsCheckoutLoading(false);
     }
-  }, []);
+  }, [cashfreeReady]);
 
   const openModal = useCallback((type: ModalType) => {
     setModalOpen(type);
@@ -41,8 +63,14 @@ export default function Home() {
   }, []);
 
   return (
-    <main className="min-h-screen bg-[#0a0a0a] text-white">
-      {/* Top Banner */}
+    <>
+      <Script
+        src="https://sdk.cashfree.com/js/v3/cashfree.js"
+        onLoad={() => setCashfreeReady(true)}
+        strategy="afterInteractive"
+      />
+      <main className="min-h-screen bg-[#0a0a0a] text-white">
+        {/* Top Banner */}
       <div className="w-full bg-gradient-to-b from-[#0a0a0a] via-[#12081a] to-[#0a0a0a]">
         <div className="max-w-5xl mx-auto px-4 pt-6 pb-16 md:pt-8 md:pb-24 text-center">
           <p className="text-sm md:text-base tracking-wide text-gray-300 mb-12 md:mb-16">
@@ -95,7 +123,7 @@ export default function Home() {
 
         {/* CTA Button */}
         <button
-          onClick={() => handleCheckout(55)}
+          onClick={() => handleCheckout(555)}
           disabled={isCheckoutLoading}
           className="mt-10 px-10 py-4 neon-button rounded-xl text-xl font-bold tracking-wide
                      disabled:opacity-50 disabled:cursor-not-allowed flex items-center gap-3"
@@ -110,7 +138,7 @@ export default function Home() {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
             </svg>
           )}
-          Fund The CEO - $55
+          Fund The CEO - ₹555
         </button>
 
         <div className="absolute bottom-8 animate-bounce">
@@ -1588,22 +1616,22 @@ export default function Home() {
 
           {/* Funding Options */}
           <div className="grid md:grid-cols-3 gap-6 mb-12">
-            {/* $22 Option */}
+            {/* ₹299 Option */}
             <button
-              onClick={() => handleCheckout(22)}
+              onClick={() => handleCheckout(299)}
               disabled={isCheckoutLoading}
               className="group relative p-8 rounded-2xl border border-[#4a4a52] bg-gradient-to-br from-[#1a1a1e] to-[#0f0f12]
                          hover:border-[#ff00ff]/50 transition-all duration-300 disabled:opacity-50"
             >
-              <div className="text-4xl font-bold text-white mb-2">$22</div>
+              <div className="text-4xl font-bold text-white mb-2">₹299</div>
               <div className="text-gray-400 mb-4">Supporter</div>
               <div className="text-sm text-gray-500">Show love to the vision</div>
               <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-[#ff00ff]/0 to-[#ff00ff]/0 group-hover:from-[#ff00ff]/5 group-hover:to-[#ff00ff]/10 transition-all duration-300" />
             </button>
 
-            {/* $55 Option - Featured */}
+            {/* ₹555 Option - Featured */}
             <button
-              onClick={() => handleCheckout(55)}
+              onClick={() => handleCheckout(555)}
               disabled={isCheckoutLoading}
               className="group relative p-8 rounded-2xl border-2 border-[#ff00ff]/50 bg-gradient-to-br from-[#1a1a1e] to-[#0f0f12]
                          hover:border-[#ff00ff] transition-all duration-300 disabled:opacity-50 transform hover:scale-105"
@@ -1611,20 +1639,20 @@ export default function Home() {
               <div className="absolute -top-3 left-1/2 -translate-x-1/2 px-4 py-1 bg-[#ff00ff] rounded-full text-xs font-bold">
                 POPULAR
               </div>
-              <div className="text-5xl font-bold neon-text mb-2">$55</div>
+              <div className="text-5xl font-bold neon-text mb-2">₹555</div>
               <div className="text-[#ff00ff] font-semibold mb-4">Adi 55 Tier</div>
               <div className="text-sm text-gray-400">The sacred number</div>
               <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-[#ff00ff]/5 to-[#ff00ff]/10 group-hover:from-[#ff00ff]/10 group-hover:to-[#ff00ff]/20 transition-all duration-300" />
             </button>
 
-            {/* $100 Option */}
+            {/* ₹1111 Option */}
             <button
-              onClick={() => handleCheckout(100)}
+              onClick={() => handleCheckout(1111)}
               disabled={isCheckoutLoading}
               className="group relative p-8 rounded-2xl border border-[#4a4a52] bg-gradient-to-br from-[#1a1a1e] to-[#0f0f12]
                          hover:border-[#ff00ff]/50 transition-all duration-300 disabled:opacity-50"
             >
-              <div className="text-4xl font-bold text-white mb-2">$100</div>
+              <div className="text-4xl font-bold text-white mb-2">₹1111</div>
               <div className="text-gray-400 mb-4">Executive</div>
               <div className="text-sm text-gray-500">Major investment energy</div>
               <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-[#ff00ff]/0 to-[#ff00ff]/0 group-hover:from-[#ff00ff]/5 group-hover:to-[#ff00ff]/10 transition-all duration-300" />
@@ -1635,7 +1663,7 @@ export default function Home() {
           <div className="max-w-md mx-auto">
             <div className="relative p-[2px] rounded-xl bg-gradient-to-r from-[#4a4a52] via-[#ff00ff]/30 to-[#4a4a52]">
               <div className="flex rounded-xl bg-[#0f0f12] overflow-hidden">
-                <span className="flex items-center px-4 text-gray-400 text-xl font-bold bg-[#1a1a1e]">$</span>
+                <span className="flex items-center px-4 text-gray-400 text-xl font-bold bg-[#1a1a1e]">₹</span>
                 <input
                   type="number"
                   min="1"
@@ -1655,7 +1683,7 @@ export default function Home() {
               </div>
             </div>
             <p className="text-center text-gray-500 text-sm mt-4">
-              Secure payments powered by Stripe
+              Secure payments powered by Cashfree
             </p>
           </div>
         </div>
@@ -2183,6 +2211,7 @@ export default function Home() {
           </div>
         </div>
       )}
-    </main>
+      </main>
+    </>
   );
 }
