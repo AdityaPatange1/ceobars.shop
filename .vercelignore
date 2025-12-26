@@ -1,0 +1,10 @@
+# Large files that shouldn't be deployed
+inputs/
+outputs/
+*.mov
+*.mp4
+*.wav
+*.mp3
+
+# Keep scripts but not production assets
+!scripts/
