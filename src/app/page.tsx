@@ -1621,6 +1621,91 @@ export default function Home() {
 
       <div className="section-divider" />
 
+      {/* BJX Partnership Section */}
+      <section className="py-20 px-4 md:px-8 bg-gradient-to-b from-[#0a0a0a] via-[#0a1a2a] to-[#0a0a0a]">
+        <div className="max-w-4xl mx-auto">
+          <div className="flex items-center justify-center mb-8">
+            <div className="w-24 h-24 rounded-2xl bg-gradient-to-br from-[#0066ff] via-[#00ccff] to-[#ff00ff] flex items-center justify-center animate-pulse">
+              <span className="text-white font-bold text-2xl">BJX</span>
+            </div>
+          </div>
+
+          <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center neon-text">
+            BJX — Blue Jail Xenome
+          </h2>
+
+          <div className="space-y-6 text-gray-300 leading-relaxed text-lg text-center">
+            <p className="text-2xl font-bold text-[#00ccff] italic">
+              Hip Hop Hall Of Fame — For Bunny Rapper OG!
+            </p>
+
+            <p>
+              <a href="https://bjx3.vercel.app" target="_blank" rel="noopener noreferrer" className="text-[#00ccff] hover:underline font-bold">BJX (Blue Jail Xenome)</a> is
+              a revolutionary genetic engineering project powered by Aditya Patange Tech (APT).
+              This isn&apos;t your typical biotech initiative—this is Genetics In Real-Time
+              on The Streets Of Compton. Where laboratory precision meets street-level
+              innovation, where DNA sequencing meets hip-hop culture, where the future
+              of human potential is being decoded one bar at a time.
+            </p>
+
+            <p className="text-xl font-semibold text-[#ff00ff]">
+              $69 Billion Valuation. Powered by APT. Compton Genetics Revolution.
+            </p>
+
+            <p>
+              Blue Jail Xenome represents the convergence of cutting-edge genetic research
+              and street consciousness. The &ldquo;Blue Jail&rdquo; symbolizes the constraints
+              we break free from—genetic limitations, societal barriers, mental prisons.
+              The &ldquo;Xenome&rdquo; represents the alien-level genetic potential waiting
+              to be unlocked in every human being. This is what happens when you bring
+              CRISPR energy to Compton—pure, unfiltered genetic excellence.
+            </p>
+
+            <p>
+              Aditya Patange Tech (APT) powers this vision with advanced computational
+              genomics, real-time DNA analysis, and street-smart implementation strategies.
+              From understanding hereditary patterns to optimizing human performance,
+              BJX is democratizing genetic knowledge for the people. No more ivory tower
+              genetics—this is genetics for the streets, by the streets.
+            </p>
+
+            <div className="grid md:grid-cols-4 gap-4 mt-10">
+              <div className="p-6 border border-[#00ccff]/30 rounded-xl bg-[#00ccff]/5">
+                <div className="text-2xl font-bold text-[#00ccff] mb-2">$69B</div>
+                <p className="text-gray-400 text-sm">Valuation</p>
+              </div>
+              <div className="p-6 border border-[#00ccff]/30 rounded-xl bg-[#00ccff]/5">
+                <div className="text-2xl font-bold text-[#00ccff] mb-2">APT</div>
+                <p className="text-gray-400 text-sm">Aditya Patange Tech</p>
+              </div>
+              <div className="p-6 border border-[#00ccff]/30 rounded-xl bg-[#00ccff]/5">
+                <div className="text-2xl font-bold text-[#00ccff] mb-2">Compton</div>
+                <p className="text-gray-400 text-sm">Streets Genetics</p>
+              </div>
+              <div className="p-6 border border-[#00ccff]/30 rounded-xl bg-[#00ccff]/5">
+                <div className="text-2xl font-bold text-[#00ccff] mb-2">HOF</div>
+                <p className="text-gray-400 text-sm">Hip Hop Hall Of Fame</p>
+              </div>
+            </div>
+
+            <div className="mt-8 p-6 border border-[#00ccff]/30 rounded-xl bg-gradient-to-r from-[#00ccff]/10 to-[#ff00ff]/10">
+              <p className="text-lg text-white font-semibold mb-2">
+                🐰 Bunny Rapper OG — Hall of Fame Inductee
+              </p>
+              <p className="text-sm text-gray-400">
+                BJX dedicates this genetic revolution to Bunny Rapper OG—a pioneer who
+                understood that true hip-hop transcends music. It&apos;s in our DNA.
+                It&apos;s in our genes. It&apos;s in the very fabric of who we are.
+                This is the Hip Hop Hall Of Fame recognition that genetics and culture
+                share the same double helix.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div className="section-divider" />
+
       {/* EB Network Section */}
       <section className="py-24 px-4 md:px-8 relative overflow-hidden">
         <div className="absolute inset-0 neon-glow-bg opacity-50" />
