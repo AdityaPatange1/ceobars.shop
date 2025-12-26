@@ -12,7 +12,30 @@ export default function Home() {
   const [isCheckoutLoading, setIsCheckoutLoading] = useState(false);
   const [customAmount, setCustomAmount] = useState("");
   const [cashfreeReady, setCashfreeReady] = useState(false);
+  const [isDownloading, setIsDownloading] = useState(false);
   const cashfreeRef = useRef<Awaited<ReturnType<typeof load>> | null>(null);
+
+  const handleDownloadMP3 = async () => {
+    setIsDownloading(true);
+    try {
+      const response = await fetch("https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/ceo-bars-album/ceo-bars/master.mp3");
+      if (!response.ok) throw new Error("Download failed");
+      const blob = await response.blob();
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = "CEO_BARS_ADI55.mp3";
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+    } catch (error) {
+      console.error("Download failed:", error);
+      alert("Download failed. Please try again.");
+    } finally {
+      setIsDownloading(false);
+    }
+  };
 
   // Initialize Cashfree SDK on mount
   useEffect(() => {
@@ -241,7 +264,7 @@ export default function Home() {
                   <div className="relative p-[3px] rounded-xl bg-gradient-to-br from-[#5a5a62] via-[#3a3a3e] to-[#2a2a2e] shadow-2xl">
                     <div className="absolute inset-[1px] rounded-xl bg-gradient-to-br from-[#4a4a52] to-[#2a2a2e]" />
                     <img
-                      src="/assets/ceo-bars-album/ceo-bars/cover.jpg"
+                      src="https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/ceo-bars-album/ceo-bars/cover.jpg"
                       alt="CEO Bars - Adi 55 Cover Art"
                       className="relative w-72 h-72 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-xl object-cover"
                     />
@@ -264,29 +287,36 @@ export default function Home() {
                   </blockquote>
 
                   {/* Download Button */}
-                  <a
-                    href="/assets/ceo-bars-album/ceo-bars/master.mp3"
-                    download="CEO_BARS_ADI55.mp3"
-                    className="inline-flex items-center gap-4 px-10 py-5 rounded-xl bg-gradient-to-r from-[#2a2a2e] via-[#3a3a3e] to-[#2a2a2e] border border-[#4a4a52] hover:border-[#ff00ff]/50 transition-all duration-300 group shadow-lg hover:shadow-[#ff00ff]/20"
+                  <button
+                    onClick={handleDownloadMP3}
+                    disabled={isDownloading}
+                    className="inline-flex items-center gap-4 px-10 py-5 rounded-xl bg-gradient-to-r from-[#2a2a2e] via-[#3a3a3e] to-[#2a2a2e] border border-[#4a4a52] hover:border-[#ff00ff]/50 transition-all duration-300 group shadow-lg hover:shadow-[#ff00ff]/20 disabled:opacity-50 disabled:cursor-not-allowed"
                   >
-                    <svg
-                      className="w-7 h-7 text-[#ff00ff] group-hover:scale-110 transition-transform"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
-                      />
-                    </svg>
+                    {isDownloading ? (
+                      <svg className="w-7 h-7 text-[#ff00ff] animate-spin" fill="none" viewBox="0 0 24 24">
+                        <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
+                        <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" />
+                      </svg>
+                    ) : (
+                      <svg
+                        className="w-7 h-7 text-[#ff00ff] group-hover:scale-110 transition-transform"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                          d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
+                        />
+                      </svg>
+                    )}
                     <span className="text-gray-200 font-semibold text-xl group-hover:text-white transition-colors">
-                      Download MP3
+                      {isDownloading ? "Downloading..." : "Download MP3"}
                     </span>
-                    <span className="text-gray-500 text-base">(.mp3)</span>
-                  </a>
+                    {!isDownloading && <span className="text-gray-500 text-base">(.mp3)</span>}
+                  </button>
                 </div>
               </div>
             </div>
