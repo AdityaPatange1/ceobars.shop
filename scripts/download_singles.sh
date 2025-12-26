@@ -1,20 +1,20 @@
 #!/bin/bash
 #
-# Download YouTube videos as MP3s and prepare for YT Singles collection
+# Download YouTube videos as MP3s and prepare for Singles collection
 #
-# Usage: ./scripts/download_yt_singles.sh
+# Usage: ./scripts/download_singles.sh
 #
 
 # Don't use set -e as it causes issues with subshells
 
 PROJECT_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 YT_CHANNEL="https://www.youtube.com/@OfficialAdi55"
-OUTPUT_DIR="$PROJECT_ROOT/outputs/yt_singles"
-METADATA_FILE="$PROJECT_ROOT/outputs/yt_singles_metadata.json"
+OUTPUT_DIR="$PROJECT_ROOT/outputs/singles"
+METADATA_FILE="$PROJECT_ROOT/outputs/singles_metadata.json"
 
 echo ""
 echo "======================================================================"
-echo "  CEO BARS - YouTube Singles Downloader"
+echo "  CEO BARS - Singles Downloader"
 echo "======================================================================"
 echo ""
 
@@ -187,6 +187,6 @@ echo "  Metadata saved to: $METADATA_FILE"
 echo "======================================================================"
 echo ""
 echo "Next steps:"
-echo "1. Run: ./scripts/upload_yt_singles.sh  (upload to Vercel Blob)"
-echo "2. Run: node scripts/add_yt_singles.js  (add to tracks page)"
+echo "1. Run: ./scripts/upload_singles.sh  (upload to Vercel Blob)"
+echo "2. Run: node scripts/add_singles.js  (add to tracks page)"
 echo ""
