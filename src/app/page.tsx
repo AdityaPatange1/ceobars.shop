@@ -3,6 +3,7 @@
 import { useState, useCallback, useEffect, useRef } from "react";
 import { useForm, ValidationError } from "@formspree/react";
 import { load } from "@cashfreepayments/cashfree-js";
+import { Dna, ArrowRight, Rabbit } from "lucide-react";
 
 type ModalType = "privacy" | "terms" | "healthcare" | null;
 
@@ -1689,8 +1690,9 @@ export default function Home() {
             </div>
 
             <div className="mt-8 p-6 border border-[#00ccff]/30 rounded-xl bg-gradient-to-r from-[#00ccff]/10 to-[#ff00ff]/10">
-              <p className="text-lg text-white font-semibold mb-2">
-                🐰 Bunny Rapper OG — Hall of Fame Inductee
+              <p className="text-lg text-white font-semibold mb-2 flex items-center justify-center gap-2">
+                <Rabbit className="w-6 h-6 text-[#00ccff]" />
+                <span>Bunny Rapper OG — Hall of Fame Inductee</span>
               </p>
               <p className="text-sm text-gray-400">
                 BJX dedicates this genetic revolution to Bunny Rapper OG—a pioneer who
@@ -1706,18 +1708,17 @@ export default function Home() {
                 href="https://bjx3.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group relative inline-flex items-center justify-center px-12 py-6 text-2xl font-bold text-white bg-gradient-to-r from-[#0066ff] via-[#00ccff] to-[#0099ff] rounded-2xl shadow-2xl hover:shadow-[0_0_60px_rgba(0,204,255,0.6)] transition-all duration-300 hover:scale-105"
+                className="group inline-flex items-center justify-center px-12 py-6 text-2xl font-bold text-white bg-[#1a2744] rounded-2xl shadow-2xl hover:bg-[#243358] transition-all duration-300 hover:scale-105 border border-[#2a3a5c]"
               >
-                <span className="absolute inset-0 rounded-2xl bg-gradient-to-r from-[#0066ff] via-[#00ccff] to-[#0099ff] opacity-0 group-hover:opacity-100 blur-xl transition-opacity duration-300" />
-                <span className="relative flex items-center gap-4">
-                  <span className="text-3xl">🧬</span>
+                <span className="flex items-center gap-4">
+                  <Dna className="w-8 h-8" />
                   <span>ENTER BJX — BLUE JAIL XENOME</span>
-                  <span className="text-3xl">🧬</span>
+                  <ArrowRight className="w-8 h-8" />
                 </span>
               </a>
             </div>
 
-            <p className="mt-6 text-center text-[#00ccff] text-lg font-semibold">
+            <p className="mt-6 text-center text-[#4a6fa5] text-lg font-semibold">
               bjx3.vercel.app — $69 Billion Genetics Revolution
             </p>
           </div>
