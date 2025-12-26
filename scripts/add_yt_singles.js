@@ -119,26 +119,30 @@ if (trackEntries.length === 0) {
   process.exit(0);
 }
 
-// Find the end of the tracks array and insert new entries
-const tracksArrayEnd = tracksContent.lastIndexOf('];');
-if (tracksArrayEnd === -1) {
-  console.error('Error: Could not find tracks array in page.tsx');
+// Find the tracks array by looking for its declaration
+const tracksArrayStart = tracksContent.indexOf('const tracks: Track[] = [');
+if (tracksArrayStart === -1) {
+  console.error('Error: Could not find tracks array declaration in page.tsx');
   process.exit(1);
 }
 
-// Insert new tracks before the closing ];
-const beforeArray = tracksContent.substring(0, tracksArrayEnd);
-const afterArray = tracksContent.substring(tracksArrayEnd);
-
-// Check if there's already content before the ];
-const lastTrackEnd = beforeArray.lastIndexOf('},');
-let newContent;
-
-if (lastTrackEnd !== -1) {
-  newContent = beforeArray + ',\n' + trackEntries.join(',\n') + '\n' + afterArray;
-} else {
-  newContent = beforeArray + trackEntries.join(',\n') + '\n' + afterArray;
+// Find the end of the tracks array by looking for "}," followed by "];" pattern
+// This is the closing of the last track object followed by array close
+const afterStart = tracksContent.substring(tracksArrayStart);
+const arrayEndMatch = afterStart.match(/},\s*\n];/);
+if (!arrayEndMatch) {
+  console.error('Error: Could not find end of tracks array in page.tsx');
+  process.exit(1);
 }
+
+const relativeEnd = afterStart.indexOf(arrayEndMatch[0]) + 2; // +2 to include "},"
+const absoluteEnd = tracksArrayStart + relativeEnd;
+
+// Insert new tracks after the last track entry
+const beforeInsert = tracksContent.substring(0, absoluteEnd);
+const afterInsert = tracksContent.substring(absoluteEnd);
+
+const newContent = beforeInsert + '\n' + trackEntries.join(',\n') + ',' + afterInsert;
 
 fs.writeFileSync(TRACKS_FILE, newContent);
 

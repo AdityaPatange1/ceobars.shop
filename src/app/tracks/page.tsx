@@ -800,147 +800,6 @@ const tracks: Track[] = [
     featuring: ["Adi 55"],
     instrumental: "Off The Dome Freestyle — DETBOM Sessions",
   },
-];
-
-export default function TracksPage() {
-  const [searchQuery, setSearchQuery] = useState("");
-  const [playingId, setPlayingId] = useState<number | null>(null);
-  const [modalTrack, setModalTrack] = useState<Track | null>(null);
-  const [modalPlaying, setModalPlaying] = useState(false);
-  const [modalProgress, setModalProgress] = useState(0);
-  const [isDownloading, setIsDownloading] = useState(false);
-  const [downloadProgress, setDownloadProgress] = useState(0);
-  const [downloadingTrackId, setDownloadingTrackId] = useState<number | null>(null);
-  const [toast, setToast] = useState<{ message: string; type: 'loading' | 'success' | 'error' } | null>(null);
-  const audioRef = useRef<HTMLAudioElement | null>(null);
-  const modalAudioRef = useRef<HTMLAudioElement | null>(null);
-
-  const showToast = (message: string, type: 'loading' | 'success' | 'error', duration?: number) => {
-    setToast({ message, type });
-    if (type !== 'loading' && duration !== 0) {
-      setTimeout(() => setToast(null), duration || 3000);
-    }
-  };
-
-  const filteredTracks = tracks.filter((track) =>
-    track.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
-    track.artist.toLowerCase().includes(searchQuery.toLowerCase()) ||
-    track.album.toLowerCase().includes(searchQuery.toLowerCase())
-  );
-
-  const handlePlay = async (track: Track) => {
-    if (playingId === track.id) {
-      audioRef.current?.pause();
-      setPlayingId(null);
-    } else {
-      if (audioRef.current) {
-        audioRef.current.pause();
-      }
-      setPlayingId(track.id); // Set immediately for UI feedback
-
-      const audio = new Audio();
-      audio.preload = "auto";
-      audio.onended = () => setPlayingId(null);
-      audio.onerror = (e) => {
-        console.error("Audio error:", e, audio.error);
-        showToast("Failed to load audio. Please try again.", "error");
-        setPlayingId(null);
-      };
-      audio.oncanplaythrough = async () => {
-        try {
-          await audio.play();
-        } catch (error) {
-          console.error("Playback failed:", error);
-          showToast("Playback failed. Please try again.", "error");
-          setPlayingId(null);
-        }
-      };
-      audioRef.current = audio;
-      audio.src = track.file;
-      audio.load();
-    }
-  };
-
-  const openModal = (track: Track) => {
-    // Pause main player if playing
-    if (audioRef.current) {
-      audioRef.current.pause();
-      setPlayingId(null);
-    }
-    setModalTrack(track);
-    setModalPlaying(false);
-    setModalProgress(0);
-    document.body.style.overflow = "hidden";
-  };
-
-  const closeModal = () => {
-    if (modalAudioRef.current) {
-      modalAudioRef.current.pause();
-    }
-    setModalTrack(null);
-    setModalPlaying(false);
-    setModalProgress(0);
-    document.body.style.overflow = "unset";
-  };
-
-  const handleModalPlay = async () => {
-    if (!modalTrack) return;
-
-    if (modalPlaying) {
-      modalAudioRef.current?.pause();
-      setModalPlaying(false);
-    } else {
-      if (!modalAudioRef.current || modalAudioRef.current.src !== modalTrack.file) {
-        const audio = new Audio();
-        audio.preload = "auto";
-        audio.ontimeupdate = () => {
-          if (modalAudioRef.current) {
-            setModalProgress((modalAudioRef.current.currentTime / modalAudioRef.current.duration) * 100);
-          }
-        };
-        audio.onended = () => {
-          setModalPlaying(false);
-          setModalProgress(0);
-        };
-        audio.onerror = (e) => {
-          console.error("Modal audio error:", e);
-          showToast("Failed to load audio.", "error");
-          setModalPlaying(false);
-        };
-        audio.oncanplaythrough = async () => {
-          try {
-            await audio.play();
-            setModalPlaying(true);
-          } catch (error) {
-            console.error("Modal playback failed:", error);
-            showToast("Playback failed.", "error");
-          }
-        };
-        modalAudioRef.current = audio;
-        audio.src = modalTrack.file;
-        audio.load();
-      } else {
-        try {
-          await modalAudioRef.current.play();
-          setModalPlaying(true);
-        } catch (error) {
-          console.error("Modal playback failed:", error);
-          showToast("Playback failed.", "error");
-        }
-      }
-    }
-  };
-
-  const handleDownloadAll = async () => {
-    setIsDownloading(true);
-    setDownloadProgress(0);
-
-    try {
-      const zip = new JSZip();
-      const totalTracks = tracks.length;
-
-      for (let i = 0; i < totalTracks; i++) {
-        const track = tracks[i,
   {
     id: 61,
     title: "\"D OFF THE BLOCK\" FREESTYLE By Adi 55 💰",
@@ -1434,8 +1293,148 @@ export default function TracksPage() {
     releaseDate: "6 October 2025",
     featuring: ["Adi 55"],
     instrumental: "YouTube Original — Official Release",
-  }
+  },
 ];
+
+export default function TracksPage() {
+  const [searchQuery, setSearchQuery] = useState("");
+  const [playingId, setPlayingId] = useState<number | null>(null);
+  const [modalTrack, setModalTrack] = useState<Track | null>(null);
+  const [modalPlaying, setModalPlaying] = useState(false);
+  const [modalProgress, setModalProgress] = useState(0);
+  const [isDownloading, setIsDownloading] = useState(false);
+  const [downloadProgress, setDownloadProgress] = useState(0);
+  const [downloadingTrackId, setDownloadingTrackId] = useState<number | null>(null);
+  const [toast, setToast] = useState<{ message: string; type: 'loading' | 'success' | 'error' } | null>(null);
+  const audioRef = useRef<HTMLAudioElement | null>(null);
+  const modalAudioRef = useRef<HTMLAudioElement | null>(null);
+
+  const showToast = (message: string, type: 'loading' | 'success' | 'error', duration?: number) => {
+    setToast({ message, type });
+    if (type !== 'loading' && duration !== 0) {
+      setTimeout(() => setToast(null), duration || 3000);
+    }
+  };
+
+  const filteredTracks = tracks.filter((track) =>
+    track.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
+    track.artist.toLowerCase().includes(searchQuery.toLowerCase()) ||
+    track.album.toLowerCase().includes(searchQuery.toLowerCase())
+  );
+
+  const handlePlay = async (track: Track) => {
+    if (playingId === track.id) {
+      audioRef.current?.pause();
+      setPlayingId(null);
+    } else {
+      if (audioRef.current) {
+        audioRef.current.pause();
+      }
+      setPlayingId(track.id); // Set immediately for UI feedback
+
+      const audio = new Audio();
+      audio.preload = "auto";
+      audio.onended = () => setPlayingId(null);
+      audio.onerror = (e) => {
+        console.error("Audio error:", e, audio.error);
+        showToast("Failed to load audio. Please try again.", "error");
+        setPlayingId(null);
+      };
+      audio.oncanplaythrough = async () => {
+        try {
+          await audio.play();
+        } catch (error) {
+          console.error("Playback failed:", error);
+          showToast("Playback failed. Please try again.", "error");
+          setPlayingId(null);
+        }
+      };
+      audioRef.current = audio;
+      audio.src = track.file;
+      audio.load();
+    }
+  };
+
+  const openModal = (track: Track) => {
+    // Pause main player if playing
+    if (audioRef.current) {
+      audioRef.current.pause();
+      setPlayingId(null);
+    }
+    setModalTrack(track);
+    setModalPlaying(false);
+    setModalProgress(0);
+    document.body.style.overflow = "hidden";
+  };
+
+  const closeModal = () => {
+    if (modalAudioRef.current) {
+      modalAudioRef.current.pause();
+    }
+    setModalTrack(null);
+    setModalPlaying(false);
+    setModalProgress(0);
+    document.body.style.overflow = "unset";
+  };
+
+  const handleModalPlay = async () => {
+    if (!modalTrack) return;
+
+    if (modalPlaying) {
+      modalAudioRef.current?.pause();
+      setModalPlaying(false);
+    } else {
+      if (!modalAudioRef.current || modalAudioRef.current.src !== modalTrack.file) {
+        const audio = new Audio();
+        audio.preload = "auto";
+        audio.ontimeupdate = () => {
+          if (modalAudioRef.current) {
+            setModalProgress((modalAudioRef.current.currentTime / modalAudioRef.current.duration) * 100);
+          }
+        };
+        audio.onended = () => {
+          setModalPlaying(false);
+          setModalProgress(0);
+        };
+        audio.onerror = (e) => {
+          console.error("Modal audio error:", e);
+          showToast("Failed to load audio.", "error");
+          setModalPlaying(false);
+        };
+        audio.oncanplaythrough = async () => {
+          try {
+            await audio.play();
+            setModalPlaying(true);
+          } catch (error) {
+            console.error("Modal playback failed:", error);
+            showToast("Playback failed.", "error");
+          }
+        };
+        modalAudioRef.current = audio;
+        audio.src = modalTrack.file;
+        audio.load();
+      } else {
+        try {
+          await modalAudioRef.current.play();
+          setModalPlaying(true);
+        } catch (error) {
+          console.error("Modal playback failed:", error);
+          showToast("Playback failed.", "error");
+        }
+      }
+    }
+  };
+
+  const handleDownloadAll = async () => {
+    setIsDownloading(true);
+    setDownloadProgress(0);
+
+    try {
+      const zip = new JSZip();
+      const totalTracks = tracks.length;
+
+      for (let i = 0; i < totalTracks; i++) {
+        const track = tracks[i];
         const response = await fetch(track.file);
         const blob = await response.blob();
         const fileName = `${String(i + 1).padStart(2, "0")} - ${track.artist} - ${track.title}.mp3`;
