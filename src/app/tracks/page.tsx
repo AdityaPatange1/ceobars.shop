@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useRef, useEffect } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import Link from "next/link";
 import JSZip from "jszip";
 
@@ -1333,6 +1333,150 @@ const tracks: Track[] = [
     featuring: ["Adi 55"],
     instrumental: "HT9 Mode — Maximum Bass Boost + Alien Tuning",
   },
+  // DETBOMBAY FREESTYLES - Zen Master Speeches transformed into Hip Hop
+  {
+    id: 102,
+    title: "ASI Orchestration 101",
+    artist: "Zen Master Aditya Patange",
+    album: "DETBOMBAY FREESTYLES",
+    duration: "2:21",
+    file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/asi-orchestration-101/master.mp3",
+    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/asi-orchestration-101/cover.jpg",
+    description: "Artificial Superintelligence Orchestration fundamentals by Zen Master Aditya Patange. Transformed into a crisp, frequency-focused Hip Hop track with FREQSHOOT mode processing.",
+    releaseDate: "26th December 2025",
+    featuring: ["Zen Master Aditya Patange"],
+    instrumental: "SOUNDIFY ZONER — FREQSHOOT Mode @ 100 BPM",
+  },
+  {
+    id: 103,
+    title: "The Tri Facta Of Machine Consciousness",
+    artist: "Zen Master Aditya Patange",
+    album: "DETBOMBAY FREESTYLES",
+    duration: "5:35",
+    file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/tri-facta-machine-consciousness/master.mp3",
+    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/tri-facta-machine-consciousness/cover.jpg",
+    description: "Deep exploration of the three facets of machine consciousness. A technical-spiritual discourse transformed into sharp, crisp Hip Hop with FREQSHOOT processing.",
+    releaseDate: "26th December 2025",
+    featuring: ["Zen Master Aditya Patange"],
+    instrumental: "SOUNDIFY ZONER — FREQSHOOT Mode @ 100 BPM",
+  },
+  {
+    id: 104,
+    title: "Unified Mindfulness for Hip Hop & Technology",
+    artist: "Zen Master Aditya Patange",
+    album: "DETBOMBAY FREESTYLES",
+    duration: "3:30",
+    file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/unified-mindfulness-hip-hop/master.mp3",
+    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/unified-mindfulness-hip-hop/cover.jpg",
+    description: "Mindfulness techniques bridging Hip Hop culture and scientific technology. Heavy hitting BOMB mode processing with aggressive drums and punch.",
+    releaseDate: "26th December 2025",
+    featuring: ["Zen Master Aditya Patange"],
+    instrumental: "SOUNDIFY ZONER — BOMB Mode @ 92 BPM",
+  },
+  {
+    id: 105,
+    title: "Board Member Qualities",
+    artist: "Zen Master Aditya Patange",
+    album: "DETBOMBAY FREESTYLES",
+    duration: "10:07",
+    file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/board-member-qualities/master.mp3",
+    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/board-member-qualities/cover.jpg",
+    description: "Essential qualities for corporate board membership, wisdom from the Zen Master. Smooth, dusty LO-FI Hip Hop processing for relaxed listening.",
+    releaseDate: "26th December 2025",
+    featuring: ["Zen Master Aditya Patange"],
+    instrumental: "SOUNDIFY ZONER — LO-FI Mode @ 85 BPM",
+  },
+  {
+    id: 106,
+    title: "Maha Chakreshwara 101",
+    artist: "Zen Master Aditya Patange",
+    album: "DETBOMBAY FREESTYLES",
+    duration: "8:00",
+    file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/maha-chakreshwara-101/master.mp3",
+    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/maha-chakreshwara-101/cover.jpg",
+    description: "Introduction to Maha Chakreshwara - the great wheel of chakras. Mystic LAIEN mode with ethereal frequencies, 432Hz and 528Hz boosts for spiritual resonance.",
+    releaseDate: "26th December 2025",
+    featuring: ["Zen Master Aditya Patange"],
+    instrumental: "SOUNDIFY ZONER — LAIEN (Mystic) Mode @ 75 BPM",
+  },
+  {
+    id: 107,
+    title: "Sweet Moon Ceremony AFTERMATH",
+    artist: "Zen Master Aditya Patange",
+    album: "DETBOMBAY FREESTYLES",
+    duration: "4:21",
+    file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/sweet-moon-ceremony/master.mp3",
+    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/sweet-moon-ceremony/cover.jpg",
+    description: "Reflections after the Sweet Moon Ceremony. Smooth, dusty LO-FI vibes with warm vinyl feel and gentle boom bap drums.",
+    releaseDate: "26th December 2025",
+    featuring: ["Zen Master Aditya Patange"],
+    instrumental: "SOUNDIFY ZONER — LO-FI Mode @ 85 BPM",
+  },
+  {
+    id: 108,
+    title: "CHAN TANG CLAN INITIATION",
+    artist: "Zen Master Aditya Patange",
+    album: "DETBOMBAY FREESTYLES",
+    duration: "1:26",
+    file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/chan-tang-clan-initiation/master.mp3",
+    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/chan-tang-clan-initiation/cover.jpg",
+    description: "Initiation into the Chan Tang Clan. Heavy hitting BOMB mode with aggressive drums, punchy bass, and raw energy.",
+    releaseDate: "26th December 2025",
+    featuring: ["Zen Master Aditya Patange"],
+    instrumental: "SOUNDIFY ZONER — BOMB Mode @ 92 BPM",
+  },
+  {
+    id: 109,
+    title: "Tiratana for Codebase Enlightenment",
+    artist: "Zen Master Aditya Patange",
+    album: "DETBOMBAY FREESTYLES",
+    duration: "9:59",
+    file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/tiratana-codebase-enlightenment/master.mp3",
+    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/tiratana-codebase-enlightenment/cover.jpg",
+    description: "AdiPat Ka Gyaan - The Three Jewels applied to software enlightenment. Mystic LAIEN mode with ethereal reverb and spiritual frequency enhancement.",
+    releaseDate: "26th December 2025",
+    featuring: ["Zen Master Aditya Patange"],
+    instrumental: "SOUNDIFY ZONER — LAIEN (Mystic) Mode @ 75 BPM",
+  },
+  {
+    id: 110,
+    title: "Zen, Yoga, and Quantum Physics",
+    artist: "Zen Master Aditya Patange",
+    album: "DETBOMBAY FREESTYLES",
+    duration: "7:34",
+    file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/zen-yoga-quantum-physics/master.mp3",
+    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/zen-yoga-quantum-physics/cover.jpg",
+    description: "The relationship between Zen meditation, Yoga practice, and Quantum Physics. Deep mystic LAIEN processing with 432Hz universal frequency boost.",
+    releaseDate: "26th December 2025",
+    featuring: ["Zen Master Aditya Patange"],
+    instrumental: "SOUNDIFY ZONER — LAIEN (Mystic) Mode @ 75 BPM",
+  },
+  {
+    id: 111,
+    title: "Life Questions Answered - Bhairav Sadhana",
+    artist: "Zen Master Aditya Patange",
+    album: "DETBOMBAY FREESTYLES",
+    duration: "10:56",
+    file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/life-questions-bhairav-sadhana/master.mp3",
+    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/life-questions-bhairav-sadhana/cover.jpg",
+    description: "Deep life questions answered through the lens of Bhairav Sadhana practice. Ethereal LAIEN mode with spacious reverb and spiritual frequencies.",
+    releaseDate: "26th December 2025",
+    featuring: ["Zen Master Aditya Patange"],
+    instrumental: "SOUNDIFY ZONER — LAIEN (Mystic) Mode @ 75 BPM",
+  },
+  {
+    id: 112,
+    title: "What is Dharmakaya?",
+    artist: "Zen Master Aditya Patange",
+    album: "DETBOMBAY FREESTYLES",
+    duration: "9:26",
+    file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/what-is-dharmakaya/master.mp3",
+    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/what-is-dharmakaya/cover.jpg",
+    description: "The Zen Master explains Dharmakaya - the truth body of the Buddha. Deep mystic LAIEN processing with ethereal frequencies and spiritual resonance.",
+    releaseDate: "26th December 2025",
+    featuring: ["Zen Master Aditya Patange"],
+    instrumental: "SOUNDIFY ZONER — LAIEN (Mystic) Mode @ 75 BPM",
+  },
 ];
 
 export default function TracksPage() {
@@ -1664,8 +1808,8 @@ export default function TracksPage() {
           {/* Track Rows */}
           {filteredTracks.length > 0 ? (
             filteredTracks.map((track, index) => (
+              <React.Fragment key={track.id}>
               <div
-                key={track.id}
                 className="group grid grid-cols-1 md:grid-cols-[50px_50px_1fr_1fr_100px_180px] gap-4 px-6 py-4 hover:bg-[#1a1a1e]/50 transition-colors border-b border-[#1a1a1e]/50 last:border-b-0"
               >
                 {/* Track Number */}
@@ -1788,6 +1932,46 @@ export default function TracksPage() {
                   </button>
                 </div>
               </div>
+
+              {/* Sadhguru JV Section - After DETBOMBAY FREESTYLES */}
+              {track.id === 112 && (
+                <div className="px-6 py-16 border-b border-[#1a1a1e]/50">
+                  <div className="max-w-2xl mx-auto text-center space-y-8">
+                    {/* Zen Divider */}
+                    <div className="flex items-center justify-center gap-4">
+                      <div className="h-px w-16 bg-gradient-to-r from-transparent to-gray-600"></div>
+                      <span className="text-2xl">☯</span>
+                      <div className="h-px w-16 bg-gradient-to-l from-transparent to-gray-600"></div>
+                    </div>
+
+                    {/* Quote */}
+                    <p className="text-gray-300 text-lg leading-relaxed font-light italic">
+                      &ldquo;Well, AdiYogi and Sadhguru meet again, the same way we met the first time as cellular automatas in Naga Zone.&rdquo;
+                    </p>
+
+                    {/* Link */}
+                    <a
+                      href="https://isha.sadhguru.org/en/wisdom/article/7-chakras-mystical-dimensions-body-seven-chakras#point2"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 text-gray-400 hover:text-white transition-colors text-sm group"
+                    >
+                      <span>The 7 Chakras — Mystical Dimensions</span>
+                      <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                      </svg>
+                    </a>
+
+                    {/* Zen Divider */}
+                    <div className="flex items-center justify-center gap-4">
+                      <div className="h-px w-16 bg-gradient-to-r from-transparent to-gray-600"></div>
+                      <span className="text-xs text-gray-600 tracking-widest">SADHGURU JV</span>
+                      <div className="h-px w-16 bg-gradient-to-l from-transparent to-gray-600"></div>
+                    </div>
+                  </div>
+                </div>
+              )}
+              </React.Fragment>
             ))
           ) : (
             <div className="px-6 py-16 text-center text-gray-500">
