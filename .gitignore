@@ -55,4 +55,4 @@ outputs/masters/**/*.mp3
 outputs/masters/*.mp3
 inputs/ig_downloads/
 .env*.local
-outputs/yt_singles/
+outputs/singles/

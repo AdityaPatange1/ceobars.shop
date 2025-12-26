@@ -1,30 +1,30 @@
 #!/usr/bin/env node
 /**
- * Add YT Singles to the tracks page
+ * Add Singles to the tracks page
  *
- * Usage: node scripts/add_yt_singles.js
+ * Usage: node scripts/add_singles.js
  */
 
 const fs = require('fs');
 const path = require('path');
 
 const PROJECT_ROOT = path.join(__dirname, '..');
-const METADATA_FILE = path.join(PROJECT_ROOT, 'outputs', 'yt_singles_metadata.json');
-const BLOB_URLS_FILE = path.join(PROJECT_ROOT, 'outputs', 'yt_singles_blob_urls.json');
+const METADATA_FILE = path.join(PROJECT_ROOT, 'outputs', 'singles_metadata.json');
+const BLOB_URLS_FILE = path.join(PROJECT_ROOT, 'outputs', 'singles_blob_urls.json');
 const TRACKS_FILE = path.join(PROJECT_ROOT, 'src', 'app', 'tracks', 'page.tsx');
 
 console.log('\n' + '='.repeat(70));
-console.log('  CEO BARS - Add YT Singles to Tracks Page');
+console.log('  CEO BARS - Add Singles to Tracks Page');
 console.log('='.repeat(70) + '\n');
 
 // Load metadata
 if (!fs.existsSync(METADATA_FILE)) {
-  console.error('Error: Metadata file not found. Run download_yt_singles.sh first.');
+  console.error('Error: Metadata file not found. Run download_singles.sh first.');
   process.exit(1);
 }
 
 if (!fs.existsSync(BLOB_URLS_FILE)) {
-  console.error('Error: Blob URLs file not found. Run upload_yt_singles.sh first.');
+  console.error('Error: Blob URLs file not found. Run upload_singles.sh first.');
   process.exit(1);
 }
 
@@ -55,8 +55,8 @@ for (const track of metadata) {
   currentId++;
 
   // Get blob URLs
-  const mp3Path = `/assets/yt-singles/${track.slug}/master.mp3`;
-  const coverPath = `/assets/yt-singles/${track.slug}/cover.jpg`;
+  const mp3Path = `/assets/singles/${track.slug}/master.mp3`;
+  const coverPath = `/assets/singles/${track.slug}/cover.jpg`;
 
   const mp3Url = blobUrls[mp3Path];
   const coverUrl = blobUrls[coverPath];
@@ -69,7 +69,7 @@ for (const track of metadata) {
   // Generate description from title and video description
   let description = track.description || '';
   if (description.length < 100) {
-    description = `${track.title} - An official release from Adi 55's YouTube channel. Part of the YT Singles collection featuring professionally mastered audio from the original video release.`;
+    description = `${track.title} - An official release from Adi 55's YouTube channel. Part of the Singles collection featuring professionally mastered audio from the original video release.`;
   } else {
     // Clean up and truncate description
     description = description
@@ -100,7 +100,7 @@ for (const track of metadata) {
     id: ${currentId},
     title: ${JSON.stringify(track.title)},
     artist: "Adi 55",
-    album: "YT SINGLES",
+    album: "SINGLES",
     duration: "${track.duration}",
     file: "${mp3Url || ''}",
     coverArt: "${coverUrl || ''}",
@@ -147,6 +147,6 @@ const newContent = beforeInsert + '\n' + trackEntries.join(',\n') + ',' + afterI
 fs.writeFileSync(TRACKS_FILE, newContent);
 
 console.log('\n' + '='.repeat(70));
-console.log(`  Added ${trackEntries.length} YT Singles to tracks page!`);
+console.log(`  Added ${trackEntries.length} Singles to tracks page!`);
 console.log(`  New highest ID: ${currentId}`);
 console.log('='.repeat(70) + '\n');
