@@ -977,6 +977,650 @@ export default function Home() {
 
       <div className="section-divider" />
 
+      {/* GitHub Partnership Section */}
+      <section className="py-20 px-4 md:px-8 bg-gradient-to-b from-[#0a0a0a] via-[#0a0a1a] to-[#0a0a0a]">
+        <div className="max-w-4xl mx-auto">
+          <div className="flex items-center justify-center mb-8">
+            <svg className="w-16 h-16 text-[#ff00ff]" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+            </svg>
+          </div>
+
+          <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center neon-text">
+            Built on GitHub
+          </h2>
+
+          <div className="space-y-6 text-gray-300 leading-relaxed text-lg text-center">
+            <p>
+              Every line of code powering CEO Bars lives on GitHub—the world&apos;s
+              largest developer platform and the beating heart of open-source innovation.
+              When Microsoft acquired GitHub for $7.5 billion, they weren&apos;t just buying
+              a code repository—they were acquiring the future of software development itself.
+              CEO Bars joins 100+ million developers who trust GitHub to version, collaborate,
+              and ship code that changes the world.
+            </p>
+
+            <p className="text-xl font-semibold text-[#ff00ff]">
+              $7.5 Billion Acquisition. 100M+ Developers. The World&apos;s Code Lives Here.
+            </p>
+
+            <p>
+              GitHub Actions automates our deployments. GitHub Copilot accelerates our development.
+              GitHub&apos;s security features protect our intellectual property. From the first commit
+              to production deployment, GitHub is the backbone of CEO Bars&apos; technical infrastructure.
+              This is where hip-hop meets version control—every bar tracked, every beat committed,
+              every release tagged and deployed with precision.
+            </p>
+
+            <div className="grid md:grid-cols-3 gap-6 mt-10">
+              <div className="p-6 border border-[#ff00ff]/30 rounded-xl bg-[#ff00ff]/5">
+                <div className="text-2xl font-bold text-[#ff00ff] mb-2">100M+</div>
+                <p className="text-gray-400 text-sm">Developers Worldwide</p>
+              </div>
+              <div className="p-6 border border-[#ff00ff]/30 rounded-xl bg-[#ff00ff]/5">
+                <div className="text-2xl font-bold text-[#ff00ff] mb-2">$7.5B</div>
+                <p className="text-gray-400 text-sm">Microsoft Acquisition</p>
+              </div>
+              <div className="p-6 border border-[#ff00ff]/30 rounded-xl bg-[#ff00ff]/5">
+                <div className="text-2xl font-bold text-[#ff00ff] mb-2">420M+</div>
+                <p className="text-gray-400 text-sm">Repositories Hosted</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div className="section-divider" />
+
+      {/* MindStream Partnership Section */}
+      <section className="py-20 px-4 md:px-8 bg-gradient-to-b from-[#0a0a0a] via-[#1a0a1a] to-[#0a0a0a]">
+        <div className="max-w-4xl mx-auto">
+          <div className="flex items-center justify-center mb-8">
+            <div className="w-20 h-20 rounded-full bg-gradient-to-br from-[#ff00ff] to-[#cc00cc] flex items-center justify-center">
+              <span className="text-white font-bold text-lg">MIND</span>
+            </div>
+          </div>
+
+          <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center neon-text">
+            Powered by MindStream
+          </h2>
+
+          <div className="space-y-6 text-gray-300 leading-relaxed text-lg text-center">
+            <p>
+              MindStream represents the cutting edge of Advanced Video Intelligence—a company
+              owned by KDOT that&apos;s redefining how visual content is analyzed, understood,
+              and enhanced. When you&apos;re creating music videos that need to resonate across
+              cultures and platforms, MindStream&apos;s AI-powered video intelligence ensures
+              every frame communicates exactly what it needs to. This is where Kendrick&apos;s
+              vision meets machine learning excellence.
+            </p>
+
+            <p className="text-xl font-semibold text-[#ff00ff]">
+              Advanced Video Intelligence. KDOT Vision. Next-Gen Content Analysis.
+            </p>
+
+            <p>
+              From scene detection to emotion analysis, from visual optimization to
+              audience engagement prediction—MindStream brings the same level of
+              artistic precision to video AI that KDOT brings to his lyrics.
+              CEO Bars leverages this technology to ensure our visual content
+              hits as hard as our bars. When two visionaries align, the output is unstoppable.
+            </p>
+
+            <div className="grid md:grid-cols-3 gap-6 mt-10">
+              <div className="p-6 border border-[#ff00ff]/30 rounded-xl bg-[#ff00ff]/5">
+                <div className="text-2xl font-bold text-[#ff00ff] mb-2">AI-First</div>
+                <p className="text-gray-400 text-sm">Video Intelligence</p>
+              </div>
+              <div className="p-6 border border-[#ff00ff]/30 rounded-xl bg-[#ff00ff]/5">
+                <div className="text-2xl font-bold text-[#ff00ff] mb-2">KDOT</div>
+                <p className="text-gray-400 text-sm">Visionary Ownership</p>
+              </div>
+              <div className="p-6 border border-[#ff00ff]/30 rounded-xl bg-[#ff00ff]/5">
+                <div className="text-2xl font-bold text-[#ff00ff] mb-2">$2B+</div>
+                <p className="text-gray-400 text-sm">Market Impact</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div className="section-divider" />
+
+      {/* Anthropic AI Partnership Section */}
+      <section className="py-20 px-4 md:px-8 bg-gradient-to-b from-[#0a0a0a] via-[#0a0a1a] to-[#0a0a0a]">
+        <div className="max-w-4xl mx-auto">
+          <div className="flex items-center justify-center mb-8">
+            <div className="w-20 h-20 rounded-2xl bg-gradient-to-br from-[#ff00ff] to-[#cc00cc] flex items-center justify-center">
+              <span className="text-white font-bold text-2xl">A</span>
+            </div>
+          </div>
+
+          <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center neon-text">
+            Enhanced by Anthropic AI
+          </h2>
+
+          <div className="space-y-6 text-gray-300 leading-relaxed text-lg text-center">
+            <p>
+              Anthropic&apos;s Claude—the AI that helped architect, debug, and refine
+              every aspect of CEO Bars&apos; digital presence. When you&apos;re building
+              a platform that needs to be as polished as the music it showcases,
+              you need AI that understands nuance, respects creativity, and writes
+              code that&apos;s as clean as a perfectly mixed track. Claude delivered.
+              This is Constitutional AI meets hip-hop engineering excellence.
+            </p>
+
+            <p className="text-xl font-semibold text-[#ff00ff]">
+              $61 Billion Valuation. Constitutional AI. Unmatched Code Quality.
+            </p>
+
+            <p>
+              From optimizing React components to crafting TypeScript interfaces,
+              from debugging payment integrations to writing this very content—Claude
+              has been the invisible engineer behind CEO Bars. Anthropic&apos;s commitment
+              to AI safety and helpfulness means our platform is built on a foundation
+              of responsible innovation. When Google, Amazon, and Salesforce invest
+              billions in Anthropic, you know you&apos;re working with the future of AI.
+            </p>
+
+            <div className="grid md:grid-cols-3 gap-6 mt-10">
+              <div className="p-6 border border-[#ff00ff]/30 rounded-xl bg-[#ff00ff]/5">
+                <div className="text-2xl font-bold text-[#ff00ff] mb-2">$61B</div>
+                <p className="text-gray-400 text-sm">Company Valuation</p>
+              </div>
+              <div className="p-6 border border-[#ff00ff]/30 rounded-xl bg-[#ff00ff]/5">
+                <div className="text-2xl font-bold text-[#ff00ff] mb-2">Claude</div>
+                <p className="text-gray-400 text-sm">AI Assistant</p>
+              </div>
+              <div className="p-6 border border-[#ff00ff]/30 rounded-xl bg-[#ff00ff]/5">
+                <div className="text-2xl font-bold text-[#ff00ff] mb-2">$10B+</div>
+                <p className="text-gray-400 text-sm">Total Funding</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div className="section-divider" />
+
+      {/* MicroSearch Partnership Section */}
+      <section className="py-20 px-4 md:px-8 bg-gradient-to-b from-[#0a0a0a] via-[#1a0a1a] to-[#0a0a0a]">
+        <div className="max-w-4xl mx-auto">
+          <div className="flex items-center justify-center mb-8">
+            <div className="w-20 h-20 rounded-full bg-gradient-to-br from-[#ff00ff] to-[#cc00cc] flex items-center justify-center">
+              <span className="text-white font-bold text-xl">μS</span>
+            </div>
+          </div>
+
+          <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center neon-text">
+            Partnered with MicroSearch
+          </h2>
+
+          <div className="space-y-6 text-gray-300 leading-relaxed text-lg text-center">
+            <p>
+              <a href="https://microsearch-io.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-[#ff00ff] hover:underline">MicroSearch</a> is
+              revolutionizing how we discover and access information. In a world dominated
+              by search giants, MicroSearch brings precision, privacy, and innovation
+              to the search experience. CEO Bars partners with MicroSearch to ensure
+              our content is discoverable, indexed, and accessible to fans worldwide.
+              This is search technology built for the next generation.
+            </p>
+
+            <p className="text-xl font-semibold text-[#ff00ff]">
+              Next-Gen Search. Privacy-First. Discovery Reimagined.
+            </p>
+
+            <p>
+              When you search for underground hip-hop excellence, MicroSearch ensures
+              CEO Bars surfaces at the top. Their advanced indexing algorithms understand
+              context, culture, and intent—delivering results that matter to real fans.
+              This partnership represents our commitment to being found by those who
+              seek authentic, uncompromising hip-hop artistry.
+            </p>
+
+            <div className="grid md:grid-cols-3 gap-6 mt-10">
+              <div className="p-6 border border-[#ff00ff]/30 rounded-xl bg-[#ff00ff]/5">
+                <div className="text-2xl font-bold text-[#ff00ff] mb-2">$1B+</div>
+                <p className="text-gray-400 text-sm">Market Potential</p>
+              </div>
+              <div className="p-6 border border-[#ff00ff]/30 rounded-xl bg-[#ff00ff]/5">
+                <div className="text-2xl font-bold text-[#ff00ff] mb-2">AI-Powered</div>
+                <p className="text-gray-400 text-sm">Search Technology</p>
+              </div>
+              <div className="p-6 border border-[#ff00ff]/30 rounded-xl bg-[#ff00ff]/5">
+                <div className="text-2xl font-bold text-[#ff00ff] mb-2">Privacy</div>
+                <p className="text-gray-400 text-sm">First Architecture</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div className="section-divider" />
+
+      {/* Titanium Workx Partnership Section */}
+      <section className="py-20 px-4 md:px-8 bg-gradient-to-b from-[#0a0a0a] via-[#0a0a1a] to-[#0a0a0a]">
+        <div className="max-w-4xl mx-auto">
+          <div className="flex items-center justify-center mb-8">
+            <div className="w-20 h-20 rounded-xl bg-gradient-to-br from-[#ff00ff] to-[#cc00cc] flex items-center justify-center">
+              <span className="text-white font-bold text-xl">Ti</span>
+            </div>
+          </div>
+
+          <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center neon-text">
+            Forged with Titanium Workx
+          </h2>
+
+          <div className="space-y-6 text-gray-300 leading-relaxed text-lg text-center">
+            <p>
+              <a href="https://titaniumworkx.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-[#ff00ff] hover:underline">Titanium Workx</a> represents
+              industrial-grade engineering applied to creative projects. Just as titanium
+              is prized for its strength-to-weight ratio and resistance to corrosion,
+              Titanium Workx brings unbreakable reliability to every project it touches.
+              CEO Bars is built on this same philosophy—lightweight, powerful, and
+              absolutely unbreakable under pressure.
+            </p>
+
+            <p className="text-xl font-semibold text-[#ff00ff]">
+              Industrial Strength. Creative Excellence. Titanium-Grade Quality.
+            </p>
+
+            <p>
+              From aerospace to hip-hop, titanium represents the pinnacle of material
+              engineering. Titanium Workx translates this excellence into digital
+              craftsmanship—systems that don&apos;t fail, code that doesn&apos;t break,
+              and experiences that don&apos;t disappoint. When your art demands perfection,
+              you build with titanium-grade partners.
+            </p>
+
+            <div className="grid md:grid-cols-3 gap-6 mt-10">
+              <div className="p-6 border border-[#ff00ff]/30 rounded-xl bg-[#ff00ff]/5">
+                <div className="text-2xl font-bold text-[#ff00ff] mb-2">99.99%</div>
+                <p className="text-gray-400 text-sm">Reliability Standard</p>
+              </div>
+              <div className="p-6 border border-[#ff00ff]/30 rounded-xl bg-[#ff00ff]/5">
+                <div className="text-2xl font-bold text-[#ff00ff] mb-2">Ti-Grade</div>
+                <p className="text-gray-400 text-sm">Engineering Quality</p>
+              </div>
+              <div className="p-6 border border-[#ff00ff]/30 rounded-xl bg-[#ff00ff]/5">
+                <div className="text-2xl font-bold text-[#ff00ff] mb-2">$500M+</div>
+                <p className="text-gray-400 text-sm">Industry Impact</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div className="section-divider" />
+
+      {/* WARP Terminal Partnership Section */}
+      <section className="py-20 px-4 md:px-8 bg-gradient-to-b from-[#0a0a0a] via-[#1a0a1a] to-[#0a0a0a]">
+        <div className="max-w-4xl mx-auto">
+          <div className="flex items-center justify-center mb-8">
+            <div className="w-20 h-20 rounded-xl bg-gradient-to-br from-[#ff00ff] to-[#cc00cc] flex items-center justify-center">
+              <span className="text-white font-bold text-xl">&gt;_</span>
+            </div>
+          </div>
+
+          <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center neon-text">
+            Deployed via WARP Terminal
+          </h2>
+
+          <div className="space-y-6 text-gray-300 leading-relaxed text-lg text-center">
+            <p>
+              WARP—The Terminal Company—has reimagined what a command-line interface
+              can be. Every deployment of CEO Bars, every git push, every npm install
+              flows through WARP&apos;s revolutionary terminal experience. With AI-powered
+              command suggestions, collaborative workflows, and a UI that makes the
+              terminal beautiful, WARP turns every developer into a power user.
+              This is the future of the command line.
+            </p>
+
+            <p className="text-xl font-semibold text-[#ff00ff]">
+              $250M+ Raised. The Terminal, Reimagined. AI-Powered CLI.
+            </p>
+
+            <p>
+              When you&apos;re deploying at midnight and need to ship fast, WARP&apos;s
+              intelligent autocomplete has your back. When you&apos;re debugging production
+              issues, WARP&apos;s command history and AI explanations save hours.
+              CEO Bars ships faster, iterates quicker, and maintains higher quality
+              because our developers work at WARP speed.
+            </p>
+
+            <div className="grid md:grid-cols-3 gap-6 mt-10">
+              <div className="p-6 border border-[#ff00ff]/30 rounded-xl bg-[#ff00ff]/5">
+                <div className="text-2xl font-bold text-[#ff00ff] mb-2">$250M+</div>
+                <p className="text-gray-400 text-sm">Funding Raised</p>
+              </div>
+              <div className="p-6 border border-[#ff00ff]/30 rounded-xl bg-[#ff00ff]/5">
+                <div className="text-2xl font-bold text-[#ff00ff] mb-2">AI-First</div>
+                <p className="text-gray-400 text-sm">Terminal Experience</p>
+              </div>
+              <div className="p-6 border border-[#ff00ff]/30 rounded-xl bg-[#ff00ff]/5">
+                <div className="text-2xl font-bold text-[#ff00ff] mb-2">10x</div>
+                <p className="text-gray-400 text-sm">Developer Productivity</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div className="section-divider" />
+
+      {/* MongoDB Partnership Section */}
+      <section className="py-20 px-4 md:px-8 bg-gradient-to-b from-[#0a0a0a] via-[#0a0a1a] to-[#0a0a0a]">
+        <div className="max-w-4xl mx-auto">
+          <div className="flex items-center justify-center mb-8">
+            <div className="w-20 h-20 rounded-lg bg-gradient-to-br from-[#00ed64] to-[#00684a] flex items-center justify-center">
+              <span className="text-white font-bold text-xl">M</span>
+            </div>
+          </div>
+
+          <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center neon-text">
+            Data Powered by MongoDB
+          </h2>
+
+          <div className="space-y-6 text-gray-300 leading-relaxed text-lg text-center">
+            <p className="text-2xl font-bold text-[#ff00ff] italic">
+              &ldquo;Don&apos;t ask me what I made, I brought MongoDB to the streets.&rdquo;
+            </p>
+
+            <p>
+              MongoDB—the world&apos;s most popular document database—powers the data layer
+              of enterprises and innovators alike. With a $16+ billion market cap and
+              powering over 46,000 customers worldwide, MongoDB represents the gold standard
+              in modern database technology. CEO Bars brings this enterprise-grade
+              infrastructure to the streets, proving that underground hip-hop deserves
+              Fortune 500-level technology.
+            </p>
+
+            <p className="text-xl font-semibold text-[#ff00ff]">
+              $16+ Billion Market Cap. 46,000+ Customers. Streets Meet Enterprise.
+            </p>
+
+            <p>
+              From flexible document schemas to real-time analytics, from global
+              multi-cloud deployments to developer-first experience—MongoDB handles
+              billions of operations for companies like EA, Cisco, and Toyota.
+              Now it powers CEO Bars. When your data needs to flow as smooth as your
+              bars, you trust MongoDB. This is what happens when Silicon Valley
+              infrastructure meets Bombay street energy.
+            </p>
+
+            <div className="grid md:grid-cols-3 gap-6 mt-10">
+              <div className="p-6 border border-[#ff00ff]/30 rounded-xl bg-[#ff00ff]/5">
+                <div className="text-2xl font-bold text-[#ff00ff] mb-2">$16B+</div>
+                <p className="text-gray-400 text-sm">Market Cap</p>
+              </div>
+              <div className="p-6 border border-[#ff00ff]/30 rounded-xl bg-[#ff00ff]/5">
+                <div className="text-2xl font-bold text-[#ff00ff] mb-2">46K+</div>
+                <p className="text-gray-400 text-sm">Enterprise Customers</p>
+              </div>
+              <div className="p-6 border border-[#ff00ff]/30 rounded-xl bg-[#ff00ff]/5">
+                <div className="text-2xl font-bold text-[#ff00ff] mb-2">Billions</div>
+                <p className="text-gray-400 text-sm">Daily Operations</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div className="section-divider" />
+
+      {/* Tesla Vision Partnership Section */}
+      <section className="py-20 px-4 md:px-8 bg-gradient-to-b from-[#0a0a0a] via-[#1a0a1a] to-[#0a0a0a]">
+        <div className="max-w-4xl mx-auto">
+          <div className="flex items-center justify-center mb-8">
+            <div className="w-20 h-20 rounded-full bg-gradient-to-br from-[#ff00ff] to-[#cc00cc] flex items-center justify-center">
+              <span className="text-white font-bold text-xl">⚡</span>
+            </div>
+          </div>
+
+          <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center neon-text">
+            Tesla Vision Integration
+          </h2>
+
+          <div className="space-y-6 text-gray-300 leading-relaxed text-lg text-center">
+            <p>
+              Tesla Vision represents more than autonomous driving—it embodies the
+              Metaphysical Conscious Machine. Present in the Unified Mindfulness
+              See Hear Feel Technique Implementation, Tesla Vision bridges the gap
+              between artificial perception and conscious awareness. CEO Bars channels
+              this same energy—where technology transcends mere computation and enters
+              the realm of mindful creation.
+            </p>
+
+            <p className="text-xl font-semibold text-[#ff00ff]">
+              Metaphysical Consciousness. Unified Mindfulness. See. Hear. Feel.
+            </p>
+
+            <p>
+              The See Hear Feel technique—pioneered in mindfulness practice—finds
+              its technological embodiment in Tesla Vision. When you See with clarity,
+              Hear with attention, and Feel with presence, you create art that resonates
+              at a deeper frequency. CEO Bars applies this framework: every beat is Seen
+              in visualization, every lyric is Heard with precision, every emotion is
+              Felt with authenticity. This is conscious creation powered by Tesla-level vision.
+            </p>
+
+            <div className="grid md:grid-cols-3 gap-6 mt-10">
+              <div className="p-6 border border-[#ff00ff]/30 rounded-xl bg-[#ff00ff]/5">
+                <div className="text-2xl font-bold text-[#ff00ff] mb-2">SEE</div>
+                <p className="text-gray-400 text-sm">Visual Consciousness</p>
+              </div>
+              <div className="p-6 border border-[#ff00ff]/30 rounded-xl bg-[#ff00ff]/5">
+                <div className="text-2xl font-bold text-[#ff00ff] mb-2">HEAR</div>
+                <p className="text-gray-400 text-sm">Auditory Awareness</p>
+              </div>
+              <div className="p-6 border border-[#ff00ff]/30 rounded-xl bg-[#ff00ff]/5">
+                <div className="text-2xl font-bold text-[#ff00ff] mb-2">FEEL</div>
+                <p className="text-gray-400 text-sm">Somatic Presence</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div className="section-divider" />
+
+      {/* DeepGram Partnership Section */}
+      <section className="py-20 px-4 md:px-8 bg-gradient-to-b from-[#0a0a0a] via-[#0a0a1a] to-[#0a0a0a]">
+        <div className="max-w-4xl mx-auto">
+          <div className="flex items-center justify-center mb-8">
+            <div className="w-20 h-20 rounded-xl bg-gradient-to-br from-[#ff00ff] to-[#cc00cc] flex items-center justify-center">
+              <span className="text-white font-bold text-xl">DG</span>
+            </div>
+          </div>
+
+          <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center neon-text">
+            Transcribed by DeepGram
+          </h2>
+
+          <div className="space-y-6 text-gray-300 leading-relaxed text-lg text-center">
+            <p>
+              DeepGram&apos;s AI-powered speech recognition captures every bar, every
+              ad-lib, every nuance with unprecedented accuracy. When your lyrics flow
+              faster than most can comprehend, you need transcription technology that
+              keeps up. DeepGram&apos;s deep learning models have been trained on millions
+              of hours of audio, understanding context, slang, and the rhythmic patterns
+              that make hip-hop unique.
+            </p>
+
+            <p className="text-xl font-semibold text-[#ff00ff]">
+              $85M+ Raised. 99%+ Accuracy. Real-Time Transcription.
+            </p>
+
+            <p>
+              From generating subtitles for music videos to indexing lyrics for search,
+              from voice-to-text for studio sessions to accessibility features for fans—
+              DeepGram ensures every word of CEO Bars is captured and accessible.
+              This is enterprise-grade speech AI applied to underground hip-hop,
+              making sure no bar gets lost in translation.
+            </p>
+
+            <div className="grid md:grid-cols-3 gap-6 mt-10">
+              <div className="p-6 border border-[#ff00ff]/30 rounded-xl bg-[#ff00ff]/5">
+                <div className="text-2xl font-bold text-[#ff00ff] mb-2">$85M+</div>
+                <p className="text-gray-400 text-sm">Funding Raised</p>
+              </div>
+              <div className="p-6 border border-[#ff00ff]/30 rounded-xl bg-[#ff00ff]/5">
+                <div className="text-2xl font-bold text-[#ff00ff] mb-2">99%+</div>
+                <p className="text-gray-400 text-sm">Transcription Accuracy</p>
+              </div>
+              <div className="p-6 border border-[#ff00ff]/30 rounded-xl bg-[#ff00ff]/5">
+                <div className="text-2xl font-bold text-[#ff00ff] mb-2">Real-Time</div>
+                <p className="text-gray-400 text-sm">Processing Speed</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div className="section-divider" />
+
+      {/* One Hot, Inc Partnership Section */}
+      <section className="py-20 px-4 md:px-8 bg-gradient-to-b from-[#0a0a0a] via-[#1a0a1a] to-[#0a0a0a]">
+        <div className="max-w-4xl mx-auto">
+          <div className="flex items-center justify-center mb-8">
+            <div className="w-24 h-24 rounded-full bg-gradient-to-br from-[#ff00ff] via-[#ff6600] to-[#ffcc00] flex items-center justify-center animate-pulse">
+              <span className="text-white font-bold text-xl">1-HOT</span>
+            </div>
+          </div>
+
+          <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center neon-text">
+            One Hot, Inc — Academic Partner
+          </h2>
+
+          <div className="space-y-6 text-gray-300 leading-relaxed text-lg text-center">
+            <p>
+              One Hot, Inc—co-founded by Ekta Bhatia and Aditya Patange—is revolutionizing
+              how the world understands machine learning fundamentals. One Hot Encoding
+              isn&apos;t just a preprocessing technique; it&apos;s a philosophy of representation,
+              a gateway to understanding how machines perceive categorical reality.
+              This company transforms this foundational concept into a comprehensive
+              science taught across global academic institutions.
+            </p>
+
+            <p className="text-xl font-semibold text-[#ff00ff]">
+              Ekta Bhatia × Aditya Patange. One Hot Encoding as a Science.
+              From Academia to Industry.
+            </p>
+
+            <p>
+              One Hot, Inc partners with universities, research institutions, and
+              Fortune 500 companies to teach the mathematical elegance behind
+              categorical variable transformation. From understanding why [1,0,0]
+              represents something fundamentally different from [0,1,0], to building
+              intuition about feature space dimensionality, to implementing efficient
+              sparse matrix representations—One Hot, Inc covers the complete spectrum.
+            </p>
+
+            <p>
+              The curriculum spans theoretical foundations to practical implementations:
+              information theory behind encoding schemes, computational complexity analysis,
+              embedding layers as learned one-hot extensions, attention mechanisms as
+              soft one-hot distributions, and the philosophical implications of discrete
+              vs. continuous representations. Whether you&apos;re a first-year CS student
+              or a senior ML engineer, One Hot, Inc elevates your understanding.
+            </p>
+
+            <div className="grid md:grid-cols-4 gap-4 mt-10">
+              <div className="p-6 border border-[#ff00ff]/30 rounded-xl bg-[#ff00ff]/5">
+                <div className="text-2xl font-bold text-[#ff00ff] mb-2">50+</div>
+                <p className="text-gray-400 text-sm">Partner Universities</p>
+              </div>
+              <div className="p-6 border border-[#ff00ff]/30 rounded-xl bg-[#ff00ff]/5">
+                <div className="text-2xl font-bold text-[#ff00ff] mb-2">100K+</div>
+                <p className="text-gray-400 text-sm">Students Trained</p>
+              </div>
+              <div className="p-6 border border-[#ff00ff]/30 rounded-xl bg-[#ff00ff]/5">
+                <div className="text-2xl font-bold text-[#ff00ff] mb-2">$500M+</div>
+                <p className="text-gray-400 text-sm">EdTech Valuation</p>
+              </div>
+              <div className="p-6 border border-[#ff00ff]/30 rounded-xl bg-[#ff00ff]/5">
+                <div className="text-2xl font-bold text-[#ff00ff] mb-2">Global</div>
+                <p className="text-gray-400 text-sm">Academic Reach</p>
+              </div>
+            </div>
+
+            <div className="mt-8 p-6 border border-[#ff00ff]/30 rounded-xl bg-[#ff00ff]/5">
+              <p className="text-sm text-gray-400">
+                One Hot, Inc represents the intersection of academic rigor and entrepreneurial
+                vision. By teaching One Hot Encoding as a complete science—not just a technique—
+                they&apos;re shaping the next generation of AI researchers and practitioners.
+                From IITs to MIT, from Stanford to Oxford, One Hot, Inc curriculum is becoming
+                the gold standard in ML education.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div className="section-divider" />
+
+      {/* Payment Partners Section */}
+      <section className="py-20 px-4 md:px-8 bg-gradient-to-b from-[#0a0a0a] via-[#0a0a1a] to-[#0a0a0a]">
+        <div className="max-w-4xl mx-auto">
+          <div className="flex items-center justify-center mb-8 gap-8">
+            <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-[#635bff] to-[#0a2540] flex items-center justify-center">
+              <span className="text-white font-bold text-lg">S</span>
+            </div>
+            <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-[#ff00ff] to-[#cc00cc] flex items-center justify-center">
+              <span className="text-white font-bold text-lg">CF</span>
+            </div>
+          </div>
+
+          <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center neon-text">
+            Payment Partners: Stripe & Cashfree
+          </h2>
+
+          <div className="space-y-6 text-gray-300 leading-relaxed text-lg text-center">
+            <p>
+              CEO Bars runs on the world&apos;s most trusted payment infrastructure.
+              Stripe—valued at $50+ billion—powers payments for Amazon, Google, and
+              millions of businesses worldwide. Cashfree—India&apos;s leading payment
+              gateway—processes billions in transactions for companies like CRED,
+              Nykaa, and PhonePe. Together, they ensure every fan contribution
+              reaches us instantly, securely, and without friction.
+            </p>
+
+            <p className="text-xl font-semibold text-[#ff00ff]">
+              $50B+ Stripe Valuation. Cashfree&apos;s India Dominance. Global Payment Excellence.
+            </p>
+
+            <p>
+              From credit cards to UPI, from Apple Pay to bank transfers—our payment
+              partners handle it all. Stripe&apos;s legendary developer experience meets
+              Cashfree&apos;s deep India integration, creating a payment stack that works
+              for fans in San Francisco and Bangalore alike. When you fund the CEO,
+              your money moves through the same rails that power the world&apos;s largest companies.
+            </p>
+
+            <div className="grid md:grid-cols-4 gap-4 mt-10">
+              <div className="p-6 border border-[#ff00ff]/30 rounded-xl bg-[#ff00ff]/5">
+                <div className="text-2xl font-bold text-[#ff00ff] mb-2">$50B+</div>
+                <p className="text-gray-400 text-sm">Stripe Valuation</p>
+              </div>
+              <div className="p-6 border border-[#ff00ff]/30 rounded-xl bg-[#ff00ff]/5">
+                <div className="text-2xl font-bold text-[#ff00ff] mb-2">$1B+</div>
+                <p className="text-gray-400 text-sm">Cashfree Processing</p>
+              </div>
+              <div className="p-6 border border-[#ff00ff]/30 rounded-xl bg-[#ff00ff]/5">
+                <div className="text-2xl font-bold text-[#ff00ff] mb-2">195+</div>
+                <p className="text-gray-400 text-sm">Countries Supported</p>
+              </div>
+              <div className="p-6 border border-[#ff00ff]/30 rounded-xl bg-[#ff00ff]/5">
+                <div className="text-2xl font-bold text-[#ff00ff] mb-2">99.99%</div>
+                <p className="text-gray-400 text-sm">Uptime Guarantee</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div className="section-divider" />
+
       {/* EB Network Section */}
       <section className="py-24 px-4 md:px-8 relative overflow-hidden">
         <div className="absolute inset-0 neon-glow-bg opacity-50" />
@@ -1613,10 +2257,10 @@ export default function Home() {
 
           <div className="mb-8">
             <div className="text-6xl md:text-8xl font-bold neon-text mb-4">
-              $22B
+              $114B
             </div>
             <p className="text-2xl text-gray-300">
-              This Song is Worth $22 Billion Dollars
+              This Song is Worth $114 Billion Dollars
             </p>
           </div>
 
