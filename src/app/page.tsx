@@ -1700,6 +1700,26 @@ export default function Home() {
                 share the same double helix.
               </p>
             </div>
+
+            <div className="mt-12 flex justify-center">
+              <a
+                href="https://bjx3.vercel.app"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group relative inline-flex items-center justify-center px-12 py-6 text-2xl font-bold text-white bg-gradient-to-r from-[#0066ff] via-[#00ccff] to-[#0099ff] rounded-2xl shadow-2xl hover:shadow-[0_0_60px_rgba(0,204,255,0.6)] transition-all duration-300 hover:scale-105"
+              >
+                <span className="absolute inset-0 rounded-2xl bg-gradient-to-r from-[#0066ff] via-[#00ccff] to-[#0099ff] opacity-0 group-hover:opacity-100 blur-xl transition-opacity duration-300" />
+                <span className="relative flex items-center gap-4">
+                  <span className="text-3xl">🧬</span>
+                  <span>ENTER BJX — BLUE JAIL XENOME</span>
+                  <span className="text-3xl">🧬</span>
+                </span>
+              </a>
+            </div>
+
+            <p className="mt-6 text-center text-[#00ccff] text-lg font-semibold">
+              bjx3.vercel.app — $69 Billion Genetics Revolution
+            </p>
           </div>
         </div>
       </section>
