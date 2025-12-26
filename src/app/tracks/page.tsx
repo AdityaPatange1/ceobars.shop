@@ -828,7 +828,7 @@ export default function TracksPage() {
     track.album.toLowerCase().includes(searchQuery.toLowerCase())
   );
 
-  const handlePlay = (track: Track) => {
+  const handlePlay = async (track: Track) => {
     if (playingId === track.id) {
       audioRef.current?.pause();
       setPlayingId(null);
@@ -836,10 +836,28 @@ export default function TracksPage() {
       if (audioRef.current) {
         audioRef.current.pause();
       }
-      audioRef.current = new Audio(track.file);
-      audioRef.current.play();
-      audioRef.current.onended = () => setPlayingId(null);
-      setPlayingId(track.id);
+      setPlayingId(track.id); // Set immediately for UI feedback
+
+      const audio = new Audio();
+      audio.preload = "auto";
+      audio.onended = () => setPlayingId(null);
+      audio.onerror = (e) => {
+        console.error("Audio error:", e, audio.error);
+        showToast("Failed to load audio. Please try again.", "error");
+        setPlayingId(null);
+      };
+      audio.oncanplaythrough = async () => {
+        try {
+          await audio.play();
+        } catch (error) {
+          console.error("Playback failed:", error);
+          showToast("Playback failed. Please try again.", "error");
+          setPlayingId(null);
+        }
+      };
+      audioRef.current = audio;
+      audio.src = track.file;
+      audio.load();
     }
   };
 
@@ -865,7 +883,7 @@ export default function TracksPage() {
     document.body.style.overflow = "unset";
   };
 
-  const handleModalPlay = () => {
+  const handleModalPlay = async () => {
     if (!modalTrack) return;
 
     if (modalPlaying) {
@@ -873,19 +891,43 @@ export default function TracksPage() {
       setModalPlaying(false);
     } else {
       if (!modalAudioRef.current || modalAudioRef.current.src !== modalTrack.file) {
-        modalAudioRef.current = new Audio(modalTrack.file);
-        modalAudioRef.current.ontimeupdate = () => {
+        const audio = new Audio();
+        audio.preload = "auto";
+        audio.ontimeupdate = () => {
           if (modalAudioRef.current) {
             setModalProgress((modalAudioRef.current.currentTime / modalAudioRef.current.duration) * 100);
           }
         };
-        modalAudioRef.current.onended = () => {
+        audio.onended = () => {
           setModalPlaying(false);
           setModalProgress(0);
         };
+        audio.onerror = (e) => {
+          console.error("Modal audio error:", e);
+          showToast("Failed to load audio.", "error");
+          setModalPlaying(false);
+        };
+        audio.oncanplaythrough = async () => {
+          try {
+            await audio.play();
+            setModalPlaying(true);
+          } catch (error) {
+            console.error("Modal playback failed:", error);
+            showToast("Playback failed.", "error");
+          }
+        };
+        modalAudioRef.current = audio;
+        audio.src = modalTrack.file;
+        audio.load();
+      } else {
+        try {
+          await modalAudioRef.current.play();
+          setModalPlaying(true);
+        } catch (error) {
+          console.error("Modal playback failed:", error);
+          showToast("Playback failed.", "error");
+        }
       }
-      modalAudioRef.current.play();
-      setModalPlaying(true);
     }
   };
 
