@@ -46,6 +46,19 @@ const tracks: Track[] = [
     instrumental: "All The Power by SADCG — Licensed beat with exclusive unlimited access",
   },
   {
+    id: 128,
+    title: "BOOMDAY - P2",
+    artist: "Adi 55",
+    album: "CEO Bars™",
+    duration: "4:06",
+    file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/ceo-bars-album/boomday-p2/master.mp3",
+    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/ceo-bars-album/boomday-p2/cover.jpg",
+    description: "Hip Hop needs to be revived, Eminem, Royce, and Adi are back with Arsenic, Cyanide, and Nickel packed in a Black Thought bazooka in a GTA59 zone where we're getting hit 10x a day. These are emergency bars for Real Hip Hop! Let the Adi Rapper clones unite and destroy the trash rappers in one nuclear blast. Kavalasha!",
+    releaseDate: "27th December 2025",
+    featuring: ["Adi 55"],
+    instrumental: "All The Power by SADCG — Licensed beat with exclusive unlimited access",
+  },
+  {
     id: 3,
     title: "D Off The Block Freestyle",
     artist: "Adi 55",
@@ -347,13 +360,13 @@ const tracks: Track[] = [
   },
   {
     id: 26,
-    title: "$200 Billion Freestyle",
+    title: "$155 Billion Freestyle",
     artist: "Adi 55",
     album: "DETBOM FREESTYLES",
     duration: "2:36",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/200-billion-freestyle-by-adi-55/master.mp3",
     coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/200-billion-freestyle-by-adi-55/cover.jpg",
-    description: "$200 Billion Freestyle - An off-the-dome freestyle by Adi 55, captured live from the DETBOM (Detroit Executes, The Bombay Offensive Modules) sessions. Raw, uncut, and engineered for maximum lyrical impact.",
+    description: "$155 Billion Freestyle - An off-the-dome freestyle by Adi 55, captured live from the DETBOM (Detroit Executes, The Bombay Offensive Modules) sessions. Raw, uncut, and engineered for maximum lyrical impact. 💎 Partners: GitHub | HackerRank | Trello | Meta | Google | Microsoft | Netflix (Chilling Partner) 🔥",
     releaseDate: "15th December 2025",
     featuring: ["Adi 55"],
     instrumental: "Off The Dome Freestyle — DETBOM Sessions",
@@ -1608,6 +1621,162 @@ const tracks: Track[] = [
     featuring: ["Aditya Patange"],
     instrumental: "SOUNDIFY ZONER — BOMB Mode @ 92 BPM",
   },
+  {
+    id: 123,
+    title: "Detroit God Freestyle",
+    artist: "Aditya Patange",
+    album: "DETBOMBAY FREESTYLES",
+    duration: "1:49",
+    file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/detroit-god-freestyle/master.mp3",
+    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/detroit-god-freestyle/cover.jpg",
+    description: "Detroit God Freestyle channels the divine motor city energy—where automotive innovation meets spiritual elevation. This track embodies the Detroit hustle with godlike precision, fusing the gritty industrial soundscape with transcendent bars. The Motor City forged steel empires; now it forges lyrical legends. HT9 Maximum Bass mode activated—feel every 808 hit like a V8 engine igniting your soul.",
+    releaseDate: "27th December 2025",
+    featuring: ["Aditya Patange"],
+    instrumental: "Nickel 9 Productions — HT9 Maximum Bass Boost",
+  },
+  {
+    id: 124,
+    title: "Bombay N1G21 Freestyle",
+    artist: "Aditya Patange",
+    album: "DETBOMBAY FREESTYLES",
+    duration: "2:13",
+    file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/bombay-n1g21-freestyle/master.mp3",
+    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/bombay-n1g21-freestyle/cover.jpg",
+    description: "Bombay N1G21 Freestyle represents the Nickel 9 protocol in full deployment—Mumbai streets encoded into twenty-first century frequencies. N1G21 is the cipher for the new generation of Indian hip-hop, where Maximum City's relentless energy meets futuristic production. This freestyle hits with HT9 bass that rattles through the chawls and skyscrapers alike, proving that Bombay's voice echoes across every dimension.",
+    releaseDate: "27th December 2025",
+    featuring: ["Aditya Patange"],
+    instrumental: "Nickel 9 Productions — HT9 Maximum Bass Boost",
+  },
+  {
+    id: 125,
+    title: "DETREM59 Freestyle P1",
+    artist: "Aditya Patange",
+    album: "DETBOMBAY FREESTYLES",
+    duration: "3:03",
+    file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/detrem59-freestyle-p1/master.mp3",
+    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/detrem59-freestyle-p1/cover.jpg",
+    description: "DETREM59 Freestyle Part 1 initiates the trilogy—Detroit Remix Protocol 59 activated. This opening salvo establishes the sonic architecture for what's to come: a fusion of Motor City mechanical precision with Mumbai's chaotic brilliance. The 59 protocol represents the final evolution of the DETBOM sound, refined through 58 iterations to achieve lyrical perfection. Part 1 sets the coordinates; the mission has begun.",
+    releaseDate: "27th December 2025",
+    featuring: ["Aditya Patange"],
+    instrumental: "Nickel 9 Productions — HT9 Maximum Bass Boost",
+  },
+  {
+    id: 126,
+    title: "DETREM59 Freestyle P2",
+    artist: "Aditya Patange",
+    album: "DETBOMBAY FREESTYLES",
+    duration: "12:57",
+    file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/detrem59-freestyle-p2/master.mp3",
+    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/detrem59-freestyle-p2/cover.jpg",
+    description: "DETREM59 Freestyle Part 2 is the extended deep-dive operation—nearly thirteen minutes of uninterrupted lyrical warfare. This marathon transmission pushes the boundaries of freestyle endurance, a sustained assault that tests both artist and listener alike. The DETREM59 protocol reaches full deployment: every bar is a calculated strike, every verse a tactical maneuver. When the mission demands persistence, Part 2 delivers relentless execution.",
+    releaseDate: "27th December 2025",
+    featuring: ["Aditya Patange"],
+    instrumental: "Nickel 9 Productions — HT9 Maximum Bass Boost",
+  },
+  {
+    id: 127,
+    title: "DETREM59 Freestyle P3",
+    artist: "Aditya Patange",
+    album: "DETBOMBAY FREESTYLES",
+    duration: "6:40",
+    file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/detrem59-freestyle-p3/master.mp3",
+    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/detrem59-freestyle-p3/cover.jpg",
+    description: "DETREM59 Freestyle Part 3 concludes the trilogy with devastating finality. The final chapter consolidates all lessons learned, all frequencies mastered, all protocols perfected. Six and a half minutes of pure conclusion—where the DETREM59 saga reaches its apex. This is the extraction point, the mission complete signal, the moment when Detroit and Bombay merge into one unstoppable force. The 59th iteration is now immortal.",
+    releaseDate: "27th December 2025",
+    featuring: ["Aditya Patange"],
+    instrumental: "Nickel 9 Productions — HT9 Maximum Bass Boost",
+  },
+  {
+    id: 129,
+    title: "IMPALA Freestyle P1",
+    artist: "Adi 55",
+    album: "DETBOM FREESTYLES",
+    duration: "3:08",
+    file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/impala-freestyle-p1/master.mp3",
+    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/impala-freestyle-p1/cover.jpg",
+    description: "IMPALA Freestyle Part 1 opens the P4 series with heavyweight bass frequencies and precision-engineered bars. The IMPALA protocol activates—channeling the sleek, unstoppable energy of the classic Chevy into pure lyrical horsepower. Strong bass boost mode engaged. This is where Nickel 9 Productions meets Detroit street consciousness, creating a sonic vehicle built for global domination.",
+    releaseDate: "27th December 2025",
+    featuring: ["Adi 55"],
+    instrumental: "Nickel 9 Productions — Strong Bass Boost Mode",
+  },
+  {
+    id: 130,
+    title: "IMPALA Freestyle P2",
+    artist: "Adi 55",
+    album: "DETBOM FREESTYLES",
+    duration: "2:23",
+    file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/impala-freestyle-p2/master.mp3",
+    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/impala-freestyle-p2/cover.jpg",
+    description: "IMPALA Freestyle Part 2 continues the P4 saga with concentrated intensity. Two and a half minutes of pure, undiluted flow—no filler, all killer. The bass frequencies hit harder, the bars land cleaner, the IMPALA keeps cruising through the streets of consciousness. Short but devastating.",
+    releaseDate: "27th December 2025",
+    featuring: ["Adi 55"],
+    instrumental: "Nickel 9 Productions — Strong Bass Boost Mode",
+  },
+  {
+    id: 131,
+    title: "IMPALA Freestyle P3",
+    artist: "Adi 55",
+    album: "DETBOM FREESTYLES",
+    duration: "3:23",
+    file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/impala-freestyle-p3/master.mp3",
+    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/impala-freestyle-p3/cover.jpg",
+    description: "IMPALA Freestyle Part 3 hits the highway with the throttle wide open. The bass boost reaches maximum velocity as the IMPALA protocol evolves into its third iteration. Three minutes of pure street energy, engineered in the Nickel 9 chambers and delivered with Detroit precision. The P4 series finds its rhythm.",
+    releaseDate: "27th December 2025",
+    featuring: ["Adi 55"],
+    instrumental: "Nickel 9 Productions — Strong Bass Boost Mode",
+  },
+  {
+    id: 132,
+    title: "IMPALA Freestyle P4",
+    artist: "Adi 55",
+    album: "DETBOM FREESTYLES",
+    duration: "3:40",
+    file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/impala-freestyle-p4/master.mp3",
+    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/impala-freestyle-p4/cover.jpg",
+    description: "IMPALA Freestyle Part 4—the namesake track of the P4 folder. This is the heart of the series, where everything comes together. Nearly four minutes of championship-caliber bars riding on Nickel 9's signature bass architecture. The IMPALA reaches cruising altitude and maintains. This is what the whole series was building toward.",
+    releaseDate: "27th December 2025",
+    featuring: ["Adi 55"],
+    instrumental: "Nickel 9 Productions — Strong Bass Boost Mode",
+  },
+  {
+    id: 133,
+    title: "IMPALA Freestyle P5",
+    artist: "Adi 55",
+    album: "DETBOM FREESTYLES",
+    duration: "2:18",
+    file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/impala-freestyle-p5/master.mp3",
+    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/impala-freestyle-p5/cover.jpg",
+    description: "IMPALA Freestyle Part 5 brings concentrated heat in the most compact package of the series. Two minutes and eighteen seconds of surgical precision—every bar calculated, every bass hit intentional. The IMPALA downshifts for a quick burst of acceleration before the finale. Quality over quantity, impact over duration.",
+    releaseDate: "27th December 2025",
+    featuring: ["Adi 55"],
+    instrumental: "Nickel 9 Productions — Strong Bass Boost Mode",
+  },
+  {
+    id: 134,
+    title: "IMPALA Freestyle P6",
+    artist: "Adi 55",
+    album: "DETBOM FREESTYLES",
+    duration: "3:56",
+    file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/impala-freestyle-p6/master.mp3",
+    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/impala-freestyle-p6/cover.jpg",
+    description: "IMPALA Freestyle Part 6 closes the P4 series with the longest and most expansive track. Nearly four minutes of pure conclusion—the IMPALA completes its journey through the streets of Detroit consciousness. The bass boost reaches its ultimate form, the bars deliver final verdicts, and the Nickel 9 Productions legacy grows stronger. This is the grand finale of the IMPALA saga.",
+    releaseDate: "27th December 2025",
+    featuring: ["Adi 55"],
+    instrumental: "Nickel 9 Productions — Strong Bass Boost Mode",
+  },
+  {
+    id: 135,
+    title: "IMPALA Freestyle P7",
+    artist: "Adi 55",
+    album: "DETBOM FREESTYLES",
+    duration: "2:09",
+    file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/impala-freestyle-p7/master.mp3",
+    coverArt: "/assets/detbombay-freestyles/impala-freestyle-p7/cover.jpg",
+    description: "IMPALA Freestyle Part 7 extends the legendary P4 series with fresh ammunition. Two minutes and nine seconds of concentrated bass boost energy—the IMPALA saga continues beyond the original finale. This track proves the journey never truly ends. When the streets call, the IMPALA answers. Nickel 9 Productions delivers another precision-engineered freestyle for the archives.",
+    releaseDate: "28th December 2025",
+    featuring: ["Adi 55"],
+    instrumental: "Nickel 9 Productions — Strong Bass Boost Mode",
+  },
 ];
 
 export default function TracksPage() {
@@ -1924,6 +2093,50 @@ export default function TracksPage() {
           </button>
         </div>
 
+        {/* EM ZEN ZONE A - Eminem Archive CTA */}
+        <div className="mb-8 p-6 rounded-2xl bg-gradient-to-r from-[#1a0a0a] via-[#1a1a2e] to-[#1a0a0a] border border-[#ff3333]/20">
+          <div className="flex flex-col md:flex-row items-center gap-6">
+            <div className="flex-shrink-0">
+              <div className="w-20 h-20 rounded-xl overflow-hidden border-2 border-[#ff3333]/50">
+                <img
+                  src="/assets/eminem-zen-zone/cover.jpg"
+                  alt="Eminem"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+            </div>
+            <div className="flex-1 text-center md:text-left">
+              <div className="flex items-center justify-center md:justify-start gap-2 mb-2">
+                <span className="text-xs px-2 py-1 rounded-full bg-[#ff3333]/20 text-[#ff3333] font-mono">
+                  DETBOM MUSIC ZEM1
+                </span>
+                <span className="text-xs px-2 py-1 rounded-full bg-[#3333ff]/20 text-[#6666ff] font-mono">
+                  EMROAD
+                </span>
+              </div>
+              <h3 className="text-xl font-bold text-white mb-1">
+                EM ZEN ZONE A — Eminem Archive
+              </h3>
+              <p className="text-gray-400 text-sm">
+                399 tracks from EminemMusic Official & EminemVevo
+              </p>
+            </div>
+            <a
+              href="/tracks/em"
+              className="flex-shrink-0 inline-flex items-center gap-3 px-6 py-3 rounded-xl bg-gradient-to-r from-[#ff3333] to-[#ff6666] hover:from-[#ff4444] hover:to-[#ff7777] text-white font-bold transition-all duration-300 hover:scale-105 shadow-lg shadow-[#ff3333]/25"
+            >
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                <circle cx="12" cy="12" r="10" />
+                <circle cx="12" cy="12" r="3" />
+              </svg>
+              Enter Zone
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
         {/* Track List */}
         <div className="bg-[#0f0f12] rounded-2xl border border-[#1a1a1e] overflow-hidden">
           {/* Table Header */}
@@ -2064,8 +2277,8 @@ export default function TracksPage() {
                 </div>
               </div>
 
-              {/* Sadhguru JV Section - After DETBOMBAY FREESTYLES */}
-              {track.id === 122 && (
+              {/* Sadhguru JV Section - After What is Dharmakaya */}
+              {track.id === 112 && (
                 <div className="px-6 py-16 border-b border-[#1a1a1e]/50">
                   <div className="max-w-2xl mx-auto text-center space-y-8">
                     {/* Zen Divider */}
@@ -2097,6 +2310,32 @@ export default function TracksPage() {
                     <div className="flex items-center justify-center gap-4">
                       <div className="h-px w-16 bg-gradient-to-r from-transparent to-gray-600"></div>
                       <span className="text-xs text-gray-600 tracking-widest">SADHGURU JV</span>
+                      <div className="h-px w-16 bg-gradient-to-l from-transparent to-gray-600"></div>
+                    </div>
+                  </div>
+                </div>
+              )}
+
+              {/* Zen Master Quote - After Stabilize In Meditation */}
+              {track.id === 117 && (
+                <div className="px-6 py-16 border-b border-[#1a1a1e]/50">
+                  <div className="max-w-2xl mx-auto text-center space-y-8">
+                    {/* Zen Divider */}
+                    <div className="flex items-center justify-center gap-4">
+                      <div className="h-px w-16 bg-gradient-to-r from-transparent to-gray-600"></div>
+                      <span className="text-2xl">☸</span>
+                      <div className="h-px w-16 bg-gradient-to-l from-transparent to-gray-600"></div>
+                    </div>
+
+                    {/* Quote */}
+                    <p className="text-gray-300 text-lg leading-relaxed font-light italic">
+                      &ldquo;On this Chakra, Zen becomes Xen and the time space of Karmic evolution transforms to Vajra of Shiva.&rdquo;
+                    </p>
+
+                    {/* Attribution */}
+                    <div className="flex items-center justify-center gap-4">
+                      <div className="h-px w-16 bg-gradient-to-r from-transparent to-gray-600"></div>
+                      <span className="text-xs text-gray-600 tracking-widest">ZEN MASTER ADI</span>
                       <div className="h-px w-16 bg-gradient-to-l from-transparent to-gray-600"></div>
                     </div>
                   </div>
