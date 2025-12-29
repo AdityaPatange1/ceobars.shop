@@ -1810,7 +1810,7 @@ const tracks: Track[] = [
     album: "DETBOM FREESTYLES",
     duration: "2:52",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/em-genetics-freestyle/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/em-genetics-freestyle/cover.jpg",
+    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/em-genetics-freestyle/cover.png",
     description: "I am grateful for Eminem's genetics and RD59 Kavalasha to be Mumbai's hardest bar spitter in the world.",
     releaseDate: "30th December 2025",
     featuring: ["Adi 55"],
