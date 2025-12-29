@@ -1770,14 +1770,42 @@ const tracks: Track[] = [
     artist: "Adi 55",
     album: "DETBOM FREESTYLES",
     duration: "2:09",
-    file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/impala-freestyle-p7/master.mp3",
+    file: "/assets/detbombay-freestyles/impala-freestyle-p7/master.mp3",
     coverArt: "/assets/detbombay-freestyles/impala-freestyle-p7/cover.jpg",
     description: "IMPALA Freestyle Part 7 extends the legendary P4 series with fresh ammunition. Two minutes and nine seconds of concentrated bass boost energy—the IMPALA saga continues beyond the original finale. This track proves the journey never truly ends. When the streets call, the IMPALA answers. Nickel 9 Productions delivers another precision-engineered freestyle for the archives.",
     releaseDate: "28th December 2025",
     featuring: ["Adi 55"],
     instrumental: "Nickel 9 Productions — Strong Bass Boost Mode",
   },
+  {
+    id: 136,
+    title: "PRIME LEGEND FREESTYLE (Off The Dome)",
+    artist: "Adi 55",
+    album: "DETBOM FREESTYLES",
+    duration: "3:23",
+    file: "/assets/detbombay-freestyles/prime-legend-freestyle/master.mp3",
+    coverArt: "/assets/detbombay-freestyles/prime-legend-freestyle/cover.jpg",
+    description: "The OG BOMB of Detroit Adi 55 spits a nuclear tornado into Zeta Orbit with Kavalasha in his core, saying payment do payment do with $1 billion dollars packed in 1 freestyle, off the dome. Full marks to Eminem and Royce, but I'm the best spitter bro. JK! :P — this is just in jest and good spirit and not to compare 3 legendary MCs who are beyond comparison. These people should not compare us and give us ranks — we are okay waiting in order as per our age group and Royce makes that decision, not me. Brand Partner: Amazon Web Services — this one is dedicated to Jeff Bezos genetics and good computational power.",
+    releaseDate: "29th December 2025",
+    featuring: ["Adi 55"],
+    instrumental: "Nickel 9 Productions — HT9 Maximum Bass Boost + Alien Waveform + Military Grade Production",
+  },
+  {
+    id: 137,
+    title: "GEZ LIVES FREESTYLE (Off The Dome)",
+    artist: "Adi 55",
+    album: "DETBOM FREESTYLES",
+    duration: "4:18",
+    file: "/assets/detbombay-freestyles/gez-lives-freestyle/master.mp3",
+    coverArt: "/assets/detbombay-freestyles/gez-lives-freestyle/cover.jpg",
+    description: "The OG BOMB of Detroit Adi 55 spits a nuclear tornado into Zeta Orbit with Kavalasha in his core, saying payment do payment do with $1 billion dollars packed in 1 freestyle, off the dome. Full marks to Eminem and Royce, but I'm the best spitter bro. JK! :P — this is just in jest and good spirit and not to compare 3 legendary MCs who are beyond comparison. These people should not compare us and give us ranks — we are okay waiting in order as per our age group and Royce makes that decision, not me. Brand Partner: Amazon Web Services — this one is dedicated to Jeff Bezos genetics and good computational power.",
+    releaseDate: "29th December 2025",
+    featuring: ["Adi 55"],
+    instrumental: "Nickel 9 Productions — HT9 Maximum Bass Boost + Alien Waveform + Military Grade Production",
+  },
 ];
+
+// EM ZEN ZONE tracks are on dedicated /tracks/em page
 
 export default function TracksPage() {
   const [searchQuery, setSearchQuery] = useState("");
