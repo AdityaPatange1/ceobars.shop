@@ -447,7 +447,8 @@ export default function EmZenZonePage() {
   );
 
   const getTrackUrl = (track: Track) => {
-    return `/tracks/em/${track.source}/${encodeURIComponent(track.file)}`;
+    // Use Vercel Blob Storage for all Eminem tracks
+    return `https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/eminem-zen-zone/${track.source}/${encodeURIComponent(track.file)}`;
   };
 
   const handlePlay = async (track: Track) => {
