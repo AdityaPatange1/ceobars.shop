@@ -1803,6 +1803,19 @@ const tracks: Track[] = [
     featuring: ["Adi 55"],
     instrumental: "Nickel 9 Productions — HT9 Maximum Bass Boost + Alien Waveform + Military Grade Production",
   },
+  {
+    id: 138,
+    title: "EM_GENETICS Freestyle",
+    artist: "Adi 55",
+    album: "DETBOM FREESTYLES",
+    duration: "2:52",
+    file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/em-genetics-freestyle/master.mp3",
+    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/em-genetics-freestyle/cover.jpg",
+    description: "I am grateful for Eminem's genetics and RD59 Kavalasha to be Mumbai's hardest bar spitter in the world.",
+    releaseDate: "30th December 2025",
+    featuring: ["Adi 55"],
+    instrumental: "Nickel 9 Productions — Eminem Genome Protocol",
+  },
 ];
 
 // EM ZEN ZONE tracks are on dedicated /tracks/em page

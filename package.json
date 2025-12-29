@@ -1,6 +1,6 @@
 {
   "name": "ceobars.shop",
-  "version": "18.0.0",
+  "version": "19.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,7 +9,9 @@
     "lint": "eslint",
     "ceo:mix-master": "./scripts/ceo_bars_mix_master.sh",
     "ceo:video-to-audio": "./scripts/video_to_audio.sh",
-    "ceo:ig-pipeline": "./scripts/ig_pipeline.sh"
+    "ceo:ig-pipeline": "./scripts/ig_pipeline.sh",
+    "reverse-engineer:eminem-production": "npx tsx sounds/scripts/eminem/analyze-eminem-genome.ts",
+    "apply-sound:eminem": "npx tsx sounds/scripts/eminem/apply-eminem-sound.ts"
   },
   "dependencies": {
     "@cashfreepayments/cashfree-js": "^1.0.5",
@@ -30,6 +32,8 @@
     "eslint": "^9",
     "eslint-config-next": "16.1.1",
     "tailwindcss": "^4",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.21.0",
     "typescript": "^5"
   }
 }
