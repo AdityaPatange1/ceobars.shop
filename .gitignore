@@ -56,3 +56,13 @@ outputs/masters/*.mp3
 inputs/ig_downloads/
 .env*.local
 outputs/singles/
+
+# Large media directories (excluded from git)
+inputs/nickel9-audio/
+distrokid-releases/
+outputs/youtube-downloads/
+global_adi_eb_distribution/
+
+# Large audio files in public assets
+public/assets/**/*.wav
+public/assets/**/*.mp3
