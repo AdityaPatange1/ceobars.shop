@@ -3,7 +3,7 @@
 import { useState, useCallback, useEffect, useRef } from "react";
 import { useForm, ValidationError } from "@formspree/react";
 import { load } from "@cashfreepayments/cashfree-js";
-import { Dna, ArrowRight, Rabbit } from "lucide-react";
+import { Dna, ArrowRight, Rabbit, Disc3, Mic2 } from "lucide-react";
 
 type ModalType = "privacy" | "terms" | "healthcare" | null;
 
@@ -1721,6 +1721,302 @@ export default function Home() {
             <p className="mt-6 text-center text-[#4a6fa5] text-lg font-semibold">
               bjx3.vercel.app — $69 Billion Genetics Revolution
             </p>
+          </div>
+        </div>
+      </section>
+
+      <div className="section-divider" />
+
+      {/* EM ZEN ZONE A - Eminem Archive Section */}
+      <section className="py-20 px-4 md:px-8 bg-gradient-to-b from-[#0a0a0a] via-[#1a0a0a] to-[#0a0a0a]">
+        <div className="max-w-4xl mx-auto">
+          <div className="flex items-center justify-center mb-8">
+            <div className="relative">
+              <div className="w-28 h-28 rounded-2xl overflow-hidden border-4 border-[#ff3333]/50">
+                <img
+                  src="/assets/eminem-zen-zone/cover.jpg"
+                  alt="Eminem"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div className="absolute -bottom-2 -right-2 w-10 h-10 rounded-full bg-[#ff3333] flex items-center justify-center">
+                <Mic2 className="w-5 h-5 text-white" />
+              </div>
+            </div>
+          </div>
+
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
+            <span className="bg-gradient-to-r from-[#ff3333] via-white to-[#ff6666] bg-clip-text text-transparent">
+              EM ZEN ZONE A
+            </span>
+          </h2>
+
+          <p className="text-center text-[#ff3333] font-mono text-sm mb-8 tracking-widest">
+            DETBOM MUSIC ZEM1 • EMROAD PROTOCOL
+          </p>
+
+          <div className="space-y-6 text-gray-300 leading-relaxed text-lg text-center">
+            <p className="text-2xl font-bold text-[#ff3333] italic">
+              The Complete Eminem Archive — 399 Tracks
+            </p>
+
+            <p>
+              CEO Bars presents the definitive Eminem collection under the EMROAD Protocol.
+              From the iconic Slim Shady era to the latest Death of Slim Shady album,
+              this archive captures the full spectrum of Marshall Mathers&apos; legendary discography.
+              Sourced from EminemMusic Official and EminemVevo—every video, every audio, every moment.
+            </p>
+
+            <p>
+              This is DETBOM MUSIC ZEM1—the Zen Master&apos;s recognition of Eminem&apos;s impact
+              on global hip-hop consciousness. From Detroit to Mumbai, the influence is undeniable.
+              Real recognize real. CEO Bars pays tribute to the Rap God.
+            </p>
+
+            <div className="grid md:grid-cols-3 gap-6 mt-10">
+              <div className="p-6 border border-[#ff3333]/30 rounded-xl bg-[#ff3333]/5">
+                <div className="text-2xl font-bold text-[#ff3333] mb-2">399</div>
+                <p className="text-gray-400 text-sm">Total Tracks Archived</p>
+              </div>
+              <div className="p-6 border border-[#ff3333]/30 rounded-xl bg-[#ff3333]/5">
+                <div className="text-2xl font-bold text-[#ff3333] mb-2">296</div>
+                <p className="text-gray-400 text-sm">Official Channel</p>
+              </div>
+              <div className="p-6 border border-[#ff3333]/30 rounded-xl bg-[#ff3333]/5">
+                <div className="text-2xl font-bold text-[#ff3333] mb-2">103</div>
+                <p className="text-gray-400 text-sm">Vevo Collection</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="mt-12 flex justify-center">
+            <a
+              href="/tracks/em"
+              className="group inline-flex items-center justify-center px-12 py-6 text-2xl font-bold text-white bg-gradient-to-r from-[#2a1a1a] via-[#3a1a1a] to-[#2a1a1a] rounded-2xl shadow-2xl hover:from-[#3a2a2a] hover:via-[#4a2a2a] hover:to-[#3a2a2a] transition-all duration-300 hover:scale-105 border border-[#ff3333]/30"
+            >
+              <span className="flex items-center gap-4">
+                <Disc3 className="w-8 h-8 text-[#ff3333]" />
+                <span>ENTER EM ZEN ZONE A</span>
+                <ArrowRight className="w-8 h-8 group-hover:translate-x-1 transition-transform" />
+              </span>
+            </a>
+          </div>
+
+          <p className="mt-6 text-center text-[#ff3333]/70 text-sm">
+            EMROAD Protocol • Secure • Verified • Traceable
+          </p>
+        </div>
+      </section>
+
+      <div className="section-divider" />
+
+      {/* HackerRank Partnership Section */}
+      <section className="py-20 px-4 md:px-8 bg-gradient-to-b from-[#0a0a0a] via-[#0a1a0a] to-[#0a0a0a]">
+        <div className="max-w-4xl mx-auto">
+          <div className="flex items-center justify-center mb-8">
+            <div className="w-20 h-20 rounded-xl bg-gradient-to-br from-[#00ea64] to-[#00b74a] flex items-center justify-center">
+              <span className="text-black font-bold text-2xl">HR</span>
+            </div>
+          </div>
+
+          <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center neon-text">
+            HackerRank — Code Like A CEO
+          </h2>
+
+          <div className="space-y-6 text-gray-300 leading-relaxed text-lg text-center">
+            <p>
+              HackerRank is where developers prove their skills and companies find exceptional talent.
+              CEO Bars partners with HackerRank to bridge the gap between lyrical excellence and
+              coding mastery. Whether you&apos;re solving algorithms or spitting bars, precision matters.
+              This is the intersection of technical certification and creative certification.
+            </p>
+
+            <p className="text-xl font-semibold text-[#00ea64]">
+              11M+ Developers. Fortune 100 Trust. Skills That Speak.
+            </p>
+
+            <p>
+              From data structures to design patterns, HackerRank certifies the skills that matter.
+              CEO Bars brings the same energy—every bar is a test case, every flow is an algorithm,
+              every track is production-ready code. This partnership represents the convergence
+              of two worlds that demand nothing less than excellence.
+            </p>
+
+            <div className="grid md:grid-cols-3 gap-6 mt-10">
+              <div className="p-6 border border-[#00ea64]/30 rounded-xl bg-[#00ea64]/5">
+                <div className="text-2xl font-bold text-[#00ea64] mb-2">11M+</div>
+                <p className="text-gray-400 text-sm">Developers Certified</p>
+              </div>
+              <div className="p-6 border border-[#00ea64]/30 rounded-xl bg-[#00ea64]/5">
+                <div className="text-2xl font-bold text-[#00ea64] mb-2">3000+</div>
+                <p className="text-gray-400 text-sm">Companies Hiring</p>
+              </div>
+              <div className="p-6 border border-[#00ea64]/30 rounded-xl bg-[#00ea64]/5">
+                <div className="text-2xl font-bold text-[#00ea64] mb-2">∞</div>
+                <p className="text-gray-400 text-sm">Problems Solved</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div className="section-divider" />
+
+      {/* Trello Partnership Section */}
+      <section className="py-20 px-4 md:px-8 bg-gradient-to-b from-[#0a0a0a] via-[#0a0a2a] to-[#0a0a0a]">
+        <div className="max-w-4xl mx-auto">
+          <div className="flex items-center justify-center mb-8">
+            <div className="w-20 h-20 rounded-xl bg-gradient-to-br from-[#0079bf] to-[#00c2e0] flex items-center justify-center">
+              <svg className="w-10 h-10 text-white" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M21 0H3C1.34 0 0 1.34 0 3v18c0 1.66 1.34 3 3 3h18c1.66 0 3-1.34 3-3V3c0-1.66-1.34-3-3-3zM10.44 18.18c0 .97-.78 1.76-1.75 1.76H4.77c-.97 0-1.76-.79-1.76-1.76V4.8c0-.96.79-1.75 1.76-1.75h3.92c.97 0 1.75.79 1.75 1.75v13.38zm10.32-6.6c0 .97-.78 1.75-1.75 1.75h-3.92c-.97 0-1.76-.78-1.76-1.75V4.8c0-.96.79-1.75 1.76-1.75h3.92c.97 0 1.75.79 1.75 1.75v6.78z"/>
+              </svg>
+            </div>
+          </div>
+
+          <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center neon-text">
+            Trello — Organize The Vision
+          </h2>
+
+          <div className="space-y-6 text-gray-300 leading-relaxed text-lg text-center">
+            <p>
+              Trello powers the workflow behind CEO Bars. Every track, every release, every creative
+              decision flows through boards that keep the vision organized. From Kanban to karma,
+              Trello transforms chaos into clarity. This is project management meets artistic direction—
+              where ideas move from concept to completion with visual precision.
+            </p>
+
+            <p className="text-xl font-semibold text-[#0079bf]">
+              50M+ Users. Atlassian Powered. Boards That Build Empires.
+            </p>
+
+            <p>
+              CEO Bars runs on organized chaos—and Trello is the container. Every bar idea gets a card.
+              Every beat gets a board. Every album gets a workspace. When Atlassian acquired Trello for
+              $425 million, they knew visual collaboration was the future. CEO Bars uses that future today.
+            </p>
+
+            <div className="grid md:grid-cols-3 gap-6 mt-10">
+              <div className="p-6 border border-[#0079bf]/30 rounded-xl bg-[#0079bf]/5">
+                <div className="text-2xl font-bold text-[#0079bf] mb-2">50M+</div>
+                <p className="text-gray-400 text-sm">Users Worldwide</p>
+              </div>
+              <div className="p-6 border border-[#0079bf]/30 rounded-xl bg-[#0079bf]/5">
+                <div className="text-2xl font-bold text-[#0079bf] mb-2">$425M</div>
+                <p className="text-gray-400 text-sm">Atlassian Acquisition</p>
+              </div>
+              <div className="p-6 border border-[#0079bf]/30 rounded-xl bg-[#0079bf]/5">
+                <div className="text-2xl font-bold text-[#0079bf] mb-2">∞</div>
+                <p className="text-gray-400 text-sm">Boards Created</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div className="section-divider" />
+
+      {/* Microsoft Partnership Section */}
+      <section className="py-20 px-4 md:px-8 bg-gradient-to-b from-[#0a0a0a] via-[#1a1a2a] to-[#0a0a0a]">
+        <div className="max-w-4xl mx-auto">
+          <div className="flex items-center justify-center mb-8">
+            <svg className="w-16 h-16 text-[#00a4ef]" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M0 0h11.5v11.5H0V0zm12.5 0H24v11.5H12.5V0zM0 12.5h11.5V24H0V12.5zm12.5 0H24V24H12.5V12.5z"/>
+            </svg>
+          </div>
+
+          <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center neon-text">
+            Microsoft — Enterprise Grade Bars
+          </h2>
+
+          <div className="space-y-6 text-gray-300 leading-relaxed text-lg text-center">
+            <p>
+              Microsoft powers the world&apos;s enterprises, and now it powers CEO Bars. From Azure cloud
+              infrastructure to VS Code development environments, from GitHub to LinkedIn, Microsoft&apos;s
+              ecosystem runs deep in our tech stack. When you&apos;re building something meant to scale
+              globally, you partner with the company that defined global scale.
+            </p>
+
+            <p className="text-xl font-semibold text-[#00a4ef]">
+              $3 Trillion Market Cap. Azure Powered. Windows To The World.
+            </p>
+
+            <p>
+              Satya Nadella transformed Microsoft into a cloud-first, AI-first powerhouse.
+              CEO Bars channels that same transformation energy—taking hip-hop from the streets
+              to the cloud, from local cyphers to global deployment. This is what happens when
+              CEO energy meets Big Tech infrastructure.
+            </p>
+
+            <div className="grid md:grid-cols-3 gap-6 mt-10">
+              <div className="p-6 border border-[#00a4ef]/30 rounded-xl bg-[#00a4ef]/5">
+                <div className="text-2xl font-bold text-[#00a4ef] mb-2">$3T+</div>
+                <p className="text-gray-400 text-sm">Market Cap</p>
+              </div>
+              <div className="p-6 border border-[#00a4ef]/30 rounded-xl bg-[#00a4ef]/5">
+                <div className="text-2xl font-bold text-[#00a4ef] mb-2">Azure</div>
+                <p className="text-gray-400 text-sm">Cloud Infrastructure</p>
+              </div>
+              <div className="p-6 border border-[#00a4ef]/30 rounded-xl bg-[#00a4ef]/5">
+                <div className="text-2xl font-bold text-[#00a4ef] mb-2">1B+</div>
+                <p className="text-gray-400 text-sm">Windows Users</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div className="section-divider" />
+
+      {/* Netflix Partnership Section */}
+      <section className="py-20 px-4 md:px-8 bg-gradient-to-b from-[#0a0a0a] via-[#1a0a0a] to-[#0a0a0a]">
+        <div className="max-w-4xl mx-auto">
+          <div className="flex items-center justify-center mb-8">
+            <div className="w-20 h-20 rounded-xl bg-gradient-to-br from-[#e50914] to-[#b20710] flex items-center justify-center">
+              <span className="text-white font-bold text-xl">N</span>
+            </div>
+          </div>
+
+          <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center neon-text">
+            Netflix — The Chilling Partner
+          </h2>
+
+          <div className="space-y-6 text-gray-300 leading-relaxed text-lg text-center">
+            <p className="text-2xl font-bold text-[#e50914] italic">
+              CEO Bars & Chill. That&apos;s The Vibe.
+            </p>
+
+            <p>
+              Netflix redefined entertainment consumption. CEO Bars redefines hip-hop consumption.
+              Together, we&apos;re the perfect pairing for your evening unwind. When you&apos;re done binge-watching,
+              switch to binge-listening. Netflix handles your screens, we handle your speakers.
+              This is the official Chilling Partner energy.
+            </p>
+
+            <p className="text-xl font-semibold text-[#e50914]">
+              260M+ Subscribers. Endless Content. Ultimate Chill Mode.
+            </p>
+
+            <p>
+              From Reed Hastings&apos; DVD-by-mail vision to the streaming giant that changed Hollywood,
+              Netflix proved that disruption is just innovation with attitude. CEO Bars brings
+              that same energy to music—streaming bars directly to your consciousness, no buffering,
+              no commercials, just pure uncut hip-hop excellence. Netflix & Chill? Nah. CEO Bars & Build.
+            </p>
+
+            <div className="grid md:grid-cols-3 gap-6 mt-10">
+              <div className="p-6 border border-[#e50914]/30 rounded-xl bg-[#e50914]/5">
+                <div className="text-2xl font-bold text-[#e50914] mb-2">260M+</div>
+                <p className="text-gray-400 text-sm">Global Subscribers</p>
+              </div>
+              <div className="p-6 border border-[#e50914]/30 rounded-xl bg-[#e50914]/5">
+                <div className="text-2xl font-bold text-[#e50914] mb-2">$155B</div>
+                <p className="text-gray-400 text-sm">Song Valuation Vibes</p>
+              </div>
+              <div className="p-6 border border-[#e50914]/30 rounded-xl bg-[#e50914]/5">
+                <div className="text-2xl font-bold text-[#e50914] mb-2">∞</div>
+                <p className="text-gray-400 text-sm">Chill Hours</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>

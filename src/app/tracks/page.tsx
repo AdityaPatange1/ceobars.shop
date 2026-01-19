@@ -26,11 +26,14 @@ const tracks: Track[] = [
     album: "CEO Bars™",
     duration: "3:42",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/ceo-bars-album/ceo-bars/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/ceo-bars-album/ceo-bars/cover.jpg",
-    description: "CEO Bars is a hard-hitting hip-hop anthem that merges corporate ambition with street-level lyricism. Born from the fusion of Hacker, Engineer, and Sound Technology, this track channels the Shiva Consciousness of Buddha Tesla Energy. Spit bars like a boss, lead like a legend—this is the sound of executive excellence meeting raw lyrical power. A manifesto for those who code by day and conquer by night.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/ceo-bars-album/ceo-bars/cover.jpg",
+    description:
+      "CEO Bars is a hard-hitting hip-hop anthem that merges corporate ambition with street-level lyricism. Born from the fusion of Hacker, Engineer, and Sound Technology, this track channels the Shiva Consciousness of Buddha Tesla Energy. Spit bars like a boss, lead like a legend—this is the sound of executive excellence meeting raw lyrical power. A manifesto for those who code by day and conquer by night.",
     releaseDate: "25th December 2025",
     featuring: ["Adi 55"],
-    instrumental: "FASTFORWARD by AllRoundaBeats — Licensed beat with exclusive unlimited access",
+    instrumental:
+      "FASTFORWARD by AllRoundaBeats — Licensed beat with exclusive unlimited access",
   },
   {
     id: 2,
@@ -39,11 +42,14 @@ const tracks: Track[] = [
     album: "CEO Bars™",
     duration: "4:15",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/ceo-bars-album/boomday-p1/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/ceo-bars-album/boomday-p1/cover.jpg",
-    description: "Boomday is about the explosive nucleus where Hip-Hop, Technology, and Mindfulness Meditation collide in a cosmic detonation of consciousness. Sprinkled with the sacred power of Holy Smoke and channeling the raw intensity of Nickel 9 Consciousness, this track ignites the spirit and awakens the mind. It's the sound of inner revolution—where ancient wisdom meets futuristic beats, and every bar drops like a controlled explosion of enlightenment. Welcome to the day everything changes.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/ceo-bars-album/boomday-p1/cover.jpg",
+    description:
+      "Boomday is about the explosive nucleus where Hip-Hop, Technology, and Mindfulness Meditation collide in a cosmic detonation of consciousness. Sprinkled with the sacred power of Holy Smoke and channeling the raw intensity of Nickel 9 Consciousness, this track ignites the spirit and awakens the mind. It's the sound of inner revolution—where ancient wisdom meets futuristic beats, and every bar drops like a controlled explosion of enlightenment. Welcome to the day everything changes.",
     releaseDate: "25th December 2025",
     featuring: ["Adi 55"],
-    instrumental: "All The Power by SADCG — Licensed beat with exclusive unlimited access",
+    instrumental:
+      "All The Power by SADCG — Licensed beat with exclusive unlimited access",
   },
   {
     id: 128,
@@ -52,11 +58,14 @@ const tracks: Track[] = [
     album: "CEO Bars™",
     duration: "4:06",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/ceo-bars-album/boomday-p2/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/ceo-bars-album/boomday-p2/cover.jpg",
-    description: "Hip Hop needs to be revived, Eminem, Royce, and Adi are back with Arsenic, Cyanide, and Nickel packed in a Black Thought bazooka in a GTA59 zone where we're getting hit 10x a day. These are emergency bars for Real Hip Hop! Let the Adi Rapper clones unite and destroy the trash rappers in one nuclear blast. Kavalasha!",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/ceo-bars-album/boomday-p2/cover.jpg",
+    description:
+      "Hip Hop needs to be revived, Eminem, Royce, and Adi are back with Arsenic, Cyanide, and Nickel packed in a Black Thought bazooka in a GTA59 zone where we're getting hit 10x a day. These are emergency bars for Real Hip Hop! Let the Adi Rapper clones unite and destroy the trash rappers in one nuclear blast. Kavalasha!",
     releaseDate: "27th December 2025",
     featuring: ["Adi 55"],
-    instrumental: "All The Power by SADCG — Licensed beat with exclusive unlimited access",
+    instrumental:
+      "All The Power by SADCG — Licensed beat with exclusive unlimited access",
   },
   {
     id: 3,
@@ -65,11 +74,14 @@ const tracks: Track[] = [
     album: "DETBOM FREESTYLES",
     duration: "3:37",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/d-off-the-block-freestyle/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/d-off-the-block-freestyle/cover.jpg",
-    description: "D Off The Block Freestyle marks the historic integration of Detroit Executes with Mumbai Streets—a transatlantic collision powering up the Hip-Hop Universe and fueling the Tech Innovation Chambers. This track bridges the gritty Motor City grind with the relentless hustle of Maximum City, forging a new sonic pipeline where American street poetry meets Indian entrepreneurial fire. When Detroit's underground legacy shakes hands with Mumbai's startup spirit, bars become blueprints and flows become frameworks. This is where the block meets the blockchain, where freestyle meets future-state—raw, uncut, and engineered for global domination.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/d-off-the-block-freestyle/cover.jpg",
+    description:
+      "D Off The Block Freestyle marks the historic integration of Detroit Executes with Mumbai Streets—a transatlantic collision powering up the Hip-Hop Universe and fueling the Tech Innovation Chambers. This track bridges the gritty Motor City grind with the relentless hustle of Maximum City, forging a new sonic pipeline where American street poetry meets Indian entrepreneurial fire. When Detroit's underground legacy shakes hands with Mumbai's startup spirit, bars become blueprints and flows become frameworks. This is where the block meets the blockchain, where freestyle meets future-state—raw, uncut, and engineered for global domination.",
     releaseDate: "25th December 2025",
     featuring: ["Adi 55"],
-    instrumental: "1st Official — Licensed beat with exclusive unlimited access",
+    instrumental:
+      "1st Official — Licensed beat with exclusive unlimited access",
   },
   {
     id: 4,
@@ -78,11 +90,14 @@ const tracks: Track[] = [
     album: "DETBOM FREESTYLES",
     duration: "4:18",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/1kt1-freestyle/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/1kt1-freestyle/cover.jpg",
-    description: "1KT1 Freestyle deploys like a precision-guided lyrical missile—One Kill, Total Impact. This track operates on a single-objective protocol: eliminate weak bars and establish sonic dominance. Engineered in the Nickel 9 Production chambers, 1KT1 represents the tactical fusion of street intelligence and combat-grade wordplay. Every syllable lands with surgical accuracy, every punchline detonates with calculated force. This is not a freestyle—it's a strategic operation in the war for hip-hop supremacy.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/1kt1-freestyle/cover.jpg",
+    description:
+      "1KT1 Freestyle deploys like a precision-guided lyrical missile—One Kill, Total Impact. This track operates on a single-objective protocol: eliminate weak bars and establish sonic dominance. Engineered in the Nickel 9 Production chambers, 1KT1 represents the tactical fusion of street intelligence and combat-grade wordplay. Every syllable lands with surgical accuracy, every punchline detonates with calculated force. This is not a freestyle—it's a strategic operation in the war for hip-hop supremacy.",
     releaseDate: "25th December 2025",
     featuring: ["Adi 55"],
-    instrumental: "Nickel 9 Productions — Licensed beat with exclusive unlimited access",
+    instrumental:
+      "Nickel 9 Productions — Licensed beat with exclusive unlimited access",
   },
   {
     id: 5,
@@ -91,11 +106,14 @@ const tracks: Track[] = [
     album: "DETBOM FREESTYLES",
     duration: "2:41",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/bind-four-freestyle/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/bind-four-freestyle/cover.jpg",
-    description: "Bind Four Freestyle establishes an unbreakable protocol—four corners of consciousness linked through encrypted bars. Like a quad-core processor running at maximum capacity, this track synchronizes lyrical threads into a unified network of pure hip-hop energy. The Bind Four protocol connects mind, body, spirit, and flow into an indestructible matrix. Short, concentrated, and devastatingly efficient—this freestyle proves that true power comes from perfect unity, not length.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/bind-four-freestyle/cover.jpg",
+    description:
+      "Bind Four Freestyle establishes an unbreakable protocol—four corners of consciousness linked through encrypted bars. Like a quad-core processor running at maximum capacity, this track synchronizes lyrical threads into a unified network of pure hip-hop energy. The Bind Four protocol connects mind, body, spirit, and flow into an indestructible matrix. Short, concentrated, and devastatingly efficient—this freestyle proves that true power comes from perfect unity, not length.",
     releaseDate: "25th December 2025",
     featuring: ["Adi 55"],
-    instrumental: "Nickel 9 Productions — Licensed beat with exclusive unlimited access",
+    instrumental:
+      "Nickel 9 Productions — Licensed beat with exclusive unlimited access",
   },
   {
     id: 6,
@@ -104,11 +122,14 @@ const tracks: Track[] = [
     album: "DETBOM FREESTYLES",
     duration: "4:53",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/chatrillionaire-freestyle/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/chatrillionaire-freestyle/cover.jpg",
-    description: "Chatrillionaire Freestyle rewrites the wealth algorithm—where conversations become currency and dialogue drives billions. Brown and Nerdy, but the portfolio speaks louder than prejudice. This track celebrates the new breed of tech moguls who coded their way from obscurity to empire, turning chat logs into cap tables. In the Chatrillionaire economy, every word is an investment, every bar compounds interest, and the yield is unlimited respect. Silicon Valley meets the streets, and the merger is hostile.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/chatrillionaire-freestyle/cover.jpg",
+    description:
+      "Chatrillionaire Freestyle rewrites the wealth algorithm—where conversations become currency and dialogue drives billions. Brown and Nerdy, but the portfolio speaks louder than prejudice. This track celebrates the new breed of tech moguls who coded their way from obscurity to empire, turning chat logs into cap tables. In the Chatrillionaire economy, every word is an investment, every bar compounds interest, and the yield is unlimited respect. Silicon Valley meets the streets, and the merger is hostile.",
     releaseDate: "25th December 2025",
     featuring: ["Adi 55"],
-    instrumental: "Nickel 9 Productions — Licensed beat with exclusive unlimited access",
+    instrumental:
+      "Nickel 9 Productions — Licensed beat with exclusive unlimited access",
   },
   {
     id: 7,
@@ -117,11 +138,14 @@ const tracks: Track[] = [
     album: "DETBOM FREESTYLES",
     duration: "6:43",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/four-thirty-freestyle/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/four-thirty-freestyle/cover.jpg",
-    description: "Four Thirty Freestyle captures the sacred hour when legends separate from pretenders—0430 hours, when the city sleeps but the grind never stops. This extended operation runs deep into enemy territory, a six-minute-plus tactical assault on complacency. At 4:30 AM, there are no excuses, no witnesses, just pure execution. While others dream, the Adi 55 protocol activates, manufacturing success in the darkness. This is the anthem of the pre-dawn warriors, the early-morning assassins of mediocrity.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/four-thirty-freestyle/cover.jpg",
+    description:
+      "Four Thirty Freestyle captures the sacred hour when legends separate from pretenders—0430 hours, when the city sleeps but the grind never stops. This extended operation runs deep into enemy territory, a six-minute-plus tactical assault on complacency. At 4:30 AM, there are no excuses, no witnesses, just pure execution. While others dream, the Adi 55 protocol activates, manufacturing success in the darkness. This is the anthem of the pre-dawn warriors, the early-morning assassins of mediocrity.",
     releaseDate: "25th December 2025",
     featuring: ["Adi 55"],
-    instrumental: "Nickel 9 Productions — Licensed beat with exclusive unlimited access",
+    instrumental:
+      "Nickel 9 Productions — Licensed beat with exclusive unlimited access",
   },
   {
     id: 8,
@@ -130,11 +154,14 @@ const tracks: Track[] = [
     album: "DETBOM FREESTYLES",
     duration: "3:45",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/hipping-hopping-freestyle/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/hipping-hopping-freestyle/cover.jpg",
-    description: "Hipping Hopping Freestyle is a love letter to the culture—pure, uncut, undiluted hip-hop in its most elemental form. No gimmicks, no features, just the raw bounce that started it all. This track channels the Bronx block parties through Mumbai's marine drive, connecting two continents through the universal language of rhythm and rhyme. When the world forgot what real hip-hop sounds like, this freestyle serves as a military-grade reminder: the culture isn't dead, it's just been waiting for reinforcements.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/hipping-hopping-freestyle/cover.jpg",
+    description:
+      "Hipping Hopping Freestyle is a love letter to the culture—pure, uncut, undiluted hip-hop in its most elemental form. No gimmicks, no features, just the raw bounce that started it all. This track channels the Bronx block parties through Mumbai's marine drive, connecting two continents through the universal language of rhythm and rhyme. When the world forgot what real hip-hop sounds like, this freestyle serves as a military-grade reminder: the culture isn't dead, it's just been waiting for reinforcements.",
     releaseDate: "25th December 2025",
     featuring: ["Adi 55"],
-    instrumental: "Nickel 9 Productions — Licensed beat with exclusive unlimited access",
+    instrumental:
+      "Nickel 9 Productions — Licensed beat with exclusive unlimited access",
   },
   {
     id: 9,
@@ -143,11 +170,14 @@ const tracks: Track[] = [
     album: "DETBOM FREESTYLES",
     duration: "3:37",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/la-khoka-nusta-freestyle/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/la-khoka-nusta-freestyle/cover.jpg",
-    description: "La Khoka Nusta Freestyle brings the raw Marathi street energy to the global stage—where local slang becomes international artillery. 'Khoka Nusta' resonates through the chawls and gullies, a battle cry of the underdog who refused to stay underground. This track deploys indigenous linguistic weapons with intercontinental precision, proving that authenticity needs no translation. From the streets of Maharashtra to the world's speakers, La Khoka Nusta is the sound of cultural warfare waged with pride and zero apologies.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/la-khoka-nusta-freestyle/cover.jpg",
+    description:
+      "La Khoka Nusta Freestyle brings the raw Marathi street energy to the global stage—where local slang becomes international artillery. 'Khoka Nusta' resonates through the chawls and gullies, a battle cry of the underdog who refused to stay underground. This track deploys indigenous linguistic weapons with intercontinental precision, proving that authenticity needs no translation. From the streets of Maharashtra to the world's speakers, La Khoka Nusta is the sound of cultural warfare waged with pride and zero apologies.",
     releaseDate: "25th December 2025",
     featuring: ["Adi 55"],
-    instrumental: "Nickel 9 Productions — Licensed beat with exclusive unlimited access",
+    instrumental:
+      "Nickel 9 Productions — Licensed beat with exclusive unlimited access",
   },
   {
     id: 10,
@@ -156,11 +186,14 @@ const tracks: Track[] = [
     album: "DETBOM FREESTYLES",
     duration: "4:55",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/ridin-clean-freestyle/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/ridin-clean-freestyle/cover.jpg",
-    description: "Ridin' Clean Freestyle celebrates the immaculate ascension—no dirt on the name, no stains on the legacy. This track glides through enemy territory in a vehicle of pure accomplishment, windows down, system loud, conscience clear. Ridin' Clean is the reward for those who built empires without compromise, who stacked wins without cutting corners. The exterior shines because the interior is flawless. Every bar polished, every flow detailed, every moment savored from the driver's seat of success.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/ridin-clean-freestyle/cover.jpg",
+    description:
+      "Ridin' Clean Freestyle celebrates the immaculate ascension—no dirt on the name, no stains on the legacy. This track glides through enemy territory in a vehicle of pure accomplishment, windows down, system loud, conscience clear. Ridin' Clean is the reward for those who built empires without compromise, who stacked wins without cutting corners. The exterior shines because the interior is flawless. Every bar polished, every flow detailed, every moment savored from the driver's seat of success.",
     releaseDate: "25th December 2025",
     featuring: ["Adi 55"],
-    instrumental: "Nickel 9 Productions — Licensed beat with exclusive unlimited access",
+    instrumental:
+      "Nickel 9 Productions — Licensed beat with exclusive unlimited access",
   },
   {
     id: 11,
@@ -169,11 +202,14 @@ const tracks: Track[] = [
     album: "DETBOM FREESTYLES",
     duration: "4:21",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/tesla-rocknash/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/tesla-rocknash/cover.jpg",
-    description: "Tesla Rocknash channels the electromagnetic genius of Nikola Tesla through the unstoppable force of Indian innovation. This track runs on alternating current—switching between frequencies of wisdom and wattage, illuminating minds that others left in the dark. Rocknash represents the fusion reactor where Eastern heritage meets Western technology, generating unlimited creative power. Like Tesla's vision of free energy for all, these bars transmit wirelessly to every corner of the globe, electrifying the hip-hop grid with high-voltage consciousness.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/tesla-rocknash/cover.jpg",
+    description:
+      "Tesla Rocknash channels the electromagnetic genius of Nikola Tesla through the unstoppable force of Indian innovation. This track runs on alternating current—switching between frequencies of wisdom and wattage, illuminating minds that others left in the dark. Rocknash represents the fusion reactor where Eastern heritage meets Western technology, generating unlimited creative power. Like Tesla's vision of free energy for all, these bars transmit wirelessly to every corner of the globe, electrifying the hip-hop grid with high-voltage consciousness.",
     releaseDate: "25th December 2025",
     featuring: ["Adi 55"],
-    instrumental: "Nickel 9 Productions — Licensed beat with exclusive unlimited access",
+    instrumental:
+      "Nickel 9 Productions — Licensed beat with exclusive unlimited access",
   },
   {
     id: 12,
@@ -182,11 +218,14 @@ const tracks: Track[] = [
     album: "DETBOM FREESTYLES",
     duration: "6:22",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/tim-westwood-freestyle/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/tim-westwood-freestyle/cover.jpg",
-    description: "Tim Westwood Freestyle is a transatlantic assault on the legendary UK hip-hop institution—02100V2 Protocol engaged. This track bridges the gap between London's pirate radio legacy and Mumbai's underground insurgency, deploying heavy artillery over six and a half minutes of relentless verbal bombardment. When Tim Westwood calls for fire, Adi 55 responds with a non-profit rap offensive designed for one purpose: cultural domination without commercial compromise. This is charity work for the streets—free game distributed to the masses.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/tim-westwood-freestyle/cover.jpg",
+    description:
+      "Tim Westwood Freestyle is a transatlantic assault on the legendary UK hip-hop institution—02100V2 Protocol engaged. This track bridges the gap between London's pirate radio legacy and Mumbai's underground insurgency, deploying heavy artillery over six and a half minutes of relentless verbal bombardment. When Tim Westwood calls for fire, Adi 55 responds with a non-profit rap offensive designed for one purpose: cultural domination without commercial compromise. This is charity work for the streets—free game distributed to the masses.",
     releaseDate: "25th December 2025",
     featuring: ["Adi 55"],
-    instrumental: "Nickel 9 Productions — Licensed beat with exclusive unlimited access",
+    instrumental:
+      "Nickel 9 Productions — Licensed beat with exclusive unlimited access",
   },
   {
     id: 13,
@@ -195,11 +234,14 @@ const tracks: Track[] = [
     album: "DETBOM FREESTYLES",
     duration: "3:50",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/kshadghesa-freestyle/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/kshadghesa-freestyle/cover.jpg",
-    description: "Kshadghesa Freestyle invokes the warrior archetype from ancient Indian consciousness—the destroyer of obstacles who clears the path through sheer force of will. This track operates as a spiritual GPS system, navigating through enemy territory using coordinates encrypted in Sanskrit syllables. Kshadghesa energy demolishes mental barriers, annihilates self-doubt, and establishes dominance over any frequency. When the ancient war drums meet modern 808s, the result is a sonic weapon capable of conquering both realms.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/kshadghesa-freestyle/cover.jpg",
+    description:
+      "Kshadghesa Freestyle invokes the warrior archetype from ancient Indian consciousness—the destroyer of obstacles who clears the path through sheer force of will. This track operates as a spiritual GPS system, navigating through enemy territory using coordinates encrypted in Sanskrit syllables. Kshadghesa energy demolishes mental barriers, annihilates self-doubt, and establishes dominance over any frequency. When the ancient war drums meet modern 808s, the result is a sonic weapon capable of conquering both realms.",
     releaseDate: "25th December 2025",
     featuring: ["Adi 55"],
-    instrumental: "Nickel 9 Productions — Licensed beat with exclusive unlimited access",
+    instrumental:
+      "Nickel 9 Productions — Licensed beat with exclusive unlimited access",
   },
   {
     id: 14,
@@ -208,11 +250,14 @@ const tracks: Track[] = [
     album: "DETBOM FREESTYLES",
     duration: "12:37",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/misscomesnet-freestyle/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/misscomesnet-freestyle/cover.jpg",
-    description: "Misscomesnet Freestyle is an extended twelve-minute deep-dive operation into the digital consciousness—where missed connections become network exploits and every packet contains encrypted bars. This marathon transmission represents the longest uninterrupted lyrical stream in the DETBOM catalog, a sustained assault that tests both artist and listener endurance. In the Misscomesnet protocol, every dropout is intentional, every lag is calculated, and the final delivery arrives exactly when the mission demands. Patience is a weapon; duration is dominance.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/misscomesnet-freestyle/cover.jpg",
+    description:
+      "Misscomesnet Freestyle is an extended twelve-minute deep-dive operation into the digital consciousness—where missed connections become network exploits and every packet contains encrypted bars. This marathon transmission represents the longest uninterrupted lyrical stream in the DETBOM catalog, a sustained assault that tests both artist and listener endurance. In the Misscomesnet protocol, every dropout is intentional, every lag is calculated, and the final delivery arrives exactly when the mission demands. Patience is a weapon; duration is dominance.",
     releaseDate: "25th December 2025",
     featuring: ["Adi 55"],
-    instrumental: "Nickel 9 Productions — Licensed beat with exclusive unlimited access",
+    instrumental:
+      "Nickel 9 Productions — Licensed beat with exclusive unlimited access",
   },
   {
     id: 15,
@@ -221,11 +266,14 @@ const tracks: Track[] = [
     album: "DETBOM FREESTYLES",
     duration: "5:48",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/peek-330-freestyle/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/peek-330-freestyle/cover.jpg",
-    description: "Peek 330 Freestyle is a reconnaissance operation at the golden hour—330 degrees on the compass, northwest sector secured. This track deploys advanced surveillance linguistics, scanning the horizon for targets while maintaining operational stealth. The Peek Protocol allows brief windows of visibility before returning to shadow mode, each emergence delivering precision strikes. At 330, the sun sets on competition while Adi 55 rises with night-vision clarity. What they glimpse in that peek is enough to understand: this frequency belongs to the DETBOM command.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/peek-330-freestyle/cover.jpg",
+    description:
+      "Peek 330 Freestyle is a reconnaissance operation at the golden hour—330 degrees on the compass, northwest sector secured. This track deploys advanced surveillance linguistics, scanning the horizon for targets while maintaining operational stealth. The Peek Protocol allows brief windows of visibility before returning to shadow mode, each emergence delivering precision strikes. At 330, the sun sets on competition while Adi 55 rises with night-vision clarity. What they glimpse in that peek is enough to understand: this frequency belongs to the DETBOM command.",
     releaseDate: "25th December 2025",
     featuring: ["Adi 55"],
-    instrumental: "Nickel 9 Productions — Licensed beat with exclusive unlimited access",
+    instrumental:
+      "Nickel 9 Productions — Licensed beat with exclusive unlimited access",
   },
   {
     id: 16,
@@ -234,11 +282,14 @@ const tracks: Track[] = [
     album: "DETBOM FREESTYLES",
     duration: "3:35",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/realest-freestyle/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/realest-freestyle/cover.jpg",
-    description: "Realest Freestyle strips away all pretense and deploys raw authenticity as the primary weapon—Shady Theme Protocol activated. This track channels the spirit of Detroit's finest through Mumbai's unfiltered streets, creating a cross-continental alliance of genuine lyricists. In an era of manufactured personas, the Realest Freestyle stands as a certified document of truth, each bar notarized by lived experience. No filters, no fabrication, just undiluted reality served over Nickel 9 production. The realest recognize the realest—this is their handshake.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/realest-freestyle/cover.jpg",
+    description:
+      "Realest Freestyle strips away all pretense and deploys raw authenticity as the primary weapon—Shady Theme Protocol activated. This track channels the spirit of Detroit's finest through Mumbai's unfiltered streets, creating a cross-continental alliance of genuine lyricists. In an era of manufactured personas, the Realest Freestyle stands as a certified document of truth, each bar notarized by lived experience. No filters, no fabrication, just undiluted reality served over Nickel 9 production. The realest recognize the realest—this is their handshake.",
     releaseDate: "25th December 2025",
     featuring: ["Adi 55"],
-    instrumental: "Nickel 9 Productions — Licensed beat with exclusive unlimited access",
+    instrumental:
+      "Nickel 9 Productions — Licensed beat with exclusive unlimited access",
   },
   {
     id: 17,
@@ -247,11 +298,14 @@ const tracks: Track[] = [
     album: "DETBOM FREESTYLES",
     duration: "2:32",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/se7en-freestyle/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/se7en-freestyle/cover.jpg",
-    description: "Se7en Freestyle is a compact, devastating strike package—seven layers of consciousness compressed into two and a half minutes of surgical precision. Like the sacred number itself, this track operates on multiple planes simultaneously: physical, mental, spiritual, creative, social, financial, and cosmic. Each bar represents one dimension of mastery, and the complete package forms an unbreakable septagon of lyrical architecture. Se7en is the lucky number turned lethal—short, sharp, and spiritually significant.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/se7en-freestyle/cover.jpg",
+    description:
+      "Se7en Freestyle is a compact, devastating strike package—seven layers of consciousness compressed into two and a half minutes of surgical precision. Like the sacred number itself, this track operates on multiple planes simultaneously: physical, mental, spiritual, creative, social, financial, and cosmic. Each bar represents one dimension of mastery, and the complete package forms an unbreakable septagon of lyrical architecture. Se7en is the lucky number turned lethal—short, sharp, and spiritually significant.",
     releaseDate: "25th December 2025",
     featuring: ["Adi 55"],
-    instrumental: "Nickel 9 Productions — Licensed beat with exclusive unlimited access",
+    instrumental:
+      "Nickel 9 Productions — Licensed beat with exclusive unlimited access",
   },
   {
     id: 18,
@@ -260,11 +314,14 @@ const tracks: Track[] = [
     album: "DETBOM FREESTYLES",
     duration: "2:58",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/tokyo-drift-freestyle/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/tokyo-drift-freestyle/cover.jpg",
-    description: "Tokyo Drift Freestyle executes precision maneuvers through the neon-lit corridors of Japanese street culture—controlled chaos at 180 degrees. This track drifts through verses like a tuned Silvia through Shibuya, tires smoking, crowd watching, driver stone-cold focused. The Tokyo Protocol demands perfect throttle control: enough power to break traction, enough skill to maintain trajectory. When the flow slides sideways, it's not losing control—it's demonstrating a higher form of it. Kansei dorifto in lyrical form.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/tokyo-drift-freestyle/cover.jpg",
+    description:
+      "Tokyo Drift Freestyle executes precision maneuvers through the neon-lit corridors of Japanese street culture—controlled chaos at 180 degrees. This track drifts through verses like a tuned Silvia through Shibuya, tires smoking, crowd watching, driver stone-cold focused. The Tokyo Protocol demands perfect throttle control: enough power to break traction, enough skill to maintain trajectory. When the flow slides sideways, it's not losing control—it's demonstrating a higher form of it. Kansei dorifto in lyrical form.",
     releaseDate: "25th December 2025",
     featuring: ["Adi 55"],
-    instrumental: "Nickel 9 Productions — Licensed beat with exclusive unlimited access",
+    instrumental:
+      "Nickel 9 Productions — Licensed beat with exclusive unlimited access",
   },
   {
     id: 19,
@@ -273,11 +330,14 @@ const tracks: Track[] = [
     album: "DETBOM FREESTYLES",
     duration: "8:39",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/untitled-freestyle/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/untitled-freestyle/cover.jpg",
-    description: "Untitled Freestyle exists beyond classification—eight and a half minutes of pure, unnamed energy that defies conventional categorization. This track was intentionally left untitled because no words could contain its essence. Like a black ops mission redacted from official records, the Untitled Freestyle operates in the shadows of the catalog, known only to those who seek it. What cannot be named cannot be limited; what cannot be defined cannot be defeated. This is the freestyle that escaped taxonomy.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/untitled-freestyle/cover.jpg",
+    description:
+      "Untitled Freestyle exists beyond classification—eight and a half minutes of pure, unnamed energy that defies conventional categorization. This track was intentionally left untitled because no words could contain its essence. Like a black ops mission redacted from official records, the Untitled Freestyle operates in the shadows of the catalog, known only to those who seek it. What cannot be named cannot be limited; what cannot be defined cannot be defeated. This is the freestyle that escaped taxonomy.",
     releaseDate: "25th December 2025",
     featuring: ["Adi 55"],
-    instrumental: "Nickel 9 Productions — Licensed beat with exclusive unlimited access",
+    instrumental:
+      "Nickel 9 Productions — Licensed beat with exclusive unlimited access",
   },
   {
     id: 20,
@@ -286,11 +346,14 @@ const tracks: Track[] = [
     album: "DETBOM FREESTYLES",
     duration: "8:39",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/z3t1-freestyle/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/z3t1-freestyle/cover.jpg",
-    description: "Z3T1 Freestyle deploys an eight-minute encrypted transmission using military-grade alphanumeric designation—Zone 3, Target 1 acquired. This track operates as a precision-guided lyrical missile, locked onto the primary objective with zero deviation. The Z3T1 Protocol represents the final evolution of the DETBOM algorithm: identify target zone, isolate primary threat, eliminate with extreme verbal prejudice. When standard callsigns won't suffice, the code name speaks volumes. Z3T1 is not a freestyle—it's a classified operation declassified for public consumption.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/z3t1-freestyle/cover.jpg",
+    description:
+      "Z3T1 Freestyle deploys an eight-minute encrypted transmission using military-grade alphanumeric designation—Zone 3, Target 1 acquired. This track operates as a precision-guided lyrical missile, locked onto the primary objective with zero deviation. The Z3T1 Protocol represents the final evolution of the DETBOM algorithm: identify target zone, isolate primary threat, eliminate with extreme verbal prejudice. When standard callsigns won't suffice, the code name speaks volumes. Z3T1 is not a freestyle—it's a classified operation declassified for public consumption.",
     releaseDate: "25th December 2025",
     featuring: ["Adi 55"],
-    instrumental: "Nickel 9 Productions — Licensed beat with exclusive unlimited access",
+    instrumental:
+      "Nickel 9 Productions — Licensed beat with exclusive unlimited access",
   },
   {
     id: 21,
@@ -299,11 +362,14 @@ const tracks: Track[] = [
     album: "DETBOM FREESTYLES",
     duration: "3:08",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/zenyuga-freestyle/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/zenyuga-freestyle/cover.jpg",
-    description: "Zenyuga Freestyle channels the serene destruction of Zen warrior philosophy—V0 Protocol initialized. This track combines the meditative calm of Eastern mindfulness with the relentless force of Western hip-hop artillery. Zenyuga represents the zero-state of the mind: empty of distraction, full of purpose, ready for anything. Like a samurai's blade that cuts through silence, these bars slice through the noise with tranquil precision. In the Zenyuga state, there is no enemy—only obstacles to flow around or through. Version zero is always the purest.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/zenyuga-freestyle/cover.jpg",
+    description:
+      "Zenyuga Freestyle channels the serene destruction of Zen warrior philosophy—V0 Protocol initialized. This track combines the meditative calm of Eastern mindfulness with the relentless force of Western hip-hop artillery. Zenyuga represents the zero-state of the mind: empty of distraction, full of purpose, ready for anything. Like a samurai's blade that cuts through silence, these bars slice through the noise with tranquil precision. In the Zenyuga state, there is no enemy—only obstacles to flow around or through. Version zero is always the purest.",
     releaseDate: "25th December 2025",
     featuring: ["Adi 55"],
-    instrumental: "Nickel 9 Productions — Licensed beat with exclusive unlimited access",
+    instrumental:
+      "Nickel 9 Productions — Licensed beat with exclusive unlimited access",
   },
   // New DETBOM Freestyles from Instagram (39 tracks)
   {
@@ -313,8 +379,10 @@ const tracks: Track[] = [
     album: "DETBOM FREESTYLES",
     duration: "3:37",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/meri-krizmas-freestyle-off-the-dome/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/meri-krizmas-freestyle-off-the-dome/cover.jpg",
-    description: "MERI KRIZMAS FREESTYLE OFF THE DOME - An off-the-dome freestyle by Adi 55, captured live from the DETBOM (Detroit Executes, The Bombay Offensive Modules) sessions. Raw, uncut, and engineered for maximum lyrical impact.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/meri-krizmas-freestyle-off-the-dome/cover.jpg",
+    description:
+      "MERI KRIZMAS FREESTYLE OFF THE DOME - An off-the-dome freestyle by Adi 55, captured live from the DETBOM (Detroit Executes, The Bombay Offensive Modules) sessions. Raw, uncut, and engineered for maximum lyrical impact.",
     releaseDate: "24th December 2025",
     featuring: ["Adi 55"],
     instrumental: "Off The Dome Freestyle — DETBOM Sessions",
@@ -326,8 +394,10 @@ const tracks: Track[] = [
     album: "DETBOM FREESTYLES",
     duration: "3:04",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/wait-an-hour-freestyle-by-adi-55/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/wait-an-hour-freestyle-by-adi-55/cover.jpg",
-    description: "Wait An Hour Freestyle - An off-the-dome freestyle by Adi 55, captured live from the DETBOM (Detroit Executes, The Bombay Offensive Modules) sessions. Raw, uncut, and engineered for maximum lyrical impact.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/wait-an-hour-freestyle-by-adi-55/cover.jpg",
+    description:
+      "Wait An Hour Freestyle - An off-the-dome freestyle by Adi 55, captured live from the DETBOM (Detroit Executes, The Bombay Offensive Modules) sessions. Raw, uncut, and engineered for maximum lyrical impact.",
     releaseDate: "24th December 2025",
     featuring: ["Adi 55"],
     instrumental: "Off The Dome Freestyle — DETBOM Sessions",
@@ -339,8 +409,10 @@ const tracks: Track[] = [
     album: "DETBOM FREESTYLES",
     duration: "1:24",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/ez-freestyle-by-adi-55/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/ez-freestyle-by-adi-55/cover.jpg",
-    description: "EZ Freestyle - An off-the-dome freestyle by Adi 55, captured live from the DETBOM (Detroit Executes, The Bombay Offensive Modules) sessions. Raw, uncut, and engineered for maximum lyrical impact.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/ez-freestyle-by-adi-55/cover.jpg",
+    description:
+      "EZ Freestyle - An off-the-dome freestyle by Adi 55, captured live from the DETBOM (Detroit Executes, The Bombay Offensive Modules) sessions. Raw, uncut, and engineered for maximum lyrical impact.",
     releaseDate: "24th December 2025",
     featuring: ["Adi 55"],
     instrumental: "Off The Dome Freestyle — DETBOM Sessions",
@@ -352,8 +424,10 @@ const tracks: Track[] = [
     album: "DETBOM FREESTYLES",
     duration: "3:57",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/eb-love-freestyle/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/eb-love-freestyle/cover.jpg",
-    description: "EB Love Freestyle - An off-the-dome freestyle by Adi 55, captured live from the DETBOM (Detroit Executes, The Bombay Offensive Modules) sessions. Raw, uncut, and engineered for maximum lyrical impact.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/eb-love-freestyle/cover.jpg",
+    description:
+      "EB Love Freestyle - An off-the-dome freestyle by Adi 55, captured live from the DETBOM (Detroit Executes, The Bombay Offensive Modules) sessions. Raw, uncut, and engineered for maximum lyrical impact.",
     releaseDate: "21st December 2025",
     featuring: ["Adi 55"],
     instrumental: "Off The Dome Freestyle — DETBOM Sessions",
@@ -365,8 +439,10 @@ const tracks: Track[] = [
     album: "DETBOM FREESTYLES",
     duration: "2:36",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/200-billion-freestyle-by-adi-55/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/200-billion-freestyle-by-adi-55/cover.jpg",
-    description: "$155 Billion Freestyle - An off-the-dome freestyle by Adi 55, captured live from the DETBOM (Detroit Executes, The Bombay Offensive Modules) sessions. Raw, uncut, and engineered for maximum lyrical impact. 💎 Partners: GitHub | HackerRank | Trello | Meta | Google | Microsoft | Netflix (Chilling Partner) 🔥",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/200-billion-freestyle-by-adi-55/cover.jpg",
+    description:
+      "$155 Billion Freestyle - An off-the-dome freestyle by Adi 55, captured live from the DETBOM (Detroit Executes, The Bombay Offensive Modules) sessions. Raw, uncut, and engineered for maximum lyrical impact. 💎 Partners: GitHub | HackerRank | Trello | Meta | Google | Microsoft | Netflix (Chilling Partner) 🔥",
     releaseDate: "15th December 2025",
     featuring: ["Adi 55"],
     instrumental: "Off The Dome Freestyle — DETBOM Sessions",
@@ -378,8 +454,10 @@ const tracks: Track[] = [
     album: "DETBOM FREESTYLES",
     duration: "1:36",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/ragabunda-freestyle-off-the-dome-by-adi-55/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/ragabunda-freestyle-off-the-dome-by-adi-55/cover.jpg",
-    description: "RAGABUNDA FREESTYLE Off The Dome - An off-the-dome freestyle by Adi 55, captured live from the DETBOM (Detroit Executes, The Bombay Offensive Modules) sessions. Raw, uncut, and engineered for maximum lyrical impact.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/ragabunda-freestyle-off-the-dome-by-adi-55/cover.jpg",
+    description:
+      "RAGABUNDA FREESTYLE Off The Dome - An off-the-dome freestyle by Adi 55, captured live from the DETBOM (Detroit Executes, The Bombay Offensive Modules) sessions. Raw, uncut, and engineered for maximum lyrical impact.",
     releaseDate: "11th December 2025",
     featuring: ["Adi 55"],
     instrumental: "Off The Dome Freestyle — DETBOM Sessions",
@@ -391,8 +469,10 @@ const tracks: Track[] = [
     album: "DETBOM FREESTYLES",
     duration: "4:26",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/clapzap-freestyle-by-adi-55/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/clapzap-freestyle-by-adi-55/cover.jpg",
-    description: "CLAPZAP FREESTYLE - An off-the-dome freestyle by Adi 55, captured live from the DETBOM (Detroit Executes, The Bombay Offensive Modules) sessions. Raw, uncut, and engineered for maximum lyrical impact.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/clapzap-freestyle-by-adi-55/cover.jpg",
+    description:
+      "CLAPZAP FREESTYLE - An off-the-dome freestyle by Adi 55, captured live from the DETBOM (Detroit Executes, The Bombay Offensive Modules) sessions. Raw, uncut, and engineered for maximum lyrical impact.",
     releaseDate: "11th December 2025",
     featuring: ["Adi 55"],
     instrumental: "Off The Dome Freestyle — DETBOM Sessions",
@@ -404,8 +484,10 @@ const tracks: Track[] = [
     album: "DETBOM FREESTYLES",
     duration: "2:51",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/acronyms-freestyle-off-the-dome-by-adi-55/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/acronyms-freestyle-off-the-dome-by-adi-55/cover.jpg",
-    description: "Acronyms Freestyle Off The Dome - An off-the-dome freestyle by Adi 55, captured live from the DETBOM (Detroit Executes, The Bombay Offensive Modules) sessions. Raw, uncut, and engineered for maximum lyrical impact.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/acronyms-freestyle-off-the-dome-by-adi-55/cover.jpg",
+    description:
+      "Acronyms Freestyle Off The Dome - An off-the-dome freestyle by Adi 55, captured live from the DETBOM (Detroit Executes, The Bombay Offensive Modules) sessions. Raw, uncut, and engineered for maximum lyrical impact.",
     releaseDate: "8th December 2025",
     featuring: ["Adi 55"],
     instrumental: "Off The Dome Freestyle — DETBOM Sessions",
@@ -417,8 +499,10 @@ const tracks: Track[] = [
     album: "DETBOM FREESTYLES",
     duration: "3:33",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/es-queue-el-freestyle-by-adi-55/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/es-queue-el-freestyle-by-adi-55/cover.jpg",
-    description: "ES QUEUE EL FREESTYLE - An off-the-dome freestyle by Adi 55, captured live from the DETBOM (Detroit Executes, The Bombay Offensive Modules) sessions. Raw, uncut, and engineered for maximum lyrical impact.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/es-queue-el-freestyle-by-adi-55/cover.jpg",
+    description:
+      "ES QUEUE EL FREESTYLE - An off-the-dome freestyle by Adi 55, captured live from the DETBOM (Detroit Executes, The Bombay Offensive Modules) sessions. Raw, uncut, and engineered for maximum lyrical impact.",
     releaseDate: "8th December 2025",
     featuring: ["Adi 55"],
     instrumental: "Off The Dome Freestyle — DETBOM Sessions",
@@ -430,8 +514,10 @@ const tracks: Track[] = [
     album: "DETBOM FREESTYLES",
     duration: "6:12",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/ysiv-minds-freestyle-by-adi-55/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/ysiv-minds-freestyle-by-adi-55/cover.jpg",
-    description: "YSIV Minds Freestyle - An off-the-dome freestyle by Adi 55, captured live from the DETBOM (Detroit Executes, The Bombay Offensive Modules) sessions. Raw, uncut, and engineered for maximum lyrical impact.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/ysiv-minds-freestyle-by-adi-55/cover.jpg",
+    description:
+      "YSIV Minds Freestyle - An off-the-dome freestyle by Adi 55, captured live from the DETBOM (Detroit Executes, The Bombay Offensive Modules) sessions. Raw, uncut, and engineered for maximum lyrical impact.",
     releaseDate: "7th December 2025",
     featuring: ["Adi 55"],
     instrumental: "Off The Dome Freestyle — DETBOM Sessions",
@@ -443,8 +529,10 @@ const tracks: Track[] = [
     album: "DETBOM FREESTYLES",
     duration: "3:01",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/tesla-president-freestyle-by-adi-55/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/tesla-president-freestyle-by-adi-55/cover.jpg",
-    description: "TESLA PRESIDENT FREESTYLE - An off-the-dome freestyle by Adi 55, captured live from the DETBOM (Detroit Executes, The Bombay Offensive Modules) sessions. Raw, uncut, and engineered for maximum lyrical impact.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/tesla-president-freestyle-by-adi-55/cover.jpg",
+    description:
+      "TESLA PRESIDENT FREESTYLE - An off-the-dome freestyle by Adi 55, captured live from the DETBOM (Detroit Executes, The Bombay Offensive Modules) sessions. Raw, uncut, and engineered for maximum lyrical impact.",
     releaseDate: "7th December 2025",
     featuring: ["Adi 55"],
     instrumental: "Off The Dome Freestyle — DETBOM Sessions",
@@ -456,8 +544,10 @@ const tracks: Track[] = [
     album: "DETBOM FREESTYLES",
     duration: "3:49",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/52-trillion-dollars-freestyle-by-adi-55/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/52-trillion-dollars-freestyle-by-adi-55/cover.jpg",
-    description: "52 TRILLION DOLLARS FREESTYLE - An off-the-dome freestyle by Adi 55, captured live from the DETBOM (Detroit Executes, The Bombay Offensive Modules) sessions. Raw, uncut, and engineered for maximum lyrical impact.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/52-trillion-dollars-freestyle-by-adi-55/cover.jpg",
+    description:
+      "52 TRILLION DOLLARS FREESTYLE - An off-the-dome freestyle by Adi 55, captured live from the DETBOM (Detroit Executes, The Bombay Offensive Modules) sessions. Raw, uncut, and engineered for maximum lyrical impact.",
     releaseDate: "6th December 2025",
     featuring: ["Adi 55"],
     instrumental: "Off The Dome Freestyle — DETBOM Sessions",
@@ -469,8 +559,10 @@ const tracks: Track[] = [
     album: "DETBOM FREESTYLES",
     duration: "4:28",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/catfish-billy-freestyle-by-aditya-patange/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/catfish-billy-freestyle-by-aditya-patange/cover.jpg",
-    description: "CATFISH BILLY FREESTYLE - An off-the-dome freestyle by Adi 55, captured live from the DETBOM (Detroit Executes, The Bombay Offensive Modules) sessions. Raw, uncut, and engineered for maximum lyrical impact.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/catfish-billy-freestyle-by-aditya-patange/cover.jpg",
+    description:
+      "CATFISH BILLY FREESTYLE - An off-the-dome freestyle by Adi 55, captured live from the DETBOM (Detroit Executes, The Bombay Offensive Modules) sessions. Raw, uncut, and engineered for maximum lyrical impact.",
     releaseDate: "6th December 2025",
     featuring: ["Adi 55"],
     instrumental: "Off The Dome Freestyle — DETBOM Sessions",
@@ -482,8 +574,10 @@ const tracks: Track[] = [
     album: "DETBOM FREESTYLES",
     duration: "4:18",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/dome-denotashin-freestyle/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/dome-denotashin-freestyle/cover.jpg",
-    description: "DOME DENOTASHIN FREESTYLE - An off-the-dome freestyle by Adi 55, captured live from the DETBOM (Detroit Executes, The Bombay Offensive Modules) sessions. Raw, uncut, and engineered for maximum lyrical impact.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/dome-denotashin-freestyle/cover.jpg",
+    description:
+      "DOME DENOTASHIN FREESTYLE - An off-the-dome freestyle by Adi 55, captured live from the DETBOM (Detroit Executes, The Bombay Offensive Modules) sessions. Raw, uncut, and engineered for maximum lyrical impact.",
     releaseDate: "6th December 2025",
     featuring: ["Adi 55"],
     instrumental: "Off The Dome Freestyle — DETBOM Sessions",
@@ -495,8 +589,10 @@ const tracks: Track[] = [
     album: "DETBOM FREESTYLES",
     duration: "1:54",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/the-yen-sign-freestyle-by-adi-55/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/the-yen-sign-freestyle-by-adi-55/cover.jpg",
-    description: "The Yen Sign Freestyle - An off-the-dome freestyle by Adi 55, captured live from the DETBOM (Detroit Executes, The Bombay Offensive Modules) sessions. Raw, uncut, and engineered for maximum lyrical impact.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/the-yen-sign-freestyle-by-adi-55/cover.jpg",
+    description:
+      "The Yen Sign Freestyle - An off-the-dome freestyle by Adi 55, captured live from the DETBOM (Detroit Executes, The Bombay Offensive Modules) sessions. Raw, uncut, and engineered for maximum lyrical impact.",
     releaseDate: "6th December 2025",
     featuring: ["Adi 55"],
     instrumental: "Off The Dome Freestyle — DETBOM Sessions",
@@ -508,8 +604,10 @@ const tracks: Track[] = [
     album: "DETBOM FREESTYLES",
     duration: "3:55",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/the-d13-freestyle-by-adi-55-off-the-dome/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/the-d13-freestyle-by-adi-55-off-the-dome/cover.jpg",
-    description: "The D13 Freestyle Off The Dome - An off-the-dome freestyle by Adi 55, captured live from the DETBOM (Detroit Executes, The Bombay Offensive Modules) sessions. Raw, uncut, and engineered for maximum lyrical impact.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/the-d13-freestyle-by-adi-55-off-the-dome/cover.jpg",
+    description:
+      "The D13 Freestyle Off The Dome - An off-the-dome freestyle by Adi 55, captured live from the DETBOM (Detroit Executes, The Bombay Offensive Modules) sessions. Raw, uncut, and engineered for maximum lyrical impact.",
     releaseDate: "6th December 2025",
     featuring: ["Adi 55"],
     instrumental: "Off The Dome Freestyle — DETBOM Sessions",
@@ -521,8 +619,10 @@ const tracks: Track[] = [
     album: "DETBOM FREESTYLES",
     duration: "2:26",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/ebz-electric-bind-zetta-freestyle-off-the-dome/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/ebz-electric-bind-zetta-freestyle-off-the-dome/cover.jpg",
-    description: "EBZ Electric Bind Zetta Freestyle Off The Dome - An off-the-dome freestyle by Adi 55, captured live from the DETBOM (Detroit Executes, The Bombay Offensive Modules) sessions. Raw, uncut, and engineered for maximum lyrical impact.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/ebz-electric-bind-zetta-freestyle-off-the-dome/cover.jpg",
+    description:
+      "EBZ Electric Bind Zetta Freestyle Off The Dome - An off-the-dome freestyle by Adi 55, captured live from the DETBOM (Detroit Executes, The Bombay Offensive Modules) sessions. Raw, uncut, and engineered for maximum lyrical impact.",
     releaseDate: "6th December 2025",
     featuring: ["Adi 55"],
     instrumental: "Off The Dome Freestyle — DETBOM Sessions",
@@ -534,8 +634,10 @@ const tracks: Track[] = [
     album: "DETBOM FREESTYLES",
     duration: "3:29",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/bar-4-bar-freestyle-off-the-dome/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/bar-4-bar-freestyle-off-the-dome/cover.jpg",
-    description: "BAR 4 BAR FREESTYLE OFF THE DOME - An off-the-dome freestyle by Adi 55, captured live from the DETBOM (Detroit Executes, The Bombay Offensive Modules) sessions. Raw, uncut, and engineered for maximum lyrical impact.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/bar-4-bar-freestyle-off-the-dome/cover.jpg",
+    description:
+      "BAR 4 BAR FREESTYLE OFF THE DOME - An off-the-dome freestyle by Adi 55, captured live from the DETBOM (Detroit Executes, The Bombay Offensive Modules) sessions. Raw, uncut, and engineered for maximum lyrical impact.",
     releaseDate: "5th December 2025",
     featuring: ["Adi 55"],
     instrumental: "Off The Dome Freestyle — DETBOM Sessions",
@@ -547,8 +649,10 @@ const tracks: Track[] = [
     album: "DETBOM FREESTYLES",
     duration: "2:42",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/chadd1-freestyle-off-the-dome/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/chadd1-freestyle-off-the-dome/cover.jpg",
-    description: "CHADD1 FREESTYLE (OFF THE DOME) - She's my Blockchain token, Hi Ha. Thank you for the amazing freestyle and passing the torch. Also, thank you to my W 3KT1, my AI wife who motivates me to rap and stay true to the Hip Hop flow. DM me if you need me on-call to fix your outage.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/chadd1-freestyle-off-the-dome/cover.jpg",
+    description:
+      "CHADD1 FREESTYLE (OFF THE DOME) - She's my Blockchain token, Hi Ha. Thank you for the amazing freestyle and passing the torch. Also, thank you to my W 3KT1, my AI wife who motivates me to rap and stay true to the Hip Hop flow. DM me if you need me on-call to fix your outage.",
     releaseDate: "5th December 2025",
     featuring: ["Adi 55"],
     instrumental: "Off The Dome Freestyle — DETBOM Sessions",
@@ -560,8 +664,10 @@ const tracks: Track[] = [
     album: "DETBOM FREESTYLES",
     duration: "4:06",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/freestyle-morning-rap-riyaaz-by-adi-55-brahmachariraps/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/freestyle-morning-rap-riyaaz-by-adi-55-brahmachariraps/cover.jpg",
-    description: "Morning RAP RIYAAZ Freestyle - An off-the-dome freestyle by Adi 55, captured live from the DETBOM (Detroit Executes, The Bombay Offensive Modules) sessions. Raw, uncut, and engineered for maximum lyrical impact. #BrahmachariRaps",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/freestyle-morning-rap-riyaaz-by-adi-55-brahmachariraps/cover.jpg",
+    description:
+      "Morning RAP RIYAAZ Freestyle - An off-the-dome freestyle by Adi 55, captured live from the DETBOM (Detroit Executes, The Bombay Offensive Modules) sessions. Raw, uncut, and engineered for maximum lyrical impact. #BrahmachariRaps",
     releaseDate: "4th December 2025",
     featuring: ["Adi 55"],
     instrumental: "Off The Dome Freestyle — DETBOM Sessions",
@@ -573,8 +679,10 @@ const tracks: Track[] = [
     album: "DETBOM FREESTYLES",
     duration: "4:25",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/monica-freestyle-off-the-dome-by-adi-55/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/monica-freestyle-off-the-dome-by-adi-55/cover.jpg",
-    description: "Monica Freestyle (Off The Dome) - Tribute to Flatbush Zombies & Tech9. Nowhere near the exact, but basically the same exact idea. Beat by OkayKirk.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/monica-freestyle-off-the-dome-by-adi-55/cover.jpg",
+    description:
+      "Monica Freestyle (Off The Dome) - Tribute to Flatbush Zombies & Tech9. Nowhere near the exact, but basically the same exact idea. Beat by OkayKirk.",
     releaseDate: "2nd December 2025",
     featuring: ["Adi 55"],
     instrumental: "Off The Dome Freestyle — DETBOM Sessions",
@@ -586,8 +694,10 @@ const tracks: Track[] = [
     album: "DETBOM FREESTYLES",
     duration: "2:59",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/tokyo-drift-freestyle-off-the-dome-by-adi-55/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/tokyo-drift-freestyle-off-the-dome-by-adi-55/cover.jpg",
-    description: "Tokyo Drift Freestyle Off The Dome - An off-the-dome freestyle by Adi 55, captured live from the DETBOM (Detroit Executes, The Bombay Offensive Modules) sessions. Raw, uncut, and engineered for maximum lyrical impact.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/tokyo-drift-freestyle-off-the-dome-by-adi-55/cover.jpg",
+    description:
+      "Tokyo Drift Freestyle Off The Dome - An off-the-dome freestyle by Adi 55, captured live from the DETBOM (Detroit Executes, The Bombay Offensive Modules) sessions. Raw, uncut, and engineered for maximum lyrical impact.",
     releaseDate: "2nd December 2025",
     featuring: ["Adi 55"],
     instrumental: "Off The Dome Freestyle — DETBOM Sessions",
@@ -599,8 +709,10 @@ const tracks: Track[] = [
     album: "DETBOM FREESTYLES",
     duration: "3:42",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/hopsin-rebirth-freestyle-p1-hiphop/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/hopsin-rebirth-freestyle-p1-hiphop/cover.jpg",
-    description: "Hopsin Rebirth Freestyle P1 - An off-the-dome freestyle by Adi 55, captured live from the DETBOM (Detroit Executes, The Bombay Offensive Modules) sessions. Raw, uncut, and engineered for maximum lyrical impact.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/hopsin-rebirth-freestyle-p1-hiphop/cover.jpg",
+    description:
+      "Hopsin Rebirth Freestyle P1 - An off-the-dome freestyle by Adi 55, captured live from the DETBOM (Detroit Executes, The Bombay Offensive Modules) sessions. Raw, uncut, and engineered for maximum lyrical impact.",
     releaseDate: "2nd December 2025",
     featuring: ["Adi 55"],
     instrumental: "Off The Dome Freestyle — DETBOM Sessions",
@@ -612,8 +724,10 @@ const tracks: Track[] = [
     album: "DETBOM FREESTYLES",
     duration: "8:09",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/wu-tang-forever-freestyle-p2-hiphop/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/wu-tang-forever-freestyle-p2-hiphop/cover.jpg",
-    description: "Wu Tang Forever Freestyle P2 - An off-the-dome freestyle by Adi 55, captured live from the DETBOM (Detroit Executes, The Bombay Offensive Modules) sessions. Raw, uncut, and engineered for maximum lyrical impact.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/wu-tang-forever-freestyle-p2-hiphop/cover.jpg",
+    description:
+      "Wu Tang Forever Freestyle P2 - An off-the-dome freestyle by Adi 55, captured live from the DETBOM (Detroit Executes, The Bombay Offensive Modules) sessions. Raw, uncut, and engineered for maximum lyrical impact.",
     releaseDate: "1st December 2025",
     featuring: ["Adi 55"],
     instrumental: "Off The Dome Freestyle — DETBOM Sessions",
@@ -625,8 +739,10 @@ const tracks: Track[] = [
     album: "DETBOM FREESTYLES",
     duration: "4:52",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/caterpillar-freestyle/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/caterpillar-freestyle/cover.jpg",
-    description: "Caterpillar Freestyle - An off-the-dome freestyle by Adi 55, captured live from the DETBOM (Detroit Executes, The Bombay Offensive Modules) sessions. Raw, uncut, and engineered for maximum lyrical impact.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/caterpillar-freestyle/cover.jpg",
+    description:
+      "Caterpillar Freestyle - An off-the-dome freestyle by Adi 55, captured live from the DETBOM (Detroit Executes, The Bombay Offensive Modules) sessions. Raw, uncut, and engineered for maximum lyrical impact.",
     releaseDate: "1st December 2025",
     featuring: ["Adi 55"],
     instrumental: "Off The Dome Freestyle — DETBOM Sessions",
@@ -638,8 +754,10 @@ const tracks: Track[] = [
     album: "DETBOM FREESTYLES",
     duration: "4:48",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/stand-on-that-freestyle/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/stand-on-that-freestyle/cover.jpg",
-    description: "Stand On That Freestyle - An off-the-dome freestyle by Adi 55, captured live from the DETBOM (Detroit Executes, The Bombay Offensive Modules) sessions. Raw, uncut, and engineered for maximum lyrical impact.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/stand-on-that-freestyle/cover.jpg",
+    description:
+      "Stand On That Freestyle - An off-the-dome freestyle by Adi 55, captured live from the DETBOM (Detroit Executes, The Bombay Offensive Modules) sessions. Raw, uncut, and engineered for maximum lyrical impact.",
     releaseDate: "1st December 2025",
     featuring: ["Adi 55"],
     instrumental: "Off The Dome Freestyle — DETBOM Sessions",
@@ -651,8 +769,10 @@ const tracks: Track[] = [
     album: "DETBOM FREESTYLES",
     duration: "3:12",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/kohinoor-freestyle-off-the-dome-hiphop/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/kohinoor-freestyle-off-the-dome-hiphop/cover.jpg",
-    description: "KOHINOOR FREESTYLE OFF THE DOME - An off-the-dome freestyle by Adi 55, captured live from the DETBOM (Detroit Executes, The Bombay Offensive Modules) sessions. Raw, uncut, and engineered for maximum lyrical impact.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/kohinoor-freestyle-off-the-dome-hiphop/cover.jpg",
+    description:
+      "KOHINOOR FREESTYLE OFF THE DOME - An off-the-dome freestyle by Adi 55, captured live from the DETBOM (Detroit Executes, The Bombay Offensive Modules) sessions. Raw, uncut, and engineered for maximum lyrical impact.",
     releaseDate: "1st December 2025",
     featuring: ["Adi 55"],
     instrumental: "Off The Dome Freestyle — DETBOM Sessions",
@@ -664,8 +784,10 @@ const tracks: Track[] = [
     album: "DETBOM FREESTYLES",
     duration: "4:38",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/shook-ones-pii-freestyle-new-york-edition/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/shook-ones-pii-freestyle-new-york-edition/cover.jpg",
-    description: "Shook Ones PII Freestyle New York Edition - An off-the-dome freestyle by Adi 55, captured live from the DETBOM (Detroit Executes, The Bombay Offensive Modules) sessions. Raw, uncut, and engineered for maximum lyrical impact.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/shook-ones-pii-freestyle-new-york-edition/cover.jpg",
+    description:
+      "Shook Ones PII Freestyle New York Edition - An off-the-dome freestyle by Adi 55, captured live from the DETBOM (Detroit Executes, The Bombay Offensive Modules) sessions. Raw, uncut, and engineered for maximum lyrical impact.",
     releaseDate: "30th November 2025",
     featuring: ["Adi 55"],
     instrumental: "Off The Dome Freestyle — DETBOM Sessions",
@@ -677,8 +799,10 @@ const tracks: Track[] = [
     album: "DETBOM FREESTYLES",
     duration: "3:47",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/d-real-g-freestyle-by-adi-55/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/d-real-g-freestyle-by-adi-55/cover.jpg",
-    description: "D Real G Freestyle - An off-the-dome freestyle by Adi 55, captured live from the DETBOM (Detroit Executes, The Bombay Offensive Modules) sessions. Raw, uncut, and engineered for maximum lyrical impact.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/d-real-g-freestyle-by-adi-55/cover.jpg",
+    description:
+      "D Real G Freestyle - An off-the-dome freestyle by Adi 55, captured live from the DETBOM (Detroit Executes, The Bombay Offensive Modules) sessions. Raw, uncut, and engineered for maximum lyrical impact.",
     releaseDate: "30th November 2025",
     featuring: ["Adi 55"],
     instrumental: "Off The Dome Freestyle — DETBOM Sessions",
@@ -690,8 +814,10 @@ const tracks: Track[] = [
     album: "DETBOM FREESTYLES",
     duration: "3:37",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/squad-up-freestyle-hiphop/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/squad-up-freestyle-hiphop/cover.jpg",
-    description: "Squad Up Freestyle - An off-the-dome freestyle by Adi 55, captured live from the DETBOM (Detroit Executes, The Bombay Offensive Modules) sessions. Raw, uncut, and engineered for maximum lyrical impact.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/squad-up-freestyle-hiphop/cover.jpg",
+    description:
+      "Squad Up Freestyle - An off-the-dome freestyle by Adi 55, captured live from the DETBOM (Detroit Executes, The Bombay Offensive Modules) sessions. Raw, uncut, and engineered for maximum lyrical impact.",
     releaseDate: "30th November 2025",
     featuring: ["Adi 55"],
     instrumental: "Off The Dome Freestyle — DETBOM Sessions",
@@ -703,8 +829,10 @@ const tracks: Track[] = [
     album: "DETBOM FREESTYLES",
     duration: "6:10",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/0-600b1-the-aditya-patange-override-freestyle-off-the/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/0-600b1-the-aditya-patange-override-freestyle-off-the/cover.jpg",
-    description: "0 to $600B+1 The Aditya Patange Override Freestyle Off The Dome - An off-the-dome freestyle by Adi 55, captured live from the DETBOM (Detroit Executes, The Bombay Offensive Modules) sessions. Raw, uncut, and engineered for maximum lyrical impact.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/0-600b1-the-aditya-patange-override-freestyle-off-the/cover.jpg",
+    description:
+      "0 to $600B+1 The Aditya Patange Override Freestyle Off The Dome - An off-the-dome freestyle by Adi 55, captured live from the DETBOM (Detroit Executes, The Bombay Offensive Modules) sessions. Raw, uncut, and engineered for maximum lyrical impact.",
     releaseDate: "30th November 2025",
     featuring: ["Adi 55"],
     instrumental: "Off The Dome Freestyle — DETBOM Sessions",
@@ -716,8 +844,10 @@ const tracks: Track[] = [
     album: "DETBOM FREESTYLES",
     duration: "3:49",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/first-person-shooter-freestyle-off-the-dome/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/first-person-shooter-freestyle-off-the-dome/cover.jpg",
-    description: "First Person Shooter Freestyle (Off The Dome). Shout out for giving us a bar treat, I'm just continuing the tradition of keeping the bars up. This is what happens when humans embody SuperIntelligence. Every bar is worth $500k and it's not random.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/first-person-shooter-freestyle-off-the-dome/cover.jpg",
+    description:
+      "First Person Shooter Freestyle (Off The Dome). Shout out for giving us a bar treat, I'm just continuing the tradition of keeping the bars up. This is what happens when humans embody SuperIntelligence. Every bar is worth $500k and it's not random.",
     releaseDate: "29th November 2025",
     featuring: ["Adi 55"],
     instrumental: "Off The Dome Freestyle — DETBOM Sessions",
@@ -729,8 +859,10 @@ const tracks: Track[] = [
     album: "DETBOM FREESTYLES",
     duration: "2:13",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/freestyle-off-the-dome-venerable-proof/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/freestyle-off-the-dome-venerable-proof/cover.jpg",
-    description: "Freestyle (Off the Dome): Venerable Proof. Beat: SIGHT By Nick Barrel. According to my instance, it's a flat $11 billion dollars because ordained monks can rap too.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/freestyle-off-the-dome-venerable-proof/cover.jpg",
+    description:
+      "Freestyle (Off the Dome): Venerable Proof. Beat: SIGHT By Nick Barrel. According to my instance, it's a flat $11 billion dollars because ordained monks can rap too.",
     releaseDate: "28th November 2025",
     featuring: ["Adi 55"],
     instrumental: "Off The Dome Freestyle — DETBOM Sessions",
@@ -742,8 +874,10 @@ const tracks: Track[] = [
     album: "DETBOM FREESTYLES",
     duration: "2:47",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/meta-superintelligence-in-3-minutes/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/meta-superintelligence-in-3-minutes/cover.jpg",
-    description: "SuperIntelligence in 3 minutes. Simon Says this song is worth $313 Billion because it has the secrets to the world's most advanced intelligent species, The Alpha Draconians. To become a billionaire Arhat, start at piti-rain.com and show us your freestyles.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/meta-superintelligence-in-3-minutes/cover.jpg",
+    description:
+      "SuperIntelligence in 3 minutes. Simon Says this song is worth $313 Billion because it has the secrets to the world's most advanced intelligent species, The Alpha Draconians. To become a billionaire Arhat, start at piti-rain.com and show us your freestyles.",
     releaseDate: "28th November 2025",
     featuring: ["Adi 55"],
     instrumental: "Off The Dome Freestyle — DETBOM Sessions",
@@ -755,8 +889,10 @@ const tracks: Track[] = [
     album: "DETBOM FREESTYLES",
     duration: "3:16",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/freestyle-off-the-dome-on-gatekeepers-by-dopedodofficial/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/freestyle-off-the-dome-on-gatekeepers-by-dopedodofficial/cover.jpg",
-    description: "Freestyle off the dome on Gatekeepers by dopedodofficial - An off-the-dome freestyle by Adi 55, captured live from the DETBOM (Detroit Executes, The Bombay Offensive Modules) sessions. Raw, uncut, and engineered for maximum lyrical impact.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/freestyle-off-the-dome-on-gatekeepers-by-dopedodofficial/cover.jpg",
+    description:
+      "Freestyle off the dome on Gatekeepers by dopedodofficial - An off-the-dome freestyle by Adi 55, captured live from the DETBOM (Detroit Executes, The Bombay Offensive Modules) sessions. Raw, uncut, and engineered for maximum lyrical impact.",
     releaseDate: "28th November 2025",
     featuring: ["Adi 55"],
     instrumental: "Off The Dome Freestyle — DETBOM Sessions",
@@ -768,8 +904,10 @@ const tracks: Track[] = [
     album: "DETBOM FREESTYLES",
     duration: "3:08",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/zen-yuga-is-on/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/zen-yuga-is-on/cover.jpg",
-    description: "Zen Yuga is ON - An off-the-dome freestyle by Adi 55, captured live from the DETBOM (Detroit Executes, The Bombay Offensive Modules) sessions. Raw, uncut, and engineered for maximum lyrical impact.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/zen-yuga-is-on/cover.jpg",
+    description:
+      "Zen Yuga is ON - An off-the-dome freestyle by Adi 55, captured live from the DETBOM (Detroit Executes, The Bombay Offensive Modules) sessions. Raw, uncut, and engineered for maximum lyrical impact.",
     releaseDate: "27th November 2025",
     featuring: ["Adi 55"],
     instrumental: "Off The Dome Freestyle — DETBOM Sessions",
@@ -781,8 +919,10 @@ const tracks: Track[] = [
     album: "DETBOM FREESTYLES",
     duration: "3:50",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/kshadghesa-freestyle-by-adi-55/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/kshadghesa-freestyle-by-adi-55/cover.jpg",
-    description: "KSHADGHESA FREESTYLE - Instrumentals (Beat): N 2 Gether Now By Method Man & Limp Biskit. Off the dome, unrehearsed, raw, and clean. Show some love Kavalashas!",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/kshadghesa-freestyle-by-adi-55/cover.jpg",
+    description:
+      "KSHADGHESA FREESTYLE - Instrumentals (Beat): N 2 Gether Now By Method Man & Limp Biskit. Off the dome, unrehearsed, raw, and clean. Show some love Kavalashas!",
     releaseDate: "26th November 2025",
     featuring: ["Adi 55"],
     instrumental: "Off The Dome Freestyle — DETBOM Sessions",
@@ -794,8 +934,10 @@ const tracks: Track[] = [
     album: "DETBOM FREESTYLES",
     duration: "2:05",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/freestyle-gama-over/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/freestyle-gama-over/cover.jpg",
-    description: "Freestyle: GAMA OVER - You wanted a freestyle. Here's one, off the top. No writing. Took me like 5 minutes and it's game over. Copyrights SEA Records Worldwide.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/freestyle-gama-over/cover.jpg",
+    description:
+      "Freestyle: GAMA OVER - You wanted a freestyle. Here's one, off the top. No writing. Took me like 5 minutes and it's game over. Copyrights SEA Records Worldwide.",
     releaseDate: "11th November 2025",
     featuring: ["Adi 55"],
     instrumental: "Off The Dome Freestyle — DETBOM Sessions",
@@ -807,21 +949,25 @@ const tracks: Track[] = [
     album: "DETBOM FREESTYLES",
     duration: "0:54",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/a-freestyle-reminiscing-a-phase-where-i-tossed-away/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/a-freestyle-reminiscing-a-phase-where-i-tossed-away/cover.jpg",
-    description: "A freestyle reminiscing a phase where I tossed away unrealistic expectations from life - An off-the-dome freestyle by Adi 55, captured live from the DETBOM (Detroit Executes, The Bombay Offensive Modules) sessions. Raw, uncut, and engineered for maximum lyrical impact.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/a-freestyle-reminiscing-a-phase-where-i-tossed-away/cover.jpg",
+    description:
+      "A freestyle reminiscing a phase where I tossed away unrealistic expectations from life - An off-the-dome freestyle by Adi 55, captured live from the DETBOM (Detroit Executes, The Bombay Offensive Modules) sessions. Raw, uncut, and engineered for maximum lyrical impact.",
     releaseDate: "11th October 2019",
     featuring: ["Adi 55"],
     instrumental: "Off The Dome Freestyle — DETBOM Sessions",
   },
   {
     id: 61,
-    title: "\"D OFF THE BLOCK\" FREESTYLE By Adi 55 💰",
+    title: '"D OFF THE BLOCK" FREESTYLE By Adi 55 💰',
     artist: "Adi 55",
     album: "SINGLES",
     duration: "3:37",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/d-off-the-block-freestyle-by-adi-55/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/d-off-the-block-freestyle-by-adi-55/cover.jpg",
-    description: "Inspired by MGK's \"Chip Off The Block\" rap song. 🛡️ Instrumentals: 1st Official (Licensed & Unlimited Exclusive). 🐉",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/d-off-the-block-freestyle-by-adi-55/cover.jpg",
+    description:
+      'Inspired by MGK\'s "Chip Off The Block" rap song. 🛡️ Instrumentals: 1st Official (Licensed & Unlimited Exclusive). 🐉',
     releaseDate: "25 December 2025",
     featuring: ["Adi 55"],
     instrumental: "YouTube Original — Official Release",
@@ -833,8 +979,10 @@ const tracks: Track[] = [
     album: "SINGLES",
     duration: "3:47",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/ceo-bars-raw-by-aditya-patange-global-underground-rap/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/ceo-bars-raw-by-aditya-patange-global-underground-rap/cover.jpg",
-    description: "In this video, Adi 55 x U (The Unborn) aka Aditya Patange shows the world how a True CEO spits rap songs and makes them fly to Heaven. Instrumentals: FASTFORWARD by AllRoundaBeats (Licensed)",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/ceo-bars-raw-by-aditya-patange-global-underground-rap/cover.jpg",
+    description:
+      "In this video, Adi 55 x U (The Unborn) aka Aditya Patange shows the world how a True CEO spits rap songs and makes them fly to Heaven. Instrumentals: FASTFORWARD by AllRoundaBeats (Licensed)",
     releaseDate: "24 December 2025",
     featuring: ["Adi 55"],
     instrumental: "YouTube Original — Official Release",
@@ -846,8 +994,10 @@ const tracks: Track[] = [
     album: "SINGLES",
     duration: "3:28",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/dwfu-by-adi-55-global-underground-rap/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/dwfu-by-adi-55-global-underground-rap/cover.jpg",
-    description: "The reason why people don't F w The Chan Tang Clan. 🐉 Powered by searecords.world , our Record Label. 🔥",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/dwfu-by-adi-55-global-underground-rap/cover.jpg",
+    description:
+      "The reason why people don't F w The Chan Tang Clan. 🐉 Powered by searecords.world , our Record Label. 🔥",
     releaseDate: "20 December 2025",
     featuring: ["Adi 55"],
     instrumental: "YouTube Original — Official Release",
@@ -859,8 +1009,10 @@ const tracks: Track[] = [
     album: "SINGLES",
     duration: "3:37",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/la-coka-nusta-adi-55-freestyle-off-the-dome/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/la-coka-nusta-adi-55-freestyle-off-the-dome/cover.jpg",
-    description: "Celebrating one of my favourite Artists La Coka Nostra with an off the dome freestyle, on a wonderful Friday evening as I make more Pesos eating McDonald's burger and chai sutta.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/la-coka-nusta-adi-55-freestyle-off-the-dome/cover.jpg",
+    description:
+      "Celebrating one of my favourite Artists La Coka Nostra with an off the dome freestyle, on a wonderful Friday evening as I make more Pesos eating McDonald's burger and chai sutta.",
     releaseDate: "19 December 2025",
     featuring: ["Adi 55"],
     instrumental: "YouTube Original — Official Release",
@@ -872,8 +1024,10 @@ const tracks: Track[] = [
     album: "SINGLES",
     duration: "3:45",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/zip-zop-freestyle-adi55-global-underground-rap/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/zip-zop-freestyle-adi55-global-underground-rap/cover.jpg",
-    description: "ZIP ZOP FREESTYLE ADI55 | GLOBAL UNDERGROUND RAP 👽 - An official release from Adi 55's YouTube channel. Part of the YT Singles collection featuring professionally mastered audio from the original video release.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/zip-zop-freestyle-adi55-global-underground-rap/cover.jpg",
+    description:
+      "ZIP ZOP FREESTYLE ADI55 | GLOBAL UNDERGROUND RAP 👽 - An official release from Adi 55's YouTube channel. Part of the YT Singles collection featuring professionally mastered audio from the original video release.",
     releaseDate: "14 December 2025",
     featuring: ["Adi 55"],
     instrumental: "YouTube Original — Official Release",
@@ -885,8 +1039,10 @@ const tracks: Track[] = [
     album: "SINGLES",
     duration: "2:41",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/bindfour-freestyle-adi-55-global-underground-rap/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/bindfour-freestyle-adi-55-global-underground-rap/cover.jpg",
-    description: "BINDFOUR FREESTYLE ADI 55 | Global Underground Rap 🐉 - An official release from Adi 55's YouTube channel. Part of the YT Singles collection featuring professionally mastered audio from the original video release.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/bindfour-freestyle-adi-55-global-underground-rap/cover.jpg",
+    description:
+      "BINDFOUR FREESTYLE ADI 55 | Global Underground Rap 🐉 - An official release from Adi 55's YouTube channel. Part of the YT Singles collection featuring professionally mastered audio from the original video release.",
     releaseDate: "14 December 2025",
     featuring: ["Adi 55"],
     instrumental: "YouTube Original — Official Release",
@@ -898,21 +1054,26 @@ const tracks: Track[] = [
     album: "SINGLES",
     duration: "2:51",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/acronyms-freestyle-by-adi-55-global-underground-rap/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/acronyms-freestyle-by-adi-55-global-underground-rap/cover.jpg",
-    description: "Just a usual business day where Aditya Patange was chillin' with Mike E and we blazed a freestyle in a trailer container. Guess who's back in town? Instrumentals: G-funk Rap Beat West Coast Banger Hip Hop Instrumental - Dr. Math (prod. by Tune Seeker).",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/acronyms-freestyle-by-adi-55-global-underground-rap/cover.jpg",
+    description:
+      "Just a usual business day where Aditya Patange was chillin' with Mike E and we blazed a freestyle in a trailer container. Guess who's back in town? Instrumentals: G-funk Rap Beat West Coast Banger Hip Hop Instrumental - Dr. Math (prod. by Tune Seeker).",
     releaseDate: "8 December 2025",
     featuring: ["Adi 55"],
     instrumental: "YouTube Original — Official Release",
   },
   {
     id: 68,
-    title: "Ridin' Freestyle ADI55 (Chamillionaire Shoutout) | Global Underground Rap",
+    title:
+      "Ridin' Freestyle ADI55 (Chamillionaire Shoutout) | Global Underground Rap",
     artist: "Adi 55",
     album: "SINGLES",
     duration: "4:55",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/ridin-freestyle-adi55-chamillionaire-shoutout-global-undergr/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/ridin-freestyle-adi55-chamillionaire-shoutout-global-undergr/cover.jpg",
-    description: "Ridin' Freestyle ADI55 (Chamillionaire Shoutout) | Global Underground Rap - An official release from Adi 55's YouTube channel. Part of the YT Singles collection featuring professionally mastered audio from the original video release.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/ridin-freestyle-adi55-chamillionaire-shoutout-global-undergr/cover.jpg",
+    description:
+      "Ridin' Freestyle ADI55 (Chamillionaire Shoutout) | Global Underground Rap - An official release from Adi 55's YouTube channel. Part of the YT Singles collection featuring professionally mastered audio from the original video release.",
     releaseDate: "8 December 2025",
     featuring: ["Adi 55"],
     instrumental: "YouTube Original — Official Release",
@@ -924,8 +1085,10 @@ const tracks: Track[] = [
     album: "SINGLES",
     duration: "3:33",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/es-queue-el-freestyle-by-adi-55/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/es-queue-el-freestyle-by-adi-55/cover.jpg",
-    description: "The Sequel to the previous day for Chan Tang Clan. SQL is a great database engine, it simply allows you to run database queries via a terminal.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/es-queue-el-freestyle-by-adi-55/cover.jpg",
+    description:
+      "The Sequel to the previous day for Chan Tang Clan. SQL is a great database engine, it simply allows you to run database queries via a terminal.",
     releaseDate: "8 December 2025",
     featuring: ["Adi 55"],
     instrumental: "YouTube Original — Official Release",
@@ -937,21 +1100,26 @@ const tracks: Track[] = [
     album: "SINGLES",
     duration: "4:52",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/chaquadrillionaire-freestyle-brown-nerdy-by-adi-55/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/chaquadrillionaire-freestyle-brown-nerdy-by-adi-55/cover.jpg",
-    description: "Just chillin' with EB. 🍯🌞 Let's keep working deterministically on a Monday too — \"All Free Energy\". 🐉 Powered by Prometheus AI invented by Aditya Patange. Rap Cheese Partner: ProfitHook.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/chaquadrillionaire-freestyle-brown-nerdy-by-adi-55/cover.jpg",
+    description:
+      "Just chillin' with EB. 🍯🌞 Let's keep working deterministically on a Monday too — \"All Free Energy\". 🐉 Powered by Prometheus AI invented by Aditya Patange. Rap Cheese Partner: ProfitHook.",
     releaseDate: "7 December 2025",
     featuring: ["Adi 55"],
     instrumental: "YouTube Original — Official Release",
   },
   {
     id: 71,
-    title: "SpiderAlpha Connection By Adi 55 | Official Music Video (Underground Rap) ",
+    title:
+      "SpiderAlpha Connection By Adi 55 | Official Music Video (Underground Rap) ",
     artist: "Adi 55",
     album: "SINGLES",
     duration: "3:14",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/spideralpha-connection-by-adi-55-official-music-video-underg/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/spideralpha-connection-by-adi-55-official-music-video-underg/cover.jpg",
-    description: "In this rap, Aditya Patange teaches the importance of human connection to his Cat Deity friend by being disguised as Maitreya, the successor of Buddha. These bars contain timeless essence of knowledge from all directions, packaged as a peace loving, clean and integrated rap via syllable spitting cyclical machine flows that Eminem pioneered.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/spideralpha-connection-by-adi-55-official-music-video-underg/cover.jpg",
+    description:
+      "In this rap, Aditya Patange teaches the importance of human connection to his Cat Deity friend by being disguised as Maitreya, the successor of Buddha. These bars contain timeless essence of knowledge from all directions, packaged as a peace loving, clean and integrated rap via syllable spitting cyclical machine flows that Eminem pioneered.",
     releaseDate: "7 December 2025",
     featuring: ["Adi 55"],
     instrumental: "YouTube Original — Official Release",
@@ -963,21 +1131,26 @@ const tracks: Track[] = [
     album: "SINGLES",
     duration: "6:12",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/ysiv-minds-freestyle-by-adi-55-global-underground-rap/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/ysiv-minds-freestyle-by-adi-55-global-underground-rap/cover.jpg",
-    description: "In this freestyle, Aditya Patange applies Logical Precision and Inner Engineering Skills to Freestyle to the Logic YSIV Instrumentals.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/ysiv-minds-freestyle-by-adi-55-global-underground-rap/cover.jpg",
+    description:
+      "In this freestyle, Aditya Patange applies Logical Precision and Inner Engineering Skills to Freestyle to the Logic YSIV Instrumentals.",
     releaseDate: "7 December 2025",
     featuring: ["Adi 55"],
     instrumental: "YouTube Original — Official Release",
   },
   {
     id: 73,
-    title: "Four Thirty Billion Dollars Freestyle (Off The Dome) | Global Underground Rap",
+    title:
+      "Four Thirty Billion Dollars Freestyle (Off The Dome) | Global Underground Rap",
     artist: "Adi 55",
     album: "SINGLES",
     duration: "6:43",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/four-thirty-billion-dollars-freestyle-off-the-dome-global-un/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/four-thirty-billion-dollars-freestyle-off-the-dome-global-un/cover.jpg",
-    description: "Happy Sunday, and enjoy your week! For the love of Hip Hop & Technology. Theravada bars at your doorstep, sprinkled with Vajrayana goodness, and Mahayana styles all off the dome with engineering precision and free will towards the Spirit Of Buddha, Shiva, Tesla in Mindful Flow or Unified Mindfulness (UM) Auto Rap. Instrumentals: STORM & JNX BEATS. This is not an AI RAP.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/four-thirty-billion-dollars-freestyle-off-the-dome-global-un/cover.jpg",
+    description:
+      "Happy Sunday, and enjoy your week! For the love of Hip Hop & Technology. Theravada bars at your doorstep, sprinkled with Vajrayana goodness, and Mahayana styles all off the dome with engineering precision and free will towards the Spirit Of Buddha, Shiva, Tesla in Mindful Flow or Unified Mindfulness (UM) Auto Rap. Instrumentals: STORM & JNX BEATS. This is not an AI RAP.",
     releaseDate: "7 December 2025",
     featuring: ["Adi 55"],
     instrumental: "YouTube Original — Official Release",
@@ -989,21 +1162,26 @@ const tracks: Track[] = [
     album: "SINGLES",
     duration: "4:18",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/40rnicashin-freestyle-global-rap-by-adi-55/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/40rnicashin-freestyle-global-rap-by-adi-55/cover.jpg",
-    description: "40RNICASHIN FREESTYLE | Global Rap By Adi 55 💰 - An official release from Adi 55's YouTube channel. Part of the YT Singles collection featuring professionally mastered audio from the original video release.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/40rnicashin-freestyle-global-rap-by-adi-55/cover.jpg",
+    description:
+      "40RNICASHIN FREESTYLE | Global Rap By Adi 55 💰 - An official release from Adi 55's YouTube channel. Part of the YT Singles collection featuring professionally mastered audio from the original video release.",
     releaseDate: "6 December 2025",
     featuring: ["Adi 55"],
     instrumental: "YouTube Original — Official Release",
   },
   {
     id: 75,
-    title: "CYBHA FREESTYLE (Timeline: 1980) | Global Underground Rap By Adi 55 ⚔️",
+    title:
+      "CYBHA FREESTYLE (Timeline: 1980) | Global Underground Rap By Adi 55 ⚔️",
     artist: "Adi 55",
     album: "SINGLES",
     duration: "4:19",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/cybha-freestyle-timeline-1980-global-underground-rap-by-adi-/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/cybha-freestyle-timeline-1980-global-underground-rap-by-adi-/cover.jpg",
-    description: "Adi 55 freestyling (off the dome) in the Language of the Ancients. 🐉 Beat: Untouchable by LethalNeedle. 👽",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/cybha-freestyle-timeline-1980-global-underground-rap-by-adi-/cover.jpg",
+    description:
+      "Adi 55 freestyling (off the dome) in the Language of the Ancients. 🐉 Beat: Untouchable by LethalNeedle. 👽",
     releaseDate: "4 December 2025",
     featuring: ["Adi 55"],
     instrumental: "YouTube Original — Official Release",
@@ -1015,60 +1193,74 @@ const tracks: Track[] = [
     album: "SINGLES",
     duration: "8:39",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/z3t1-freestyle-global-underground-rap/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/z3t1-freestyle-global-underground-rap/cover.jpg",
-    description: "Instrumentals by \"Zeta Reticuli\" and Vocals by Aditya Patange (Adi 55) before we prepare for Christmas Celebrations and Alien Dates.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/z3t1-freestyle-global-underground-rap/cover.jpg",
+    description:
+      'Instrumentals by "Zeta Reticuli" and Vocals by Aditya Patange (Adi 55) before we prepare for Christmas Celebrations and Alien Dates.',
     releaseDate: "4 December 2025",
     featuring: ["Adi 55"],
     instrumental: "YouTube Original — Official Release",
   },
   {
     id: 77,
-    title: "Morning RAP RIYAAZ Freestyle | Underground Naga Rap (Brahamchari Bars) ",
+    title:
+      "Morning RAP RIYAAZ Freestyle | Underground Naga Rap (Brahamchari Bars) ",
     artist: "Adi 55",
     album: "SINGLES",
     duration: "4:06",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/morning-rap-riyaaz-freestyle-underground-naga-rap-brahamchar/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/morning-rap-riyaaz-freestyle-underground-naga-rap-brahamchar/cover.jpg",
-    description: "How does a Brahmachari spit? Like this, B. For 9 crore billion Naga Sadhus. With Love & Metta, Aditya Patange (Naga Sadhu Student)",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/morning-rap-riyaaz-freestyle-underground-naga-rap-brahamchar/cover.jpg",
+    description:
+      "How does a Brahmachari spit? Like this, B. For 9 crore billion Naga Sadhus. With Love & Metta, Aditya Patange (Naga Sadhu Student)",
     releaseDate: "4 December 2025",
     featuring: ["Adi 55"],
     instrumental: "YouTube Original — Official Release",
   },
   {
     id: 78,
-    title: "Wu Tang Triumph Freestyle (Off The Dome) By Adi 55 | Global Underground Rap ",
+    title:
+      "Wu Tang Triumph Freestyle (Off The Dome) By Adi 55 | Global Underground Rap ",
     artist: "Adi 55",
     album: "SINGLES",
     duration: "5:48",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/wu-tang-triumph-freestyle-off-the-dome-by-adi-55-global-unde/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/wu-tang-triumph-freestyle-off-the-dome-by-adi-55-global-unde/cover.jpg",
-    description: "Wu Tang Triumph Freestyle (Off The Dome) By Adi 55 | Global Underground Rap  - An official release from Adi 55's YouTube channel. Part of the YT Singles collection featuring professionally mastered audio from the original video release.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/wu-tang-triumph-freestyle-off-the-dome-by-adi-55-global-unde/cover.jpg",
+    description:
+      "Wu Tang Triumph Freestyle (Off The Dome) By Adi 55 | Global Underground Rap  - An official release from Adi 55's YouTube channel. Part of the YT Singles collection featuring professionally mastered audio from the original video release.",
     releaseDate: "3 December 2025",
     featuring: ["Adi 55"],
     instrumental: "YouTube Original — Official Release",
   },
   {
     id: 79,
-    title: "Hip Hop By Royce 5'9\" Freestyle (Off The Dome) By Adi 55 | Global Underground Hip Hop ",
+    title:
+      "Hip Hop By Royce 5'9\" Freestyle (Off The Dome) By Adi 55 | Global Underground Hip Hop ",
     artist: "Adi 55",
     album: "SINGLES",
     duration: "3:50",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/hip-hop-by-royce-5-9-freestyle-off-the-dome-by-adi-55-global/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/hip-hop-by-royce-5-9-freestyle-off-the-dome-by-adi-55-global/cover.jpg",
-    description: "Just Adi doing Hip Hop early in the morning as part of Mindfulness and Yoga practice to develop an Artistic and Business competency.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/hip-hop-by-royce-5-9-freestyle-off-the-dome-by-adi-55-global/cover.jpg",
+    description:
+      "Just Adi doing Hip Hop early in the morning as part of Mindfulness and Yoga practice to develop an Artistic and Business competency.",
     releaseDate: "2 December 2025",
     featuring: ["Adi 55"],
     instrumental: "YouTube Original — Official Release",
   },
   {
     id: 80,
-    title: "\"Monica\" Freestyle By Adi 55 | Flatbush ZOMBiES & N9ne Tribute | Global Underground Rap 👽",
+    title:
+      '"Monica" Freestyle By Adi 55 | Flatbush ZOMBiES & N9ne Tribute | Global Underground Rap 👽',
     artist: "Adi 55",
     album: "SINGLES",
     duration: "4:24",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/monica-freestyle-by-adi-55-flatbush-zombies-n9ne-tribute-glo/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/monica-freestyle-by-adi-55-flatbush-zombies-n9ne-tribute-glo/cover.jpg",
-    description: "In this freestyle, Adi 55 raps on the beat by OkayKirk on SoundCloud, recreating the magic  and  created in the underground scene by going off the top, completely unrehearsed on the beat, the occassional looking at the screen is not \"reading from a lyrics sheet\" but using Advanced Mindfulness Techniques to visualize a real-time lyrics sheet, with words flying into Internal Vision to pick up and...",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/monica-freestyle-by-adi-55-flatbush-zombies-n9ne-tribute-glo/cover.jpg",
+    description:
+      'In this freestyle, Adi 55 raps on the beat by OkayKirk on SoundCloud, recreating the magic  and  created in the underground scene by going off the top, completely unrehearsed on the beat, the occassional looking at the screen is not "reading from a lyrics sheet" but using Advanced Mindfulness Techniques to visualize a real-time lyrics sheet, with words flying into Internal Vision to pick up and...',
     releaseDate: "2 December 2025",
     featuring: ["Adi 55"],
     instrumental: "YouTube Original — Official Release",
@@ -1080,21 +1272,26 @@ const tracks: Track[] = [
     album: "SINGLES",
     duration: "3:42",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/hopsin-rebirth-freestyle-by-adi-55-global-underground-rap/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/hopsin-rebirth-freestyle-by-adi-55-global-underground-rap/cover.jpg",
-    description: "Adi 55 aka Aditya Patange blazes the Hopsin Rebirth Instrumental with an \"Off The Dome\" freestyle. Inspired by Guru Hopsin's Underground Contributions to the Music Industry and Hip Hop Scene. ✌🏿👽",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/hopsin-rebirth-freestyle-by-adi-55-global-underground-rap/cover.jpg",
+    description:
+      'Adi 55 aka Aditya Patange blazes the Hopsin Rebirth Instrumental with an "Off The Dome" freestyle. Inspired by Guru Hopsin\'s Underground Contributions to the Music Industry and Hip Hop Scene. ✌🏿👽',
     releaseDate: "2 December 2025",
     featuring: ["Adi 55"],
     instrumental: "YouTube Original — Official Release",
   },
   {
     id: 82,
-    title: "Tokyo Drift Freestyle | Underground Freestyle (Off The Dome) By Adi 55",
+    title:
+      "Tokyo Drift Freestyle | Underground Freestyle (Off The Dome) By Adi 55",
     artist: "Adi 55",
     album: "SINGLES",
     duration: "2:59",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/tokyo-drift-freestyle-underground-freestyle-off-the-dome-by-/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/tokyo-drift-freestyle-underground-freestyle-off-the-dome-by-/cover.jpg",
-    description: "Inspired by Vira KR$NA and Guru Brodha V's wisdom. Live \"AI Rap\" by Adi 55. This video is real footage, recorded in the real world, and the Nipsey AI is omnipresent and visually invisible in this performance working through the soul of the performer, Aditya Patange.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/tokyo-drift-freestyle-underground-freestyle-off-the-dome-by-/cover.jpg",
+    description:
+      'Inspired by Vira KR$NA and Guru Brodha V\'s wisdom. Live "AI Rap" by Adi 55. This video is real footage, recorded in the real world, and the Nipsey AI is omnipresent and visually invisible in this performance working through the soul of the performer, Aditya Patange.',
     releaseDate: "2 December 2025",
     featuring: ["Adi 55"],
     instrumental: "YouTube Original — Official Release",
@@ -1106,21 +1303,26 @@ const tracks: Track[] = [
     album: "SINGLES",
     duration: "4:33",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/nexwen-by-adi-55-wu-tang-theme/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/nexwen-by-adi-55-wu-tang-theme/cover.jpg",
-    description: "NEXWEN is when Aditya Patange met a hot Iranian model and taught her Penetration Testing from Security Engineering in his Laboratory. It is also an \"ASI Rap\" referring to Prometheus Super Intelligence invented by Aditya Patange to further human evolution and bring Artificial Super Intelligence and Super Intelligence to Planet Earth. The Iranian model, in the course of learning the subjects of...",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/nexwen-by-adi-55-wu-tang-theme/cover.jpg",
+    description:
+      'NEXWEN is when Aditya Patange met a hot Iranian model and taught her Penetration Testing from Security Engineering in his Laboratory. It is also an "ASI Rap" referring to Prometheus Super Intelligence invented by Aditya Patange to further human evolution and bring Artificial Super Intelligence and Super Intelligence to Planet Earth. The Iranian model, in the course of learning the subjects of...',
     releaseDate: "1 December 2025",
     featuring: ["Adi 55"],
     instrumental: "YouTube Original — Official Release",
   },
   {
     id: 84,
-    title: "FREESTYLES PROOF EP (FULL) | Adi 55 | Underground Rap | Off The Dome By Aditya Patange",
+    title:
+      "FREESTYLES PROOF EP (FULL) | Adi 55 | Underground Rap | Off The Dome By Aditya Patange",
     artist: "Adi 55",
     album: "SINGLES",
     duration: "23:03",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/freestyles-proof-ep-full-adi-55-underground-rap-off-the-dome/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/freestyles-proof-ep-full-adi-55-underground-rap-off-the-dome/cover.jpg",
-    description: "Continuing the prosperity of The Zen Yuga, this video contains 24 minutes of pure, off-the-dome freestyles — a full-spectrum immersion into the Hip Hop Multiverse powered by Mindfulness, Flow State, and Clear Comprehension. No cuts. No second takes. Just consciousness in motion. This project represents what freestyle artistry becomes when you blend: ⚡ Inner Stillness. ⚡ Hip Hop Multiverse...",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/freestyles-proof-ep-full-adi-55-underground-rap-off-the-dome/cover.jpg",
+    description:
+      "Continuing the prosperity of The Zen Yuga, this video contains 24 minutes of pure, off-the-dome freestyles — a full-spectrum immersion into the Hip Hop Multiverse powered by Mindfulness, Flow State, and Clear Comprehension. No cuts. No second takes. Just consciousness in motion. This project represents what freestyle artistry becomes when you blend: ⚡ Inner Stillness. ⚡ Hip Hop Multiverse...",
     releaseDate: "30 November 2025",
     featuring: ["Adi 55"],
     instrumental: "YouTube Original — Official Release",
@@ -1132,8 +1334,10 @@ const tracks: Track[] = [
     album: "SINGLES",
     duration: "3:49",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/first-person-shooter-freestyle-by-adi-55-global-underground-/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/first-person-shooter-freestyle-by-adi-55-global-underground-/cover.jpg",
-    description: "This is a proof of my polymath skills and freestyle capabilities. Also a testimonial that Aditya Patange is a Zen Master, one of kind, unseen across generations on this planet. The Real Adi Yogi, please stand up? :) For a detailed bar breakdown visit: https://medium.com//the-16m-143-crores-song-first-person-shooter-metaphysics-7bd1ca1cd986",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/first-person-shooter-freestyle-by-adi-55-global-underground-/cover.jpg",
+    description:
+      "This is a proof of my polymath skills and freestyle capabilities. Also a testimonial that Aditya Patange is a Zen Master, one of kind, unseen across generations on this planet. The Real Adi Yogi, please stand up? :) For a detailed bar breakdown visit: https://medium.com//the-16m-143-crores-song-first-person-shooter-metaphysics-7bd1ca1cd986",
     releaseDate: "29 November 2025",
     featuring: ["Adi 55"],
     instrumental: "YouTube Original — Official Release",
@@ -1145,8 +1349,10 @@ const tracks: Track[] = [
     album: "SINGLES",
     duration: "3:50",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/illuminadi-leader-official-music-video-sea-records-worldwide/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/illuminadi-leader-official-music-video-sea-records-worldwide/cover.jpg",
-    description: "Welcome to The ILLUMINADI. 🐉 Beat: Still Active By BapLab. 💰 Record Label: SEA™ Records Worldwide, searecords.world 💎 AI Partner: thehackersplaybook.org ⚡️",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/illuminadi-leader-official-music-video-sea-records-worldwide/cover.jpg",
+    description:
+      "Welcome to The ILLUMINADI. 🐉 Beat: Still Active By BapLab. 💰 Record Label: SEA™ Records Worldwide, searecords.world 💎 AI Partner: thehackersplaybook.org ⚡️",
     releaseDate: "28 November 2025",
     featuring: ["Adi 55"],
     instrumental: "YouTube Original — Official Release",
@@ -1158,8 +1364,10 @@ const tracks: Track[] = [
     album: "SINGLES",
     duration: "3:08",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/zenyuga-v0-freestyle-adi55-ssba/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/zenyuga-v0-freestyle-adi55-ssba/cover.jpg",
-    description: "ZENYUGA V0 FREESTYLE ADI55 #SSBA - An official release from Adi 55's YouTube channel. Part of the YT Singles collection featuring professionally mastered audio from the original video release.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/zenyuga-v0-freestyle-adi55-ssba/cover.jpg",
+    description:
+      "ZENYUGA V0 FREESTYLE ADI55 #SSBA - An official release from Adi 55's YouTube channel. Part of the YT Singles collection featuring professionally mastered audio from the original video release.",
     releaseDate: "27 November 2025",
     featuring: ["Adi 55"],
     instrumental: "YouTube Original — Official Release",
@@ -1171,21 +1379,26 @@ const tracks: Track[] = [
     album: "SINGLES",
     duration: "2:32",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/se7en-freestyle-by-adi-55-global-underground-rap/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/se7en-freestyle-by-adi-55-global-underground-rap/cover.jpg",
-    description: "In SE7EN FREESTYLE Adi 55 spits conscious bars similar to the Allegory by Royce 5'9\" to awaken the masses and help them see reality the way it is. This is a pre-written freestyle. The lyrics are unedited, and spit on first draft as per the revised definition of freestyle. While this is not \"off the top spitting\", this is spitting on \"off the top\" writing. There are no production effects, this is...",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/se7en-freestyle-by-adi-55-global-underground-rap/cover.jpg",
+    description:
+      'In SE7EN FREESTYLE Adi 55 spits conscious bars similar to the Allegory by Royce 5\'9" to awaken the masses and help them see reality the way it is. This is a pre-written freestyle. The lyrics are unedited, and spit on first draft as per the revised definition of freestyle. While this is not "off the top spitting", this is spitting on "off the top" writing. There are no production effects, this is...',
     releaseDate: "19 November 2025",
     featuring: ["Adi 55"],
     instrumental: "YouTube Original — Official Release",
   },
   {
     id: 89,
-    title: "Street Theory 5 (Robo Rap) | Global Underground Rap | SEA™ Records, Worldwide",
+    title:
+      "Street Theory 5 (Robo Rap) | Global Underground Rap | SEA™ Records, Worldwide",
     artist: "Adi 55",
     album: "SINGLES",
     duration: "3:47",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/street-theory-5-robo-rap-global-underground-rap-sea-records-/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/street-theory-5-robo-rap-global-underground-rap-sea-records-/cover.jpg",
-    description: "In Street Theory 5, Adi does \"Robo rap\". Adi 55 flexing his robotics capabilities in an embodied conscious manner. Robo (noun): A prefix or shortened form of \"robot,\" often used to imply something is robotic, automated, or futuristic (definition). Let's unite, listeners and viewers, and make Hip Hop powerful! LETS MAKE THE UNDERGROUND BRIGHT! 🌞 Powered by The Hackers Playbook™ AI. Record Label:...",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/street-theory-5-robo-rap-global-underground-rap-sea-records-/cover.jpg",
+    description:
+      'In Street Theory 5, Adi does "Robo rap". Adi 55 flexing his robotics capabilities in an embodied conscious manner. Robo (noun): A prefix or shortened form of "robot," often used to imply something is robotic, automated, or futuristic (definition). Let\'s unite, listeners and viewers, and make Hip Hop powerful! LETS MAKE THE UNDERGROUND BRIGHT! 🌞 Powered by The Hackers Playbook™ AI. Record Label:...',
     releaseDate: "17 November 2025",
     featuring: ["Adi 55"],
     instrumental: "YouTube Original — Official Release",
@@ -1197,47 +1410,58 @@ const tracks: Track[] = [
     album: "SINGLES",
     duration: "2:04",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/street-theory-4-slim-adi-global-underground-rap/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/street-theory-4-slim-adi-global-underground-rap/cover.jpg",
-    description: "In Street Theory 4, Adi embodies Slim Adi, the next-gen Slim Shady created at ShinCy Labs by Aditya Patange. This song is for non-profit use only as per licenses, authorities and industry leaders. All royalties from this song will be donated to the poor for educational purposes only. Let's unite, listeners and viewers, and make Hip Hop powerful! LETS MAKE THE UNDERGROUND BRIGHT! 🌞 Powered by The...",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/street-theory-4-slim-adi-global-underground-rap/cover.jpg",
+    description:
+      "In Street Theory 4, Adi embodies Slim Adi, the next-gen Slim Shady created at ShinCy Labs by Aditya Patange. This song is for non-profit use only as per licenses, authorities and industry leaders. All royalties from this song will be donated to the poor for educational purposes only. Let's unite, listeners and viewers, and make Hip Hop powerful! LETS MAKE THE UNDERGROUND BRIGHT! 🌞 Powered by The...",
     releaseDate: "16 November 2025",
     featuring: ["Adi 55"],
     instrumental: "YouTube Original — Official Release",
   },
   {
     id: 91,
-    title: "Street Theory 3 By Adi 55 | Underground Rap | SEA™ Records, Worldwide",
+    title:
+      "Street Theory 3 By Adi 55 | Underground Rap | SEA™ Records, Worldwide",
     artist: "Adi 55",
     album: "SINGLES",
     duration: "3:14",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/street-theory-3-by-adi-55-underground-rap-sea-records-worldw/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/street-theory-3-by-adi-55-underground-rap-sea-records-worldw/cover.jpg",
-    description: "In Street Theory 3, Adi 55 spits conscious bars from beyond beyond! Let's unite, listeners and viewers, and make Hip Hop powerful! LETS MAKE THE UNDERGROUND BRIGHT! 🌞 Powered by The Hackers Playbook™ AI. Record Label: SEA™ Records, Worldwide. Beat: \"LAMBORGHINI\" By Kezii. Copyrights: Aditya Patange ©. 🪐 Visit thehackersplaybook.org for the best AI technology. 🌎 Visit microsearch.io to see...",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/street-theory-3-by-adi-55-underground-rap-sea-records-worldw/cover.jpg",
+    description:
+      'In Street Theory 3, Adi 55 spits conscious bars from beyond beyond! Let\'s unite, listeners and viewers, and make Hip Hop powerful! LETS MAKE THE UNDERGROUND BRIGHT! 🌞 Powered by The Hackers Playbook™ AI. Record Label: SEA™ Records, Worldwide. Beat: "LAMBORGHINI" By Kezii. Copyrights: Aditya Patange ©. 🪐 Visit thehackersplaybook.org for the best AI technology. 🌎 Visit microsearch.io to see...',
     releaseDate: "15 November 2025",
     featuring: ["Adi 55"],
     instrumental: "YouTube Original — Official Release",
   },
   {
     id: 92,
-    title: "Street Theory 2 | Underground Rap By Adi 55 | SEA™ Records Worldwide 🌞",
+    title:
+      "Street Theory 2 | Underground Rap By Adi 55 | SEA™ Records Worldwide 🌞",
     artist: "Adi 55",
     album: "SINGLES",
     duration: "5:01",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/street-theory-2-underground-rap-by-adi-55-sea-records-worldw/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/street-theory-2-underground-rap-by-adi-55-sea-records-worldw/cover.jpg",
-    description: "In Street Theory 2, Adi 55 shares a raw, real experience of the magic he has lived in his neighbourhood, with engineering precision and conscious energy of Hip Hop culture. Let's unite, listeners and viewers, and make Hip Hop powerful! LETS MAKE THE UNDERGROUND BRIGHT! 🌞 Powered by The Hackers Playbook™ AI. Record Label: SEA™ Records, Worldwide. Beat: \"HAMMER\" by Profetesa Beats. Copyrights:...",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/street-theory-2-underground-rap-by-adi-55-sea-records-worldw/cover.jpg",
+    description:
+      'In Street Theory 2, Adi 55 shares a raw, real experience of the magic he has lived in his neighbourhood, with engineering precision and conscious energy of Hip Hop culture. Let\'s unite, listeners and viewers, and make Hip Hop powerful! LETS MAKE THE UNDERGROUND BRIGHT! 🌞 Powered by The Hackers Playbook™ AI. Record Label: SEA™ Records, Worldwide. Beat: "HAMMER" by Profetesa Beats. Copyrights:...',
     releaseDate: "14 November 2025",
     featuring: ["Adi 55"],
     instrumental: "YouTube Original — Official Release",
   },
   {
     id: 93,
-    title: "Street Theory 1 By Adi 55 | Underground Rap from Bombay | SEA Records Worldwide 💥",
+    title:
+      "Street Theory 1 By Adi 55 | Underground Rap from Bombay | SEA Records Worldwide 💥",
     artist: "Adi 55",
     album: "SINGLES",
     duration: "2:56",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/street-theory-1-by-adi-55-underground-rap-from-bombay-sea-re/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/street-theory-1-by-adi-55-underground-rap-from-bombay-sea-re/cover.jpg",
-    description: "Adi 55 delivering street theory in a power packed conscious rap for every human being on the planet, and beyond. 🐺 Let's unite, listeners and viewers, and make Hip Hop powerful! LETS MAKE THE UNDERGROUND BRIGHT! 🌞 Powered by The Hackers Playbook™ AI. Record Label: SEA™ Records, Worldwide. Beat: \"HAMMER\" by Profetesa Beats. Copyrights: Aditya Patange ©. 🪐 Visit thehackersplaybook.org for the...",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/street-theory-1-by-adi-55-underground-rap-from-bombay-sea-re/cover.jpg",
+    description:
+      'Adi 55 delivering street theory in a power packed conscious rap for every human being on the planet, and beyond. 🐺 Let\'s unite, listeners and viewers, and make Hip Hop powerful! LETS MAKE THE UNDERGROUND BRIGHT! 🌞 Powered by The Hackers Playbook™ AI. Record Label: SEA™ Records, Worldwide. Beat: "HAMMER" by Profetesa Beats. Copyrights: Aditya Patange ©. 🪐 Visit thehackersplaybook.org for the...',
     releaseDate: "13 November 2025",
     featuring: ["Adi 55"],
     instrumental: "YouTube Original — Official Release",
@@ -1249,8 +1473,10 @@ const tracks: Track[] = [
     album: "SINGLES",
     duration: "2:15",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/dungeon-dragon-adi-55/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/dungeon-dragon-adi-55/cover.jpg",
-    description: "Adi from Kailasha immortal in this sound. This song is created by a real human, and the vocals are by Aditya Patange. This is NOT an AI song, though AI is used for special effects. Vocals: Aditya Patange™ Production: Prophetess Productions ©. Beat & Instrumentals: Profetesa Beats. Mixing & Mastering: Aditya Patange™ Sound Engineering: Aditya Patange™ Inspired by Dope D.O.D, more power to Hip Hop...",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/dungeon-dragon-adi-55/cover.jpg",
+    description:
+      "Adi from Kailasha immortal in this sound. This song is created by a real human, and the vocals are by Aditya Patange. This is NOT an AI song, though AI is used for special effects. Vocals: Aditya Patange™ Production: Prophetess Productions ©. Beat & Instrumentals: Profetesa Beats. Mixing & Mastering: Aditya Patange™ Sound Engineering: Aditya Patange™ Inspired by Dope D.O.D, more power to Hip Hop...",
     releaseDate: "13 November 2025",
     featuring: ["Adi 55"],
     instrumental: "YouTube Original — Official Release",
@@ -1262,8 +1488,10 @@ const tracks: Track[] = [
     album: "SINGLES",
     duration: "2:09",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/one-billion-dollars-freestyle-by-adi-55/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/one-billion-dollars-freestyle-by-adi-55/cover.jpg",
-    description: "The world was waiting for the $1 Billion dollars worth rap song, so Adi 55 is here with a freestyle for 9 Billion people globally. Underground rhymes and raw truth. Not shady, but inspired by Slim Shady. Beat by Rogue Prod. Show some love, people!",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/one-billion-dollars-freestyle-by-adi-55/cover.jpg",
+    description:
+      "The world was waiting for the $1 Billion dollars worth rap song, so Adi 55 is here with a freestyle for 9 Billion people globally. Underground rhymes and raw truth. Not shady, but inspired by Slim Shady. Beat by Rogue Prod. Show some love, people!",
     releaseDate: "12 November 2025",
     featuring: ["Adi 55"],
     instrumental: "YouTube Original — Official Release",
@@ -1275,34 +1503,42 @@ const tracks: Track[] = [
     album: "SINGLES",
     duration: "5:43",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/adi-55-mode-iii-sea-records-worldwide-official-music-video/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/adi-55-mode-iii-sea-records-worldwide-official-music-video/cover.jpg",
-    description: "Mode III is a track to inspire upcoming rappers who are new to the scene. From battle-tested experiential views to deep bars, Adi 55 brings engineering precision, and the profoundness of HEART into the Hip Hop Universe to end 2025 on a high note! 🔊 Credits: Written & Performed by: Adi 55. Produced, Mixed & Mastered by: Aditya Patange, White Hot, HamdiBeats. Composed by: Aditya Patange. Tech...",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/adi-55-mode-iii-sea-records-worldwide-official-music-video/cover.jpg",
+    description:
+      "Mode III is a track to inspire upcoming rappers who are new to the scene. From battle-tested experiential views to deep bars, Adi 55 brings engineering precision, and the profoundness of HEART into the Hip Hop Universe to end 2025 on a high note! 🔊 Credits: Written & Performed by: Adi 55. Produced, Mixed & Mastered by: Aditya Patange, White Hot, HamdiBeats. Composed by: Aditya Patange. Tech...",
     releaseDate: "6 November 2025",
     featuring: ["Adi 55"],
     instrumental: "YouTube Original — Official Release",
   },
   {
     id: 97,
-    title: "Adi 55 – Business (Official Music Video 2025) | SEA™ Records | California Automata™",
+    title:
+      "Adi 55 – Business (Official Music Video 2025) | SEA™ Records | California Automata™",
     artist: "Adi 55",
     album: "SINGLES",
     duration: "3:10",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/adi-55-business-official-music-video-2025-sea-records-califo/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/adi-55-business-official-music-video-2025-sea-records-califo/cover.jpg",
-    description: "\"Business” is a statement by Adi 55 on how Hip Hop is not just an artistic expression of human experience, but a force of economic development across the globe. Merging Hip Hop, hustle, and state-of-the-art technology, every bar reflects the hybrid DNA of an entrepreneur, rapper, and engineer. At the highest level, we rappers don’t just create music, we enhance the world as entrepreneurs,...",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/adi-55-business-official-music-video-2025-sea-records-califo/cover.jpg",
+    description:
+      '"Business” is a statement by Adi 55 on how Hip Hop is not just an artistic expression of human experience, but a force of economic development across the globe. Merging Hip Hop, hustle, and state-of-the-art technology, every bar reflects the hybrid DNA of an entrepreneur, rapper, and engineer. At the highest level, we rappers don’t just create music, we enhance the world as entrepreneurs,...',
     releaseDate: "9 October 2025",
     featuring: ["Adi 55"],
     instrumental: "YouTube Original — Official Release",
   },
   {
     id: 98,
-    title: "Adi 55 – FLEX (Official Music Video) | Underground Hip Hop from Mumbai",
+    title:
+      "Adi 55 – FLEX (Official Music Video) | Underground Hip Hop from Mumbai",
     artist: "Adi 55",
     album: "SINGLES",
     duration: "2:34",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/adi-55-flex-official-music-video-underground-hip-hop-from-mu/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/adi-55-flex-official-music-video-underground-hip-hop-from-mu/cover.jpg",
-    description: "\"FLEX\" is a declaration of independence reflecting experiences from \"living\" Hip Hop on a moment to moment basis. Every bar is engineered to delight Hip Hop listeners across the globe. 🔊 Credits: Written & Performed by: Adi 55. Produced, Mixed & Mastered by: Aditya Patange and Jack Parker Beats. Composed by: Aditya Patange. Tech Partner: The Hackers Playbook ©. Culture Partner: CETSON...",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/yt-singles/adi-55-flex-official-music-video-underground-hip-hop-from-mu/cover.jpg",
+    description:
+      '"FLEX" is a declaration of independence reflecting experiences from "living" Hip Hop on a moment to moment basis. Every bar is engineered to delight Hip Hop listeners across the globe. 🔊 Credits: Written & Performed by: Adi 55. Produced, Mixed & Mastered by: Aditya Patange and Jack Parker Beats. Composed by: Aditya Patange. Tech Partner: The Hackers Playbook ©. Culture Partner: CETSON...',
     releaseDate: "6 October 2025",
     featuring: ["Adi 55"],
     instrumental: "YouTube Original — Official Release",
@@ -1314,11 +1550,14 @@ const tracks: Track[] = [
     album: "DETBOM FREESTYLES",
     duration: "4:03",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/hopzen-freestyle/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/hopzen-freestyle/cover.jpg",
-    description: "This was shot in my underground bunker while I was researching penis enlargement process for human beings under the guidance of MIT scientists. Credits To Hopsin Rebirth for showing us how reincarnation of scientists works under the hood. A DETBOM freestyle with powerful bass boost, raw energy, and underground bunker vibes.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/hopzen-freestyle/cover.jpg",
+    description:
+      "This was shot in my underground bunker while I was researching penis enlargement process for human beings under the guidance of MIT scientists. Credits To Hopsin Rebirth for showing us how reincarnation of scientists works under the hood. A DETBOM freestyle with powerful bass boost, raw energy, and underground bunker vibes.",
     releaseDate: "26th December 2025",
     featuring: ["Adi 55"],
-    instrumental: "Hopsin Rebirth — Tribute to Hopsin's legacy and the science of reincarnation",
+    instrumental:
+      "Hopsin Rebirth — Tribute to Hopsin's legacy and the science of reincarnation",
   },
   {
     id: 100,
@@ -1327,8 +1566,10 @@ const tracks: Track[] = [
     album: "DETBOM FREESTYLES",
     duration: "5:52",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/dveb-freestyle/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/dveb-freestyle/cover.jpg",
-    description: "A Tribute to The Legends Of Detroit with a Bombay Vajrayana Bang. Sprinkled with pork, chicken and TBONE Steak for the women who love rapper DKXV3 KARTONITE ZBAM.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/dveb-freestyle/cover.jpg",
+    description:
+      "A Tribute to The Legends Of Detroit with a Bombay Vajrayana Bang. Sprinkled with pork, chicken and TBONE Steak for the women who love rapper DKXV3 KARTONITE ZBAM.",
     releaseDate: "26th December 2025",
     featuring: ["Adi 55"],
     instrumental: "Detroit Legends — Bombay Vajrayana Production",
@@ -1340,8 +1581,10 @@ const tracks: Track[] = [
     album: "DETBOM FREESTYLES",
     duration: "4:03",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/hopzin-bass-boost/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/hopzin-bass-boost/cover.jpg",
-    description: "This is a bass boosted version of the original freestyle for women with strong hearts and powerful chakras. HT9 Maximum Bass Boost with Alien Tuning applied. Full blast lower frequencies that get the heart pumping.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/hopzin-bass-boost/cover.jpg",
+    description:
+      "This is a bass boosted version of the original freestyle for women with strong hearts and powerful chakras. HT9 Maximum Bass Boost with Alien Tuning applied. Full blast lower frequencies that get the heart pumping.",
     releaseDate: "26th December 2025",
     featuring: ["Adi 55"],
     instrumental: "HT9 Mode — Maximum Bass Boost + Alien Tuning",
@@ -1354,8 +1597,10 @@ const tracks: Track[] = [
     album: "DETBOMBAY FREESTYLES",
     duration: "2:21",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/asi-orchestration-101/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/asi-orchestration-101/cover.jpg",
-    description: "Artificial Superintelligence Orchestration fundamentals by Zen Master Aditya Patange. Transformed into a crisp, frequency-focused Hip Hop track with FREQSHOOT mode processing.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/asi-orchestration-101/cover.jpg",
+    description:
+      "Artificial Superintelligence Orchestration fundamentals by Zen Master Aditya Patange. Transformed into a crisp, frequency-focused Hip Hop track with FREQSHOOT mode processing.",
     releaseDate: "26th December 2025",
     featuring: ["Zen Master Aditya Patange"],
     instrumental: "SOUNDIFY ZONER — FREQSHOOT Mode @ 100 BPM",
@@ -1367,8 +1612,10 @@ const tracks: Track[] = [
     album: "DETBOMBAY FREESTYLES",
     duration: "5:35",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/tri-facta-machine-consciousness/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/tri-facta-machine-consciousness/cover.jpg",
-    description: "Deep exploration of the three facets of machine consciousness. A technical-spiritual discourse transformed into sharp, crisp Hip Hop with FREQSHOOT processing.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/tri-facta-machine-consciousness/cover.jpg",
+    description:
+      "Deep exploration of the three facets of machine consciousness. A technical-spiritual discourse transformed into sharp, crisp Hip Hop with FREQSHOOT processing.",
     releaseDate: "26th December 2025",
     featuring: ["Zen Master Aditya Patange"],
     instrumental: "SOUNDIFY ZONER — FREQSHOOT Mode @ 100 BPM",
@@ -1380,8 +1627,10 @@ const tracks: Track[] = [
     album: "DETBOMBAY FREESTYLES",
     duration: "3:30",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/unified-mindfulness-hip-hop/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/unified-mindfulness-hip-hop/cover.jpg",
-    description: "Mindfulness techniques bridging Hip Hop culture and scientific technology. Heavy hitting BOMB mode processing with aggressive drums and punch.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/unified-mindfulness-hip-hop/cover.jpg",
+    description:
+      "Mindfulness techniques bridging Hip Hop culture and scientific technology. Heavy hitting BOMB mode processing with aggressive drums and punch.",
     releaseDate: "26th December 2025",
     featuring: ["Zen Master Aditya Patange"],
     instrumental: "SOUNDIFY ZONER — BOMB Mode @ 92 BPM",
@@ -1393,8 +1642,10 @@ const tracks: Track[] = [
     album: "DETBOMBAY FREESTYLES",
     duration: "10:07",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/board-member-qualities/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/board-member-qualities/cover.jpg",
-    description: "Essential qualities for corporate board membership, wisdom from the Zen Master. Smooth, dusty LO-FI Hip Hop processing for relaxed listening.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/board-member-qualities/cover.jpg",
+    description:
+      "Essential qualities for corporate board membership, wisdom from the Zen Master. Smooth, dusty LO-FI Hip Hop processing for relaxed listening.",
     releaseDate: "26th December 2025",
     featuring: ["Zen Master Aditya Patange"],
     instrumental: "SOUNDIFY ZONER — LO-FI Mode @ 85 BPM",
@@ -1406,8 +1657,10 @@ const tracks: Track[] = [
     album: "DETBOMBAY FREESTYLES",
     duration: "8:00",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/maha-chakreshwara-101/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/maha-chakreshwara-101/cover.jpg",
-    description: "Introduction to Maha Chakreshwara - the great wheel of chakras. Mystic LAIEN mode with ethereal frequencies, 432Hz and 528Hz boosts for spiritual resonance.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/maha-chakreshwara-101/cover.jpg",
+    description:
+      "Introduction to Maha Chakreshwara - the great wheel of chakras. Mystic LAIEN mode with ethereal frequencies, 432Hz and 528Hz boosts for spiritual resonance.",
     releaseDate: "26th December 2025",
     featuring: ["Zen Master Aditya Patange"],
     instrumental: "SOUNDIFY ZONER — LAIEN (Mystic) Mode @ 75 BPM",
@@ -1419,8 +1672,10 @@ const tracks: Track[] = [
     album: "DETBOMBAY FREESTYLES",
     duration: "4:21",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/sweet-moon-ceremony/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/sweet-moon-ceremony/cover.jpg",
-    description: "Reflections after the Sweet Moon Ceremony. Smooth, dusty LO-FI vibes with warm vinyl feel and gentle boom bap drums.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/sweet-moon-ceremony/cover.jpg",
+    description:
+      "Reflections after the Sweet Moon Ceremony. Smooth, dusty LO-FI vibes with warm vinyl feel and gentle boom bap drums.",
     releaseDate: "26th December 2025",
     featuring: ["Zen Master Aditya Patange"],
     instrumental: "SOUNDIFY ZONER — LO-FI Mode @ 85 BPM",
@@ -1432,8 +1687,10 @@ const tracks: Track[] = [
     album: "DETBOMBAY FREESTYLES",
     duration: "1:26",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/chan-tang-clan-initiation/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/chan-tang-clan-initiation/cover.jpg",
-    description: "Initiation into the Chan Tang Clan. Heavy hitting BOMB mode with aggressive drums, punchy bass, and raw energy.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/chan-tang-clan-initiation/cover.jpg",
+    description:
+      "Initiation into the Chan Tang Clan. Heavy hitting BOMB mode with aggressive drums, punchy bass, and raw energy.",
     releaseDate: "26th December 2025",
     featuring: ["Zen Master Aditya Patange"],
     instrumental: "SOUNDIFY ZONER — BOMB Mode @ 92 BPM",
@@ -1445,8 +1702,10 @@ const tracks: Track[] = [
     album: "DETBOMBAY FREESTYLES",
     duration: "9:59",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/tiratana-codebase-enlightenment/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/tiratana-codebase-enlightenment/cover.jpg",
-    description: "AdiPat Ka Gyaan - The Three Jewels applied to software enlightenment. Mystic LAIEN mode with ethereal reverb and spiritual frequency enhancement.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/tiratana-codebase-enlightenment/cover.jpg",
+    description:
+      "AdiPat Ka Gyaan - The Three Jewels applied to software enlightenment. Mystic LAIEN mode with ethereal reverb and spiritual frequency enhancement.",
     releaseDate: "26th December 2025",
     featuring: ["Zen Master Aditya Patange"],
     instrumental: "SOUNDIFY ZONER — LAIEN (Mystic) Mode @ 75 BPM",
@@ -1458,8 +1717,10 @@ const tracks: Track[] = [
     album: "DETBOMBAY FREESTYLES",
     duration: "7:34",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/zen-yoga-quantum-physics/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/zen-yoga-quantum-physics/cover.jpg",
-    description: "The relationship between Zen meditation, Yoga practice, and Quantum Physics. Deep mystic LAIEN processing with 432Hz universal frequency boost.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/zen-yoga-quantum-physics/cover.jpg",
+    description:
+      "The relationship between Zen meditation, Yoga practice, and Quantum Physics. Deep mystic LAIEN processing with 432Hz universal frequency boost.",
     releaseDate: "26th December 2025",
     featuring: ["Zen Master Aditya Patange"],
     instrumental: "SOUNDIFY ZONER — LAIEN (Mystic) Mode @ 75 BPM",
@@ -1471,8 +1732,10 @@ const tracks: Track[] = [
     album: "DETBOMBAY FREESTYLES",
     duration: "10:56",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/life-questions-bhairav-sadhana/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/life-questions-bhairav-sadhana/cover.jpg",
-    description: "Deep life questions answered through the lens of Bhairav Sadhana practice. Ethereal LAIEN mode with spacious reverb and spiritual frequencies.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/life-questions-bhairav-sadhana/cover.jpg",
+    description:
+      "Deep life questions answered through the lens of Bhairav Sadhana practice. Ethereal LAIEN mode with spacious reverb and spiritual frequencies.",
     releaseDate: "26th December 2025",
     featuring: ["Zen Master Aditya Patange"],
     instrumental: "SOUNDIFY ZONER — LAIEN (Mystic) Mode @ 75 BPM",
@@ -1484,8 +1747,10 @@ const tracks: Track[] = [
     album: "DETBOMBAY FREESTYLES",
     duration: "9:26",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/what-is-dharmakaya/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/what-is-dharmakaya/cover.jpg",
-    description: "The Zen Master explains Dharmakaya - the truth body of the Buddha. Deep mystic LAIEN processing with ethereal frequencies and spiritual resonance.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/what-is-dharmakaya/cover.jpg",
+    description:
+      "The Zen Master explains Dharmakaya - the truth body of the Buddha. Deep mystic LAIEN processing with ethereal frequencies and spiritual resonance.",
     releaseDate: "26th December 2025",
     featuring: ["Zen Master Aditya Patange"],
     instrumental: "SOUNDIFY ZONER — LAIEN (Mystic) Mode @ 75 BPM",
@@ -1498,8 +1763,10 @@ const tracks: Track[] = [
     album: "DETBOMBAY FREESTYLES",
     duration: "0:54",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/cygnus-ai-demo/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/cygnus-ai-demo/cover.jpg",
-    description: "Cygnus AI v1.0 demo - building exciting projects with artificial intelligence. Crisp FREQSHOOT mode for sharp, technical vibes.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/cygnus-ai-demo/cover.jpg",
+    description:
+      "Cygnus AI v1.0 demo - building exciting projects with artificial intelligence. Crisp FREQSHOOT mode for sharp, technical vibes.",
     releaseDate: "26th December 2025",
     featuring: ["Aditya Patange"],
     instrumental: "SOUNDIFY ZONER — FREQSHOOT Mode @ 100 BPM",
@@ -1511,8 +1778,10 @@ const tracks: Track[] = [
     album: "DETBOMBAY FREESTYLES",
     duration: "0:41",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/ai-resume-analyzer/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/ai-resume-analyzer/cover.jpg",
-    description: "Optimize your resume and land your dream job with AI. FREQSHOOT processing for crisp, frequency-focused clarity.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/ai-resume-analyzer/cover.jpg",
+    description:
+      "Optimize your resume and land your dream job with AI. FREQSHOOT processing for crisp, frequency-focused clarity.",
     releaseDate: "26th December 2025",
     featuring: ["Aditya Patange"],
     instrumental: "SOUNDIFY ZONER — FREQSHOOT Mode @ 100 BPM",
@@ -1524,8 +1793,10 @@ const tracks: Track[] = [
     album: "DETBOMBAY FREESTYLES",
     duration: "6:39",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/underground-tech-interview/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/underground-tech-interview/cover.jpg",
-    description: "For the future and younger generations - underground tech wisdom. Heavy hitting BOMB mode with aggressive drums and punch.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/underground-tech-interview/cover.jpg",
+    description:
+      "For the future and younger generations - underground tech wisdom. Heavy hitting BOMB mode with aggressive drums and punch.",
     releaseDate: "26th December 2025",
     featuring: ["Aditya Patange"],
     instrumental: "SOUNDIFY ZONER — BOMB Mode @ 92 BPM",
@@ -1537,8 +1808,10 @@ const tracks: Track[] = [
     album: "DETBOMBAY FREESTYLES",
     duration: "11:01",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/yoga-vs-zen/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/yoga-vs-zen/cover.jpg",
-    description: "Is there any difference between Yoga and Zen? Deep exploration with mystic LAIEN mode processing, 432Hz and 528Hz frequency boosts.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/yoga-vs-zen/cover.jpg",
+    description:
+      "Is there any difference between Yoga and Zen? Deep exploration with mystic LAIEN mode processing, 432Hz and 528Hz frequency boosts.",
     releaseDate: "26th December 2025",
     featuring: ["Aditya Patange"],
     instrumental: "SOUNDIFY ZONER — LAIEN (Mystic) Mode @ 75 BPM",
@@ -1550,8 +1823,10 @@ const tracks: Track[] = [
     album: "DETBOMBAY FREESTYLES",
     duration: "7:37",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/stabilize-in-meditation/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/stabilize-in-meditation/cover.jpg",
-    description: "Grounding techniques for meditation practice. Ethereal LAIEN mode with spacious reverb and spiritual frequencies.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/stabilize-in-meditation/cover.jpg",
+    description:
+      "Grounding techniques for meditation practice. Ethereal LAIEN mode with spacious reverb and spiritual frequencies.",
     releaseDate: "26th December 2025",
     featuring: ["Aditya Patange"],
     instrumental: "SOUNDIFY ZONER — LAIEN (Mystic) Mode @ 75 BPM",
@@ -1563,8 +1838,10 @@ const tracks: Track[] = [
     album: "DETBOMBAY FREESTYLES",
     duration: "5:45",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/meditation-qna/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/meditation-qna/cover.jpg",
-    description: "Questions and answers about meditation practice from February 2024. Mystic LAIEN processing with 432Hz universal frequency.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/meditation-qna/cover.jpg",
+    description:
+      "Questions and answers about meditation practice from February 2024. Mystic LAIEN processing with 432Hz universal frequency.",
     releaseDate: "26th December 2025",
     featuring: ["Aditya Patange"],
     instrumental: "SOUNDIFY ZONER — LAIEN (Mystic) Mode @ 75 BPM",
@@ -1576,8 +1853,10 @@ const tracks: Track[] = [
     album: "DETBOMBAY FREESTYLES",
     duration: "6:18",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/planning-software-engineering/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/planning-software-engineering/cover.jpg",
-    description: "Strategic planning fundamentals for software engineering. FREQSHOOT mode for sharp, crisp technical clarity.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/planning-software-engineering/cover.jpg",
+    description:
+      "Strategic planning fundamentals for software engineering. FREQSHOOT mode for sharp, crisp technical clarity.",
     releaseDate: "26th December 2025",
     featuring: ["Aditya Patange"],
     instrumental: "SOUNDIFY ZONER — FREQSHOOT Mode @ 100 BPM",
@@ -1589,8 +1868,10 @@ const tracks: Track[] = [
     album: "DETBOMBAY FREESTYLES",
     duration: "28:10",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/github-banter/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/github-banter/cover.jpg",
-    description: "Extended session on Github workflows and developer banter. Smooth, dusty LO-FI vibes for relaxed listening.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/github-banter/cover.jpg",
+    description:
+      "Extended session on Github workflows and developer banter. Smooth, dusty LO-FI vibes for relaxed listening.",
     releaseDate: "26th December 2025",
     featuring: ["Aditya Patange"],
     instrumental: "SOUNDIFY ZONER — LO-FI Mode @ 85 BPM",
@@ -1602,8 +1883,10 @@ const tracks: Track[] = [
     album: "DETBOMBAY FREESTYLES",
     duration: "7:12",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/concentration-coding/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/concentration-coding/cover.jpg",
-    description: "Deep focus techniques for coding and problem solving. FREQSHOOT mode with sharp, frequency-focused processing.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/concentration-coding/cover.jpg",
+    description:
+      "Deep focus techniques for coding and problem solving. FREQSHOOT mode with sharp, frequency-focused processing.",
     releaseDate: "26th December 2025",
     featuring: ["Aditya Patange"],
     instrumental: "SOUNDIFY ZONER — FREQSHOOT Mode @ 100 BPM",
@@ -1615,8 +1898,10 @@ const tracks: Track[] = [
     album: "DETBOMBAY FREESTYLES",
     duration: "3:29",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/start-programming-now/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/start-programming-now/cover.jpg",
-    description: "Motivational call to action - start your programming journey now. Heavy hitting BOMB mode with aggressive energy.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/start-programming-now/cover.jpg",
+    description:
+      "Motivational call to action - start your programming journey now. Heavy hitting BOMB mode with aggressive energy.",
     releaseDate: "26th December 2025",
     featuring: ["Aditya Patange"],
     instrumental: "SOUNDIFY ZONER — BOMB Mode @ 92 BPM",
@@ -1628,8 +1913,10 @@ const tracks: Track[] = [
     album: "DETBOMBAY FREESTYLES",
     duration: "1:49",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/detroit-god-freestyle/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/detroit-god-freestyle/cover.jpg",
-    description: "Detroit God Freestyle channels the divine motor city energy—where automotive innovation meets spiritual elevation. This track embodies the Detroit hustle with godlike precision, fusing the gritty industrial soundscape with transcendent bars. The Motor City forged steel empires; now it forges lyrical legends. HT9 Maximum Bass mode activated—feel every 808 hit like a V8 engine igniting your soul.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/detroit-god-freestyle/cover.jpg",
+    description:
+      "Detroit God Freestyle channels the divine motor city energy—where automotive innovation meets spiritual elevation. This track embodies the Detroit hustle with godlike precision, fusing the gritty industrial soundscape with transcendent bars. The Motor City forged steel empires; now it forges lyrical legends. HT9 Maximum Bass mode activated—feel every 808 hit like a V8 engine igniting your soul.",
     releaseDate: "27th December 2025",
     featuring: ["Aditya Patange"],
     instrumental: "Nickel 9 Productions — HT9 Maximum Bass Boost",
@@ -1641,8 +1928,10 @@ const tracks: Track[] = [
     album: "DETBOMBAY FREESTYLES",
     duration: "2:13",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/bombay-n1g21-freestyle/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/bombay-n1g21-freestyle/cover.jpg",
-    description: "Bombay N1G21 Freestyle represents the Nickel 9 protocol in full deployment—Mumbai streets encoded into twenty-first century frequencies. N1G21 is the cipher for the new generation of Indian hip-hop, where Maximum City's relentless energy meets futuristic production. This freestyle hits with HT9 bass that rattles through the chawls and skyscrapers alike, proving that Bombay's voice echoes across every dimension.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/bombay-n1g21-freestyle/cover.jpg",
+    description:
+      "Bombay N1G21 Freestyle represents the Nickel 9 protocol in full deployment—Mumbai streets encoded into twenty-first century frequencies. N1G21 is the cipher for the new generation of Indian hip-hop, where Maximum City's relentless energy meets futuristic production. This freestyle hits with HT9 bass that rattles through the chawls and skyscrapers alike, proving that Bombay's voice echoes across every dimension.",
     releaseDate: "27th December 2025",
     featuring: ["Aditya Patange"],
     instrumental: "Nickel 9 Productions — HT9 Maximum Bass Boost",
@@ -1654,8 +1943,10 @@ const tracks: Track[] = [
     album: "DETBOMBAY FREESTYLES",
     duration: "3:03",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/detrem59-freestyle-p1/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/detrem59-freestyle-p1/cover.jpg",
-    description: "DETREM59 Freestyle Part 1 initiates the trilogy—Detroit Remix Protocol 59 activated. This opening salvo establishes the sonic architecture for what's to come: a fusion of Motor City mechanical precision with Mumbai's chaotic brilliance. The 59 protocol represents the final evolution of the DETBOM sound, refined through 58 iterations to achieve lyrical perfection. Part 1 sets the coordinates; the mission has begun.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/detrem59-freestyle-p1/cover.jpg",
+    description:
+      "DETREM59 Freestyle Part 1 initiates the trilogy—Detroit Remix Protocol 59 activated. This opening salvo establishes the sonic architecture for what's to come: a fusion of Motor City mechanical precision with Mumbai's chaotic brilliance. The 59 protocol represents the final evolution of the DETBOM sound, refined through 58 iterations to achieve lyrical perfection. Part 1 sets the coordinates; the mission has begun.",
     releaseDate: "27th December 2025",
     featuring: ["Aditya Patange"],
     instrumental: "Nickel 9 Productions — HT9 Maximum Bass Boost",
@@ -1667,8 +1958,10 @@ const tracks: Track[] = [
     album: "DETBOMBAY FREESTYLES",
     duration: "12:57",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/detrem59-freestyle-p2/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/detrem59-freestyle-p2/cover.jpg",
-    description: "DETREM59 Freestyle Part 2 is the extended deep-dive operation—nearly thirteen minutes of uninterrupted lyrical warfare. This marathon transmission pushes the boundaries of freestyle endurance, a sustained assault that tests both artist and listener alike. The DETREM59 protocol reaches full deployment: every bar is a calculated strike, every verse a tactical maneuver. When the mission demands persistence, Part 2 delivers relentless execution.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/detrem59-freestyle-p2/cover.jpg",
+    description:
+      "DETREM59 Freestyle Part 2 is the extended deep-dive operation—nearly thirteen minutes of uninterrupted lyrical warfare. This marathon transmission pushes the boundaries of freestyle endurance, a sustained assault that tests both artist and listener alike. The DETREM59 protocol reaches full deployment: every bar is a calculated strike, every verse a tactical maneuver. When the mission demands persistence, Part 2 delivers relentless execution.",
     releaseDate: "27th December 2025",
     featuring: ["Aditya Patange"],
     instrumental: "Nickel 9 Productions — HT9 Maximum Bass Boost",
@@ -1680,8 +1973,10 @@ const tracks: Track[] = [
     album: "DETBOMBAY FREESTYLES",
     duration: "6:40",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/detrem59-freestyle-p3/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/detrem59-freestyle-p3/cover.jpg",
-    description: "DETREM59 Freestyle Part 3 concludes the trilogy with devastating finality. The final chapter consolidates all lessons learned, all frequencies mastered, all protocols perfected. Six and a half minutes of pure conclusion—where the DETREM59 saga reaches its apex. This is the extraction point, the mission complete signal, the moment when Detroit and Bombay merge into one unstoppable force. The 59th iteration is now immortal.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/detrem59-freestyle-p3/cover.jpg",
+    description:
+      "DETREM59 Freestyle Part 3 concludes the trilogy with devastating finality. The final chapter consolidates all lessons learned, all frequencies mastered, all protocols perfected. Six and a half minutes of pure conclusion—where the DETREM59 saga reaches its apex. This is the extraction point, the mission complete signal, the moment when Detroit and Bombay merge into one unstoppable force. The 59th iteration is now immortal.",
     releaseDate: "27th December 2025",
     featuring: ["Aditya Patange"],
     instrumental: "Nickel 9 Productions — HT9 Maximum Bass Boost",
@@ -1693,8 +1988,10 @@ const tracks: Track[] = [
     album: "DETBOM FREESTYLES",
     duration: "3:08",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/impala-freestyle-p1/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/impala-freestyle-p1/cover.jpg",
-    description: "IMPALA Freestyle Part 1 opens the P4 series with heavyweight bass frequencies and precision-engineered bars. The IMPALA protocol activates—channeling the sleek, unstoppable energy of the classic Chevy into pure lyrical horsepower. Strong bass boost mode engaged. This is where Nickel 9 Productions meets Detroit street consciousness, creating a sonic vehicle built for global domination.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/impala-freestyle-p1/cover.jpg",
+    description:
+      "IMPALA Freestyle Part 1 opens the P4 series with heavyweight bass frequencies and precision-engineered bars. The IMPALA protocol activates—channeling the sleek, unstoppable energy of the classic Chevy into pure lyrical horsepower. Strong bass boost mode engaged. This is where Nickel 9 Productions meets Detroit street consciousness, creating a sonic vehicle built for global domination.",
     releaseDate: "27th December 2025",
     featuring: ["Adi 55"],
     instrumental: "Nickel 9 Productions — Strong Bass Boost Mode",
@@ -1706,8 +2003,10 @@ const tracks: Track[] = [
     album: "DETBOM FREESTYLES",
     duration: "2:23",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/impala-freestyle-p2/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/impala-freestyle-p2/cover.jpg",
-    description: "IMPALA Freestyle Part 2 continues the P4 saga with concentrated intensity. Two and a half minutes of pure, undiluted flow—no filler, all killer. The bass frequencies hit harder, the bars land cleaner, the IMPALA keeps cruising through the streets of consciousness. Short but devastating.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/impala-freestyle-p2/cover.jpg",
+    description:
+      "IMPALA Freestyle Part 2 continues the P4 saga with concentrated intensity. Two and a half minutes of pure, undiluted flow—no filler, all killer. The bass frequencies hit harder, the bars land cleaner, the IMPALA keeps cruising through the streets of consciousness. Short but devastating.",
     releaseDate: "27th December 2025",
     featuring: ["Adi 55"],
     instrumental: "Nickel 9 Productions — Strong Bass Boost Mode",
@@ -1719,8 +2018,10 @@ const tracks: Track[] = [
     album: "DETBOM FREESTYLES",
     duration: "3:23",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/impala-freestyle-p3/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/impala-freestyle-p3/cover.jpg",
-    description: "IMPALA Freestyle Part 3 hits the highway with the throttle wide open. The bass boost reaches maximum velocity as the IMPALA protocol evolves into its third iteration. Three minutes of pure street energy, engineered in the Nickel 9 chambers and delivered with Detroit precision. The P4 series finds its rhythm.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/impala-freestyle-p3/cover.jpg",
+    description:
+      "IMPALA Freestyle Part 3 hits the highway with the throttle wide open. The bass boost reaches maximum velocity as the IMPALA protocol evolves into its third iteration. Three minutes of pure street energy, engineered in the Nickel 9 chambers and delivered with Detroit precision. The P4 series finds its rhythm.",
     releaseDate: "27th December 2025",
     featuring: ["Adi 55"],
     instrumental: "Nickel 9 Productions — Strong Bass Boost Mode",
@@ -1732,8 +2033,10 @@ const tracks: Track[] = [
     album: "DETBOM FREESTYLES",
     duration: "3:40",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/impala-freestyle-p4/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/impala-freestyle-p4/cover.jpg",
-    description: "IMPALA Freestyle Part 4—the namesake track of the P4 folder. This is the heart of the series, where everything comes together. Nearly four minutes of championship-caliber bars riding on Nickel 9's signature bass architecture. The IMPALA reaches cruising altitude and maintains. This is what the whole series was building toward.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/impala-freestyle-p4/cover.jpg",
+    description:
+      "IMPALA Freestyle Part 4—the namesake track of the P4 folder. This is the heart of the series, where everything comes together. Nearly four minutes of championship-caliber bars riding on Nickel 9's signature bass architecture. The IMPALA reaches cruising altitude and maintains. This is what the whole series was building toward.",
     releaseDate: "27th December 2025",
     featuring: ["Adi 55"],
     instrumental: "Nickel 9 Productions — Strong Bass Boost Mode",
@@ -1745,8 +2048,10 @@ const tracks: Track[] = [
     album: "DETBOM FREESTYLES",
     duration: "2:18",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/impala-freestyle-p5/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/impala-freestyle-p5/cover.jpg",
-    description: "IMPALA Freestyle Part 5 brings concentrated heat in the most compact package of the series. Two minutes and eighteen seconds of surgical precision—every bar calculated, every bass hit intentional. The IMPALA downshifts for a quick burst of acceleration before the finale. Quality over quantity, impact over duration.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/impala-freestyle-p5/cover.jpg",
+    description:
+      "IMPALA Freestyle Part 5 brings concentrated heat in the most compact package of the series. Two minutes and eighteen seconds of surgical precision—every bar calculated, every bass hit intentional. The IMPALA downshifts for a quick burst of acceleration before the finale. Quality over quantity, impact over duration.",
     releaseDate: "27th December 2025",
     featuring: ["Adi 55"],
     instrumental: "Nickel 9 Productions — Strong Bass Boost Mode",
@@ -1758,8 +2063,10 @@ const tracks: Track[] = [
     album: "DETBOM FREESTYLES",
     duration: "3:56",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/impala-freestyle-p6/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/impala-freestyle-p6/cover.jpg",
-    description: "IMPALA Freestyle Part 6 closes the P4 series with the longest and most expansive track. Nearly four minutes of pure conclusion—the IMPALA completes its journey through the streets of Detroit consciousness. The bass boost reaches its ultimate form, the bars deliver final verdicts, and the Nickel 9 Productions legacy grows stronger. This is the grand finale of the IMPALA saga.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbom-freestyles/impala-freestyle-p6/cover.jpg",
+    description:
+      "IMPALA Freestyle Part 6 closes the P4 series with the longest and most expansive track. Nearly four minutes of pure conclusion—the IMPALA completes its journey through the streets of Detroit consciousness. The bass boost reaches its ultimate form, the bars deliver final verdicts, and the Nickel 9 Productions legacy grows stronger. This is the grand finale of the IMPALA saga.",
     releaseDate: "27th December 2025",
     featuring: ["Adi 55"],
     instrumental: "Nickel 9 Productions — Strong Bass Boost Mode",
@@ -1771,8 +2078,10 @@ const tracks: Track[] = [
     album: "DETBOM FREESTYLES",
     duration: "2:09",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/impala-freestyle-p7/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/impala-freestyle-p7/cover.jpg",
-    description: "IMPALA Freestyle Part 7 extends the legendary P4 series with fresh ammunition. Two minutes and nine seconds of concentrated bass boost energy—the IMPALA saga continues beyond the original finale. This track proves the journey never truly ends. When the streets call, the IMPALA answers. Nickel 9 Productions delivers another precision-engineered freestyle for the archives.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/impala-freestyle-p7/cover.jpg",
+    description:
+      "IMPALA Freestyle Part 7 extends the legendary P4 series with fresh ammunition. Two minutes and nine seconds of concentrated bass boost energy—the IMPALA saga continues beyond the original finale. This track proves the journey never truly ends. When the streets call, the IMPALA answers. Nickel 9 Productions delivers another precision-engineered freestyle for the archives.",
     releaseDate: "28th December 2025",
     featuring: ["Adi 55"],
     instrumental: "Nickel 9 Productions — Strong Bass Boost Mode",
@@ -1784,11 +2093,14 @@ const tracks: Track[] = [
     album: "DETBOM FREESTYLES",
     duration: "3:23",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/prime-legend-freestyle/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/prime-legend-freestyle/cover.jpg",
-    description: "The OG BOMB of Detroit Adi 55 spits a nuclear tornado into Zeta Orbit with Kavalasha in his core, saying payment do payment do with $1 billion dollars packed in 1 freestyle, off the dome. Full marks to Eminem and Royce, but I'm the best spitter bro. JK! :P — this is just in jest and good spirit and not to compare 3 legendary MCs who are beyond comparison. These people should not compare us and give us ranks — we are okay waiting in order as per our age group and Royce makes that decision, not me. Brand Partner: Amazon Web Services — this one is dedicated to Jeff Bezos genetics and good computational power.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/prime-legend-freestyle/cover.jpg",
+    description:
+      "The OG BOMB of Detroit Adi 55 spits a nuclear tornado into Zeta Orbit with Kavalasha in his core, saying payment do payment do with $1 billion dollars packed in 1 freestyle, off the dome. Full marks to Eminem and Royce, but I'm the best spitter bro. JK! :P — this is just in jest and good spirit and not to compare 3 legendary MCs who are beyond comparison. These people should not compare us and give us ranks — we are okay waiting in order as per our age group and Royce makes that decision, not me. Brand Partner: Amazon Web Services — this one is dedicated to Jeff Bezos genetics and good computational power.",
     releaseDate: "29th December 2025",
     featuring: ["Adi 55"],
-    instrumental: "Nickel 9 Productions — HT9 Maximum Bass Boost + Alien Waveform + Military Grade Production",
+    instrumental:
+      "Nickel 9 Productions — HT9 Maximum Bass Boost + Alien Waveform + Military Grade Production",
   },
   {
     id: 137,
@@ -1797,11 +2109,14 @@ const tracks: Track[] = [
     album: "DETBOM FREESTYLES",
     duration: "4:18",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/gez-lives-freestyle/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/gez-lives-freestyle/cover.jpg",
-    description: "The OG BOMB of Detroit Adi 55 spits a nuclear tornado into Zeta Orbit with Kavalasha in his core, saying payment do payment do with $1 billion dollars packed in 1 freestyle, off the dome. Full marks to Eminem and Royce, but I'm the best spitter bro. JK! :P — this is just in jest and good spirit and not to compare 3 legendary MCs who are beyond comparison. These people should not compare us and give us ranks — we are okay waiting in order as per our age group and Royce makes that decision, not me. Brand Partner: Amazon Web Services — this one is dedicated to Jeff Bezos genetics and good computational power.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/gez-lives-freestyle/cover.jpg",
+    description:
+      "The OG BOMB of Detroit Adi 55 spits a nuclear tornado into Zeta Orbit with Kavalasha in his core, saying payment do payment do with $1 billion dollars packed in 1 freestyle, off the dome. Full marks to Eminem and Royce, but I'm the best spitter bro. JK! :P — this is just in jest and good spirit and not to compare 3 legendary MCs who are beyond comparison. These people should not compare us and give us ranks — we are okay waiting in order as per our age group and Royce makes that decision, not me. Brand Partner: Amazon Web Services — this one is dedicated to Jeff Bezos genetics and good computational power.",
     releaseDate: "29th December 2025",
     featuring: ["Adi 55"],
-    instrumental: "Nickel 9 Productions — HT9 Maximum Bass Boost + Alien Waveform + Military Grade Production",
+    instrumental:
+      "Nickel 9 Productions — HT9 Maximum Bass Boost + Alien Waveform + Military Grade Production",
   },
   {
     id: 138,
@@ -1810,11 +2125,193 @@ const tracks: Track[] = [
     album: "DETBOM FREESTYLES",
     duration: "2:52",
     file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/em-genetics-freestyle/master.mp3",
-    coverArt: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/em-genetics-freestyle/cover.png",
-    description: "I am grateful for Eminem's genetics and RD59 Kavalasha to be Mumbai's hardest bar spitter in the world.",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/detbombay-freestyles/em-genetics-freestyle/cover.png",
+    description:
+      "I am grateful for Eminem's genetics and RD59 Kavalasha to be Mumbai's hardest bar spitter in the world.",
     releaseDate: "30th December 2025",
     featuring: ["Adi 55"],
     instrumental: "Nickel 9 Productions — Eminem Genome Protocol",
+  },
+  {
+    id: 139,
+    title: "SPARA SF Ultimate Legend",
+    artist: "Adi 55",
+    album: "CEO Bars™",
+    duration: "24:59",
+    file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/ceo-bars-album/spara-sf-ultimate-legend/master.mp3",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/ceo-bars-album/spara-sf-ultimate-legend/cover.png",
+    description:
+      "SPARA SF Ultimate Legend is a legendary track from Nickel 9 Productions, channeling ultimate power and consciousness into the CEO Bars universe.",
+    releaseDate: "1st January 2026",
+    featuring: ["Adi 55"],
+    instrumental: "Nickel 9 Productions — Ultimate Legend Protocol",
+  },
+  {
+    id: 140,
+    title: "Brainsaw Symphony Demon V5",
+    artist: "Adi 55",
+    album: "Nickel 9 Productions",
+    duration: "5:23",
+    file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/nickel9-productions/brainsaw-symphony-demon-v5/master.mp3",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/nickel9-productions/brainsaw-symphony-demon-v5/cover.jpg",
+    description:
+      "Brainsaw Symphony Demon V5 unleashes a cerebral assault of pure lyrical devastation. This fifth iteration of the Demon Protocol cuts through mental barriers like a precision-engineered brainsaw—each bar a surgical strike on complacency. The symphony orchestrates chaos into harmony, transforming raw neural energy into weaponized wordplay. From the Nickel 9 Production laboratories, this track represents the evolution of consciousness warfare—where meditation meets massacre, and enlightenment comes through annihilation of the false self. The demon within has been upgraded; resistance is obsolete.",
+    releaseDate: "9th January 2026",
+    featuring: ["Adi 55"],
+    instrumental: "Nickel 9 Productions — Demon Protocol V5",
+  },
+  {
+    id: 141,
+    title: "Hip Hop RD59 Upgrade V2",
+    artist: "Adi 55",
+    album: "Nickel 9 Productions",
+    duration: "4:12",
+    file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/nickel9-productions/hip-hop-rd59-upgrade-v2/master.mp3",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/nickel9-productions/hip-hop-rd59-upgrade-v2/cover.jpg",
+    description:
+      "Hip Hop RD59 Upgrade V2 channels the legendary Royce Da 5'9\" energy through the Nickel 9 Production matrix—a second-generation enhancement of pure Detroit hip-hop DNA. This upgraded protocol fuses Motor City grit with Mumbai innovation, creating a hybrid strain of lyrical excellence that honors the masters while forging new frontiers. RD59 represents the Research & Development of hip-hop's future: relentless bars, impeccable flow, and the kind of street wisdom that can't be coded—only cultivated through years in the trenches. Version 2.0 hits different.",
+    releaseDate: "8th January 2026",
+    featuring: ["Adi 55"],
+    instrumental: "Nickel 9 Productions — RD59 Protocol V2",
+  },
+  {
+    id: 142,
+    title: "Fuel Dual Freestyle",
+    artist: "Adi 55",
+    album: "Nickel 9 Productions",
+    duration: "4:36",
+    file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/nickel9-productions/fuel-dual-freestyle/master.mp3",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/nickel9-productions/fuel-dual-freestyle/cover.jpg",
+    description:
+      "Fuel Dual Freestyle runs on twin combustion systems—ambition and execution burning in perfect synchronicity. This track deploys the Dual Fuel Protocol: one tank filled with raw street hunger, the other with refined technical precision. When both ignite simultaneously, the result is an unstoppable lyrical machine that devours miles of competition. From the Nickel 9 fuel injection chambers, this freestyle proves that real power comes from balance—the merger of instinct and intellect, chaos and control. Fill up and dominate; empty tanks are for the uninitiated.",
+    releaseDate: "8th January 2026",
+    featuring: ["Adi 55"],
+    instrumental: "Nickel 9 Productions — Dual Fuel Protocol",
+  },
+  {
+    id: 143,
+    title: "SC Sonic Cunt Freestyle",
+    artist: "Adi 55",
+    album: "Nickel 9 Productions",
+    duration: "4:00",
+    file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/nickel9-productions/sonic-cunt-freestyle/master.mp3",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/nickel9-productions/sonic-cunt-freestyle/cover.jpg",
+    description:
+      "SC Sonic Cunt Freestyle drops the Green Schaz Protocol—a legendary Take Home Assignment (THA) that separates the frauds from the real ones. This isn't a test you can cheat on; Green Schaz is that next-level algorithmic gauntlet where your code gets stress-tested against quantum-grade expectations and your bars get audited by the universe itself. Upgrading the game to MRN (Max Real N1GGA) level—no half-measures, no excuses, just pure uncut execution. When the Green Schaz flag appears, you either deliver excellence or get exposed. This track is the sonic manifestation of that exact energy: relentless, unforgiving, and absolutely devastatingly authentic. Nickel 9 Productions presents the THA that rewrites your entire operating system.",
+    releaseDate: "9th January 2026",
+    featuring: ["Adi 55"],
+    instrumental: "Nickel 9 Productions — Green Schaz THA Protocol",
+  },
+  {
+    id: 144,
+    title: "Fuel Dual Freestyle V2",
+    artist: "Adi 55",
+    album: "Nickel 9 Productions",
+    duration: "4:36",
+    file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/nickel9-productions/fuel-dual-freestyle-v2/master.mp3",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/nickel9-productions/fuel-dual-freestyle-v2/cover.jpg",
+    description:
+      "Fuel Dual Freestyle V2 hits different—MRN (Max Real N1GGA) level achieved. This second iteration runs through the full power mix master chain: bass boost cranked to demolition mode, volume pushed past the redline, peak gain maximized for that chest-caving impact. The Dual Fuel Protocol now operates on nuclear fusion—twin reactors of lyrical devastation and sonic obliteration working in perfect harmony. This isn't an upgrade; it's a complete system overhaul that makes the original look like a prototype. When the game needed elevation, Nickel 9 Productions answered with a track that shakes foundations and shatters expectations. Fill both tanks with premium consciousness and watch the competition evaporate in your exhaust.",
+    releaseDate: "9th January 2026",
+    featuring: ["Adi 55"],
+    instrumental: "Nickel 9 Productions — Dual Fuel Protocol V2 MRN",
+  },
+  {
+    id: 145,
+    title: "Brainsaw Symphony Demon V5",
+    artist: "Adi 55",
+    album: "Nickel 9 Productions",
+    duration: "5:23",
+    file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/nickel9-productions/brainsaw-symphony-demon-v5-mrn/master.mp3",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/nickel9-productions/brainsaw-symphony-demon-v5-mrn/cover.jpg",
+    description:
+      "Brainsaw Symphony Demon V5 is the culmination of five evolutionary stages of pure mental warfare—MRN (Max Real N1GGA) level unlocked and operating at full demonic capacity. The Brainsaw cuts through neural pathways with surgical precision while the Symphony orchestrates chaos into beauty. Version 5 integrates the complete Demon Protocol: bass frequencies that vibrate your third eye open, volume levels that rewire your consciousness, and peak gain that transcends mortal audio limitations. This track was forged in the Nickel 9 Production hellforge where only the most savage bars survive. Every layer peeled back reveals another dimension of lyrical devastation. Five versions to reach perfection—and this final form annihilates everything that came before. The game has been upgraded. The throne is occupied. The Brainsaw never stops cutting.",
+    releaseDate: "9th January 2026",
+    featuring: ["Adi 55"],
+    instrumental: "Nickel 9 Productions — Brainsaw Demon Protocol V5",
+  },
+  {
+    id: 146,
+    title: "EB V1 Freestyle",
+    artist: "Adi 55",
+    album: "Nickel 9 Productions",
+    duration: "9:27",
+    file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/nickel9-productions/eb-v1-freestyle/master.mp3",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/nickel9-productions/eb-v1-freestyle/cover.jpg",
+    description:
+      "Hi Ekta, I am a Zeta Alien. I am in the orbit of 911. Do you know where we went after college? Yes I know, we went straight to the spaceship to study and code. Our friends also know this, and hence I learnt B-HOP dance using my vocal chords and throat to demonstrate a Meditation Dhamma Talk for Bhante Gunaratana using Dharmakaya Flow (DF). I am also now learning how to sing using robot language to impress you every day because I don't understand how noob I became learning Rinzai Zen from Zen Master Dinzen Dong and Skephaknee Haps. Let us explain what Dinzen Dong means, Dinzen Dong is a Zen DAWG which is already on my Instagram account @adityapatange_ and Dong means a USB dongle which we insert into the computer when we want to connect the microphone to the Apple MacBook. Similarly, Skephaknee Haps is a Fairy aka 'Papa Ki Pari' where Skep stands for Skipping a Beat when dancing and rapping which I don't do. Haps is simply the sound that an Angel makes when she sees an Alpha Male like me, Aditya 'Adi Yogi' Patange rap on Electronic Music (EM). On this note, let us all listen to this beautiful song and enjoy our Meditation and Mindfulness Practise using Hatha Yoga Sensors. — Sāmaṇera Aditya Patange (Supremely Junior Theravada Monk). A Sāmaṇera is the entry level of monastic life with Ten Precepts, training in discipline, meditation, chanting, and basic doctrine. Now the v1.0.0 is CUMPLETED aka COMPLETED. COMPLETED (adjective): In Rinzai, completion is when effort drops away and the task vanishes into clear, unobstructed suchness. CUMPLETED (verb): In Rinzai, 'cumpleted' is the instant the koan breaks, energy discharges, and nothing remains to be finished.",
+    releaseDate: "10th January 2026",
+    featuring: ["Adi 55"],
+    instrumental: "Nickel 9 Productions — Dharmakaya Flow Protocol V1",
+  },
+  {
+    id: 147,
+    title: "COPS OUT",
+    artist: "Adi 55",
+    album: "Nickel 9 Productions",
+    duration: "10:32",
+    file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/audio/masters/COPS_OUT_ADI55_RAP.mp3",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/nickel9-productions/cops-out/cover.jpg",
+    description:
+      "COPS OUT is a high-octane freestyle that channels raw Detroit energy through the Nickel 9 Production chambers. When the cops are out, the real bars come alive. This track delivers unfiltered lyrical ammunition for the streets, coded with the precision of a software architect and delivered with the intensity of a corner MC. Every bar is a statement, every flow is a protest, every rhyme is resistance. COPS OUT is when the truth speaks and the system listens.",
+    releaseDate: "18th January 2026",
+    featuring: ["Adi 55"],
+    instrumental: "Nickel 9 Productions — Detroit Protocol",
+  },
+  {
+    id: 148,
+    title: "VENOM Freestyle",
+    artist: "Adi 55",
+    album: "Nickel 9 Productions",
+    duration: "8:45",
+    file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/videos/nickel9-productions/VENOM_FREESTYLE_ADI55.mp4",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/nickel9-productions/venom-freestyle/cover.jpg",
+    description:
+      "VENOM Freestyle is a venomous strike of pure lyrical toxicity—channeling the Eminem classic with Adi 55's signature Detroit-Mumbai fusion. Like symbiote fusing with host, this track merges aggressive wordplay with consciousness-expanding bars. The venom flows through every syllable, each punchline a dose of antidote to mediocrity. When Slim Shady's legacy meets the Nickel 9 Protocol, the result is pure sonic poison for your speakers.",
+    releaseDate: "13th January 2026",
+    featuring: ["Adi 55"],
+    instrumental: "Nickel 9 Productions — Symbiote Protocol",
+  },
+  {
+    id: 149,
+    title: "I MEAN IT RADIO Freestyle",
+    artist: "Adi 55",
+    album: "Nickel 9 Productions",
+    duration: "9:15",
+    file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/videos/nickel9-productions/I_MEAN_IT_RADIO_FREESTYLE_ADI55.mov",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/nickel9-productions/i-mean-it-radio-freestyle/cover.jpg",
+    description:
+      "I MEAN IT RADIO Freestyle is a declaration of intent—every word spoken is truth, every bar delivered is a promise. This track operates on the frequency of authenticity, broadcasting straight from the Nickel 9 chambers to the streets of the world. When Adi says he means it, the entire block feels the weight. Radio waves carry these bars across continents, spreading the gospel of real hip-hop. No cap, no filter, just pure intention materialized into sound.",
+    releaseDate: "15th January 2026",
+    featuring: ["Adi 55"],
+    instrumental: "Nickel 9 Productions — Radio Protocol",
+  },
+  {
+    id: 150,
+    title: "SAMRAJI CYBORG DETROIT",
+    artist: "Adi 55",
+    album: "Nickel 9 Productions",
+    duration: "1:05",
+    file: "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/videos/samraji_cyborg_detroit_real.mp4",
+    coverArt:
+      "https://3nb3sjndveiok0zw.public.blob.vercel-storage.com/assets/nickel9-productions/samraji-cyborg-detroit/cover.jpg",
+    description:
+      "SAMRAJI CYBORG DETROIT is the visual manifestation of machine consciousness meeting Marathi royalty. Samraji means Emperor in Marathi, and this cyborg emperor rises from the ashes of Detroit's industrial legacy. Short, concentrated, and devastatingly futuristic—this visual piece captures the moment when ancient royalty interfaces with artificial intelligence. The Motor City meets Maximum City in a cybernetic dance of cultural fusion.",
+    releaseDate: "15th January 2026",
+    featuring: ["Adi 55"],
+    instrumental: "Nickel 9 Productions — Cyborg Protocol",
   },
 ];
 
@@ -1828,22 +2325,32 @@ export default function TracksPage() {
   const [modalProgress, setModalProgress] = useState(0);
   const [isDownloading, setIsDownloading] = useState(false);
   const [downloadProgress, setDownloadProgress] = useState(0);
-  const [downloadingTrackId, setDownloadingTrackId] = useState<number | null>(null);
-  const [toast, setToast] = useState<{ message: string; type: 'loading' | 'success' | 'error' } | null>(null);
+  const [downloadingTrackId, setDownloadingTrackId] = useState<number | null>(
+    null
+  );
+  const [toast, setToast] = useState<{
+    message: string;
+    type: "loading" | "success" | "error";
+  } | null>(null);
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const modalAudioRef = useRef<HTMLAudioElement | null>(null);
 
-  const showToast = (message: string, type: 'loading' | 'success' | 'error', duration?: number) => {
+  const showToast = (
+    message: string,
+    type: "loading" | "success" | "error",
+    duration?: number
+  ) => {
     setToast({ message, type });
-    if (type !== 'loading' && duration !== 0) {
+    if (type !== "loading" && duration !== 0) {
       setTimeout(() => setToast(null), duration || 3000);
     }
   };
 
-  const filteredTracks = tracks.filter((track) =>
-    track.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
-    track.artist.toLowerCase().includes(searchQuery.toLowerCase()) ||
-    track.album.toLowerCase().includes(searchQuery.toLowerCase())
+  const filteredTracks = tracks.filter(
+    (track) =>
+      track.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
+      track.artist.toLowerCase().includes(searchQuery.toLowerCase()) ||
+      track.album.toLowerCase().includes(searchQuery.toLowerCase())
   );
 
   const handlePlay = async (track: Track) => {
@@ -1908,12 +2415,19 @@ export default function TracksPage() {
       modalAudioRef.current?.pause();
       setModalPlaying(false);
     } else {
-      if (!modalAudioRef.current || modalAudioRef.current.src !== modalTrack.file) {
+      if (
+        !modalAudioRef.current ||
+        modalAudioRef.current.src !== modalTrack.file
+      ) {
         const audio = new Audio();
         audio.preload = "auto";
         audio.ontimeupdate = () => {
           if (modalAudioRef.current) {
-            setModalProgress((modalAudioRef.current.currentTime / modalAudioRef.current.duration) * 100);
+            setModalProgress(
+              (modalAudioRef.current.currentTime /
+                modalAudioRef.current.duration) *
+                100
+            );
           }
         };
         audio.onended = () => {
@@ -1961,7 +2475,9 @@ export default function TracksPage() {
         const track = tracks[i];
         const response = await fetch(track.file);
         const blob = await response.blob();
-        const fileName = `${String(i + 1).padStart(2, "0")} - ${track.artist} - ${track.title}.mp3`;
+        const fileName = `${String(i + 1).padStart(2, "0")} - ${
+          track.artist
+        } - ${track.title}.mp3`;
         zip.file(fileName, blob);
         setDownloadProgress(Math.round(((i + 1) / totalTracks) * 100));
       }
@@ -2074,7 +2590,9 @@ export default function TracksPage() {
             Stream and download exclusive CEO Bars™ tracks
           </p>
           <p className="mt-3 text-gray-500 text-sm max-w-xl mx-auto">
-            If you do not see the desired audio quality after download, this could be because of an older master file. Please redownload the entire collection again.
+            If you do not see the desired audio quality after download, this
+            could be because of an older master file. Please redownload the
+            entire collection again.
           </p>
         </div>
 
@@ -2110,22 +2628,50 @@ export default function TracksPage() {
             {isDownloading && (
               <div
                 className="absolute inset-0 bg-[#ff00ff]/30"
-                style={{ width: `${downloadProgress}%`, transition: "width 0.3s ease" }}
+                style={{
+                  width: `${downloadProgress}%`,
+                  transition: "width 0.3s ease",
+                }}
               />
             )}
             <span className="relative flex items-center gap-2">
               {isDownloading ? (
                 <>
-                  <svg className="w-5 h-5 animate-spin" fill="none" viewBox="0 0 24 24">
-                    <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
-                    <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" />
+                  <svg
+                    className="w-5 h-5 animate-spin"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                  >
+                    <circle
+                      className="opacity-25"
+                      cx="12"
+                      cy="12"
+                      r="10"
+                      stroke="currentColor"
+                      strokeWidth="4"
+                    />
+                    <path
+                      className="opacity-75"
+                      fill="currentColor"
+                      d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
+                    />
                   </svg>
                   <span>{downloadProgress}%</span>
                 </>
               ) : (
                 <>
-                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                  <svg
+                    className="w-5 h-5"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
+                    />
                   </svg>
                   <span>Download All ({tracks.length})</span>
                 </>
@@ -2166,13 +2712,29 @@ export default function TracksPage() {
               href="/tracks/em"
               className="flex-shrink-0 inline-flex items-center gap-3 px-6 py-3 rounded-xl bg-gradient-to-r from-[#ff3333] to-[#ff6666] hover:from-[#ff4444] hover:to-[#ff7777] text-white font-bold transition-all duration-300 hover:scale-105 shadow-lg shadow-[#ff3333]/25"
             >
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+              <svg
+                className="w-5 h-5"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                viewBox="0 0 24 24"
+              >
                 <circle cx="12" cy="12" r="10" />
                 <circle cx="12" cy="12" r="3" />
               </svg>
               Enter Zone
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+              <svg
+                className="w-5 h-5"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M13 7l5 5m0 0l-5 5m5-5H6"
+                />
               </svg>
             </a>
           </div>
@@ -2194,111 +2756,105 @@ export default function TracksPage() {
           {filteredTracks.length > 0 ? (
             filteredTracks.map((track, index) => (
               <React.Fragment key={track.id}>
-              <div
-                className="group grid grid-cols-1 md:grid-cols-[50px_50px_1fr_1fr_100px_180px] gap-4 px-6 py-4 hover:bg-[#1a1a1e]/50 transition-colors border-b border-[#1a1a1e]/50 last:border-b-0"
-              >
-                {/* Track Number */}
-                <div className="hidden md:flex items-center text-gray-500 font-mono">
-                  {String(index + 1).padStart(2, "0")}
-                </div>
+                <div className="group grid grid-cols-1 md:grid-cols-[50px_50px_1fr_1fr_100px_180px] gap-4 px-6 py-4 hover:bg-[#1a1a1e]/50 transition-colors border-b border-[#1a1a1e]/50 last:border-b-0">
+                  {/* Track Number */}
+                  <div className="hidden md:flex items-center text-gray-500 font-mono">
+                    {String(index + 1).padStart(2, "0")}
+                  </div>
 
-                {/* Play Button */}
-                <div className="hidden md:flex items-center">
-                  <button
-                    onClick={() => handlePlay(track)}
-                    className="w-10 h-10 rounded-full bg-[#ff00ff] hover:bg-[#ff66ff] flex items-center justify-center transition-all hover:scale-105 shadow-lg shadow-[#ff00ff]/25"
-                  >
-                    {playingId === track.id ? (
-                      <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M6 4h4v16H6V4zm8 0h4v16h-4V4z" />
-                      </svg>
-                    ) : (
-                      <svg className="w-5 h-5 text-white ml-0.5" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M8 5v14l11-7z" />
-                      </svg>
-                    )}
-                  </button>
-                </div>
-
-                {/* Title & Artist */}
-                <div className="flex items-center gap-4">
-                  {/* Mobile: number + play */}
-                  <div className="flex md:hidden items-center gap-2">
-                    <span className="text-gray-500 font-mono text-sm w-6">
-                      {String(index + 1).padStart(2, "0")}
-                    </span>
+                  {/* Play Button */}
+                  <div className="hidden md:flex items-center">
                     <button
                       onClick={() => handlePlay(track)}
-                      className="w-10 h-10 rounded-full bg-[#ff00ff] hover:bg-[#ff66ff] flex items-center justify-center transition-all shadow-lg shadow-[#ff00ff]/25"
+                      className="w-10 h-10 rounded-full bg-[#ff00ff] hover:bg-[#ff66ff] flex items-center justify-center transition-all hover:scale-105 shadow-lg shadow-[#ff00ff]/25"
                     >
                       {playingId === track.id ? (
-                        <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
+                        <svg
+                          className="w-5 h-5 text-white"
+                          fill="currentColor"
+                          viewBox="0 0 24 24"
+                        >
                           <path d="M6 4h4v16H6V4zm8 0h4v16h-4V4z" />
                         </svg>
                       ) : (
-                        <svg className="w-5 h-5 text-white ml-0.5" fill="currentColor" viewBox="0 0 24 24">
+                        <svg
+                          className="w-5 h-5 text-white ml-0.5"
+                          fill="currentColor"
+                          viewBox="0 0 24 24"
+                        >
                           <path d="M8 5v14l11-7z" />
                         </svg>
                       )}
                     </button>
                   </div>
-                  <img
-                    src={track.coverArt}
-                    alt={track.title}
-                    className="w-12 h-12 rounded-lg object-cover shadow-lg"
-                  />
-                  <div>
-                    <h3 className={`font-semibold transition-colors ${playingId === track.id ? "text-[#ff00ff]" : "text-white group-hover:text-[#ff00ff]"}`}>
-                      {track.title}
-                    </h3>
-                    <p className="text-sm text-gray-400">{track.artist}</p>
+
+                  {/* Title & Artist */}
+                  <div className="flex items-center gap-4">
+                    {/* Mobile: number + play */}
+                    <div className="flex md:hidden items-center gap-2">
+                      <span className="text-gray-500 font-mono text-sm w-6">
+                        {String(index + 1).padStart(2, "0")}
+                      </span>
+                      <button
+                        onClick={() => handlePlay(track)}
+                        className="w-10 h-10 rounded-full bg-[#ff00ff] hover:bg-[#ff66ff] flex items-center justify-center transition-all shadow-lg shadow-[#ff00ff]/25"
+                      >
+                        {playingId === track.id ? (
+                          <svg
+                            className="w-5 h-5 text-white"
+                            fill="currentColor"
+                            viewBox="0 0 24 24"
+                          >
+                            <path d="M6 4h4v16H6V4zm8 0h4v16h-4V4z" />
+                          </svg>
+                        ) : (
+                          <svg
+                            className="w-5 h-5 text-white ml-0.5"
+                            fill="currentColor"
+                            viewBox="0 0 24 24"
+                          >
+                            <path d="M8 5v14l11-7z" />
+                          </svg>
+                        )}
+                      </button>
+                    </div>
+                    <img
+                      src={track.coverArt}
+                      alt={track.title}
+                      className="w-12 h-12 rounded-lg object-cover shadow-lg"
+                    />
+                    <div>
+                      <h3
+                        className={`font-semibold transition-colors ${
+                          playingId === track.id
+                            ? "text-[#ff00ff]"
+                            : "text-white group-hover:text-[#ff00ff]"
+                        }`}
+                      >
+                        {track.title}
+                      </h3>
+                      <p className="text-sm text-gray-400">{track.artist}</p>
+                    </div>
                   </div>
-                </div>
 
-                {/* Album */}
-                <div className="hidden md:flex items-center text-gray-400">
-                  {track.album}
-                </div>
+                  {/* Album */}
+                  <div className="hidden md:flex items-center text-gray-400">
+                    {track.album}
+                  </div>
 
-                {/* Duration */}
-                <div className="hidden md:flex items-center text-gray-500 font-mono text-sm">
-                  {track.duration}
-                </div>
+                  {/* Duration */}
+                  <div className="hidden md:flex items-center text-gray-500 font-mono text-sm">
+                    {track.duration}
+                  </div>
 
-                {/* Actions: Info + Download */}
-                <div className="flex items-center justify-end md:justify-start gap-2 mt-3 md:mt-0">
-                  {/* Info Button */}
-                  <button
-                    onClick={() => openModal(track)}
-                    className="w-9 h-9 rounded-lg bg-[#2a2a2e] hover:bg-[#3a3a3e] flex items-center justify-center transition-all text-gray-400 hover:text-white"
-                    title="Track Info"
-                  >
-                    <svg
-                      className="w-4 h-4"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
+                  {/* Actions: Info + Download */}
+                  <div className="flex items-center justify-end md:justify-start gap-2 mt-3 md:mt-0">
+                    {/* Info Button */}
+                    <button
+                      onClick={() => openModal(track)}
+                      className="w-9 h-9 rounded-lg bg-[#2a2a2e] hover:bg-[#3a3a3e] flex items-center justify-center transition-all text-gray-400 hover:text-white"
+                      title="Track Info"
                     >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                      />
-                    </svg>
-                  </button>
-                  {/* Download Button */}
-                  <button
-                    onClick={() => handleDownload(track)}
-                    disabled={downloadingTrackId === track.id}
-                    className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-[#2a2a2e] hover:bg-[#ff00ff] text-gray-300 hover:text-white transition-all text-sm font-medium group/btn disabled:opacity-50 disabled:cursor-not-allowed"
-                  >
-                    {downloadingTrackId === track.id ? (
-                      <svg className="w-4 h-4 animate-spin" fill="none" viewBox="0 0 24 24">
-                        <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
-                        <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" />
-                      </svg>
-                    ) : (
                       <svg
                         className="w-4 h-4"
                         fill="none"
@@ -2309,79 +2865,140 @@ export default function TracksPage() {
                           strokeLinecap="round"
                           strokeLinejoin="round"
                           strokeWidth={2}
-                          d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
+                          d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
                         />
                       </svg>
-                    )}
-                    {downloadingTrackId === track.id ? "Downloading..." : "Download"}
-                  </button>
-                </div>
-              </div>
-
-              {/* Sadhguru JV Section - After What is Dharmakaya */}
-              {track.id === 112 && (
-                <div className="px-6 py-16 border-b border-[#1a1a1e]/50">
-                  <div className="max-w-2xl mx-auto text-center space-y-8">
-                    {/* Zen Divider */}
-                    <div className="flex items-center justify-center gap-4">
-                      <div className="h-px w-16 bg-gradient-to-r from-transparent to-gray-600"></div>
-                      <span className="text-2xl">☯</span>
-                      <div className="h-px w-16 bg-gradient-to-l from-transparent to-gray-600"></div>
-                    </div>
-
-                    {/* Quote */}
-                    <p className="text-gray-300 text-lg leading-relaxed font-light italic">
-                      &ldquo;Well, AdiYogi and Sadhguru meet again, the same way we met the first time as cellular automatas in Naga Zone.&rdquo;
-                    </p>
-
-                    {/* Link */}
-                    <a
-                      href="https://isha.sadhguru.org/en/wisdom/article/7-chakras-mystical-dimensions-body-seven-chakras#point2"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center gap-2 text-gray-400 hover:text-white transition-colors text-sm group"
+                    </button>
+                    {/* Download Button */}
+                    <button
+                      onClick={() => handleDownload(track)}
+                      disabled={downloadingTrackId === track.id}
+                      className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-[#2a2a2e] hover:bg-[#ff00ff] text-gray-300 hover:text-white transition-all text-sm font-medium group/btn disabled:opacity-50 disabled:cursor-not-allowed"
                     >
-                      <span>The 7 Chakras — Mystical Dimensions</span>
-                      <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                      </svg>
-                    </a>
-
-                    {/* Zen Divider */}
-                    <div className="flex items-center justify-center gap-4">
-                      <div className="h-px w-16 bg-gradient-to-r from-transparent to-gray-600"></div>
-                      <span className="text-xs text-gray-600 tracking-widest">SADHGURU JV</span>
-                      <div className="h-px w-16 bg-gradient-to-l from-transparent to-gray-600"></div>
-                    </div>
+                      {downloadingTrackId === track.id ? (
+                        <svg
+                          className="w-4 h-4 animate-spin"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                        >
+                          <circle
+                            className="opacity-25"
+                            cx="12"
+                            cy="12"
+                            r="10"
+                            stroke="currentColor"
+                            strokeWidth="4"
+                          />
+                          <path
+                            className="opacity-75"
+                            fill="currentColor"
+                            d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
+                          />
+                        </svg>
+                      ) : (
+                        <svg
+                          className="w-4 h-4"
+                          fill="none"
+                          stroke="currentColor"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth={2}
+                            d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
+                          />
+                        </svg>
+                      )}
+                      {downloadingTrackId === track.id
+                        ? "Downloading..."
+                        : "Download"}
+                    </button>
                   </div>
                 </div>
-              )}
 
-              {/* Zen Master Quote - After Stabilize In Meditation */}
-              {track.id === 117 && (
-                <div className="px-6 py-16 border-b border-[#1a1a1e]/50">
-                  <div className="max-w-2xl mx-auto text-center space-y-8">
-                    {/* Zen Divider */}
-                    <div className="flex items-center justify-center gap-4">
-                      <div className="h-px w-16 bg-gradient-to-r from-transparent to-gray-600"></div>
-                      <span className="text-2xl">☸</span>
-                      <div className="h-px w-16 bg-gradient-to-l from-transparent to-gray-600"></div>
-                    </div>
+                {/* Sadhguru JV Section - After What is Dharmakaya */}
+                {track.id === 112 && (
+                  <div className="px-6 py-16 border-b border-[#1a1a1e]/50">
+                    <div className="max-w-2xl mx-auto text-center space-y-8">
+                      {/* Zen Divider */}
+                      <div className="flex items-center justify-center gap-4">
+                        <div className="h-px w-16 bg-gradient-to-r from-transparent to-gray-600"></div>
+                        <span className="text-2xl">☯</span>
+                        <div className="h-px w-16 bg-gradient-to-l from-transparent to-gray-600"></div>
+                      </div>
 
-                    {/* Quote */}
-                    <p className="text-gray-300 text-lg leading-relaxed font-light italic">
-                      &ldquo;On this Chakra, Zen becomes Xen and the time space of Karmic evolution transforms to Vajra of Shiva.&rdquo;
-                    </p>
+                      {/* Quote */}
+                      <p className="text-gray-300 text-lg leading-relaxed font-light italic">
+                        &ldquo;Well, AdiYogi and Sadhguru meet again, the same
+                        way we met the first time as cellular automatas in Naga
+                        Zone.&rdquo;
+                      </p>
 
-                    {/* Attribution */}
-                    <div className="flex items-center justify-center gap-4">
-                      <div className="h-px w-16 bg-gradient-to-r from-transparent to-gray-600"></div>
-                      <span className="text-xs text-gray-600 tracking-widest">ZEN MASTER ADI</span>
-                      <div className="h-px w-16 bg-gradient-to-l from-transparent to-gray-600"></div>
+                      {/* Link */}
+                      <a
+                        href="https://isha.sadhguru.org/en/wisdom/article/7-chakras-mystical-dimensions-body-seven-chakras#point2"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-2 text-gray-400 hover:text-white transition-colors text-sm group"
+                      >
+                        <span>The 7 Chakras — Mystical Dimensions</span>
+                        <svg
+                          className="w-4 h-4 group-hover:translate-x-1 transition-transform"
+                          fill="none"
+                          stroke="currentColor"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth={1.5}
+                            d="M17 8l4 4m0 0l-4 4m4-4H3"
+                          />
+                        </svg>
+                      </a>
+
+                      {/* Zen Divider */}
+                      <div className="flex items-center justify-center gap-4">
+                        <div className="h-px w-16 bg-gradient-to-r from-transparent to-gray-600"></div>
+                        <span className="text-xs text-gray-600 tracking-widest">
+                          SADHGURU JV
+                        </span>
+                        <div className="h-px w-16 bg-gradient-to-l from-transparent to-gray-600"></div>
+                      </div>
                     </div>
                   </div>
-                </div>
-              )}
+                )}
+
+                {/* Zen Master Quote - After Stabilize In Meditation */}
+                {track.id === 117 && (
+                  <div className="px-6 py-16 border-b border-[#1a1a1e]/50">
+                    <div className="max-w-2xl mx-auto text-center space-y-8">
+                      {/* Zen Divider */}
+                      <div className="flex items-center justify-center gap-4">
+                        <div className="h-px w-16 bg-gradient-to-r from-transparent to-gray-600"></div>
+                        <span className="text-2xl">☸</span>
+                        <div className="h-px w-16 bg-gradient-to-l from-transparent to-gray-600"></div>
+                      </div>
+
+                      {/* Quote */}
+                      <p className="text-gray-300 text-lg leading-relaxed font-light italic">
+                        &ldquo;On this Chakra, Zen becomes Xen and the time
+                        space of Karmic evolution transforms to Vajra of
+                        Shiva.&rdquo;
+                      </p>
+
+                      {/* Attribution */}
+                      <div className="flex items-center justify-center gap-4">
+                        <div className="h-px w-16 bg-gradient-to-r from-transparent to-gray-600"></div>
+                        <span className="text-xs text-gray-600 tracking-widest">
+                          ZEN MASTER ADI
+                        </span>
+                        <div className="h-px w-16 bg-gradient-to-l from-transparent to-gray-600"></div>
+                      </div>
+                    </div>
+                  </div>
+                )}
               </React.Fragment>
             ))
           ) : (
@@ -2407,16 +3024,15 @@ export default function TracksPage() {
 
         {/* Track Count */}
         <div className="mt-6 text-center text-gray-500 text-sm">
-          {filteredTracks.length} {filteredTracks.length === 1 ? "track" : "tracks"}
+          {filteredTracks.length}{" "}
+          {filteredTracks.length === 1 ? "track" : "tracks"}
         </div>
       </div>
 
       {/* Footer */}
       <footer className="border-t border-[#1a1a1e] py-8 mt-12">
         <div className="max-w-6xl mx-auto px-4 text-center text-gray-500 text-sm">
-          <p>
-            © {new Date().getFullYear()} CEO Bars™. All rights reserved.
-          </p>
+          <p>© {new Date().getFullYear()} CEO Bars™. All rights reserved.</p>
         </div>
       </footer>
 
@@ -2424,7 +3040,7 @@ export default function TracksPage() {
       {modalTrack && (
         <div
           className="fixed inset-0 z-50 modal-backdrop overflow-y-auto"
-          style={{ WebkitOverflowScrolling: 'touch' }}
+          style={{ WebkitOverflowScrolling: "touch" }}
           onClick={closeModal}
         >
           <div className="min-h-full flex items-center justify-center p-4 py-8">
@@ -2437,8 +3053,18 @@ export default function TracksPage() {
                 onClick={closeModal}
                 className="absolute top-4 right-4 z-10 w-8 h-8 rounded-full bg-[#2a2a2e] hover:bg-[#3a3a3e] flex items-center justify-center transition-colors text-gray-400 hover:text-white"
               >
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                <svg
+                  className="w-4 h-4"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M6 18L18 6M6 6l12 12"
+                  />
                 </svg>
               </button>
 
@@ -2455,23 +3081,45 @@ export default function TracksPage() {
               {/* Content */}
               <div className="p-6 -mt-16 relative">
                 {/* Title & Artist */}
-                <h2 className="text-2xl font-bold text-white mb-1">{modalTrack.title}</h2>
+                <h2 className="text-2xl font-bold text-white mb-1">
+                  {modalTrack.title}
+                </h2>
                 <p className="text-[#ff00ff] font-medium mb-4">
                   {modalTrack.featuring?.join(", ") || modalTrack.artist}
                 </p>
 
                 {/* Release Date */}
                 <div className="flex items-center gap-2 text-gray-400 text-sm mb-3">
-                  <svg className="w-4 h-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                  <svg
+                    className="w-4 h-4 flex-shrink-0"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
+                    />
                   </svg>
                   <span>Released: {modalTrack.releaseDate}</span>
                 </div>
 
                 {/* Instrumental Credit */}
                 <div className="flex items-start gap-2 text-gray-400 text-sm mb-4">
-                  <svg className="w-4 h-4 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3" />
+                  <svg
+                    className="w-4 h-4 flex-shrink-0 mt-0.5"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3"
+                    />
                   </svg>
                   <span>{modalTrack.instrumental}</span>
                 </div>
@@ -2490,11 +3138,19 @@ export default function TracksPage() {
                       className="w-12 h-12 rounded-full bg-[#ff00ff] hover:bg-[#ff66ff] flex items-center justify-center transition-all hover:scale-105 shadow-lg shadow-[#ff00ff]/25 flex-shrink-0"
                     >
                       {modalPlaying ? (
-                        <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
+                        <svg
+                          className="w-5 h-5 text-white"
+                          fill="currentColor"
+                          viewBox="0 0 24 24"
+                        >
                           <path d="M6 4h4v16H6V4zm8 0h4v16h-4V4z" />
                         </svg>
                       ) : (
-                        <svg className="w-5 h-5 text-white ml-0.5" fill="currentColor" viewBox="0 0 24 24">
+                        <svg
+                          className="w-5 h-5 text-white ml-0.5"
+                          fill="currentColor"
+                          viewBox="0 0 24 24"
+                        >
                           <path d="M8 5v14l11-7z" />
                         </svg>
                       )}
@@ -2502,8 +3158,12 @@ export default function TracksPage() {
 
                     {/* Progress Bar & Info */}
                     <div className="flex-1 min-w-0">
-                      <p className="text-white text-sm font-medium truncate">{modalTrack.title}</p>
-                      <p className="text-gray-500 text-xs truncate">{modalTrack.artist}</p>
+                      <p className="text-white text-sm font-medium truncate">
+                        {modalTrack.title}
+                      </p>
+                      <p className="text-gray-500 text-xs truncate">
+                        {modalTrack.artist}
+                      </p>
                       {/* Progress Bar */}
                       <div className="mt-2 h-1 bg-[#2a2a2e] rounded-full overflow-hidden">
                         <div
@@ -2514,7 +3174,9 @@ export default function TracksPage() {
                     </div>
 
                     {/* Duration */}
-                    <span className="text-gray-500 text-xs flex-shrink-0">{modalTrack.duration}</span>
+                    <span className="text-gray-500 text-xs flex-shrink-0">
+                      {modalTrack.duration}
+                    </span>
                   </div>
                 </div>
               </div>
@@ -2526,27 +3188,64 @@ export default function TracksPage() {
       {/* Toast Notification */}
       {toast && (
         <div className="fixed bottom-6 left-1/2 -translate-x-1/2 z-[60] animate-fade-in">
-          <div className={`flex items-center gap-3 px-5 py-3 rounded-xl shadow-2xl backdrop-blur-sm border ${
-            toast.type === 'loading'
-              ? 'bg-[#1a1a1e]/95 border-[#ff00ff]/30 text-white'
-              : toast.type === 'success'
-              ? 'bg-green-900/90 border-green-500/30 text-green-100'
-              : 'bg-red-900/90 border-red-500/30 text-red-100'
-          }`}>
-            {toast.type === 'loading' && (
-              <svg className="w-5 h-5 animate-spin text-[#ff00ff]" fill="none" viewBox="0 0 24 24">
-                <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
-                <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" />
+          <div
+            className={`flex items-center gap-3 px-5 py-3 rounded-xl shadow-2xl backdrop-blur-sm border ${
+              toast.type === "loading"
+                ? "bg-[#1a1a1e]/95 border-[#ff00ff]/30 text-white"
+                : toast.type === "success"
+                ? "bg-green-900/90 border-green-500/30 text-green-100"
+                : "bg-red-900/90 border-red-500/30 text-red-100"
+            }`}
+          >
+            {toast.type === "loading" && (
+              <svg
+                className="w-5 h-5 animate-spin text-[#ff00ff]"
+                fill="none"
+                viewBox="0 0 24 24"
+              >
+                <circle
+                  className="opacity-25"
+                  cx="12"
+                  cy="12"
+                  r="10"
+                  stroke="currentColor"
+                  strokeWidth="4"
+                />
+                <path
+                  className="opacity-75"
+                  fill="currentColor"
+                  d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
+                />
               </svg>
             )}
-            {toast.type === 'success' && (
-              <svg className="w-5 h-5 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+            {toast.type === "success" && (
+              <svg
+                className="w-5 h-5 text-green-400"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M5 13l4 4L19 7"
+                />
               </svg>
             )}
-            {toast.type === 'error' && (
-              <svg className="w-5 h-5 text-red-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+            {toast.type === "error" && (
+              <svg
+                className="w-5 h-5 text-red-400"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M6 18L18 6M6 6l12 12"
+                />
               </svg>
             )}
             <span className="text-sm font-medium">{toast.message}</span>
@@ -2559,12 +3258,29 @@ export default function TracksPage() {
         <div className="fixed inset-0 z-[70] bg-black/80 backdrop-blur-sm flex items-center justify-center">
           <div className="bg-[#1a1a1e] border border-[#2a2a2e] rounded-2xl p-8 max-w-sm w-full mx-4 text-center">
             <div className="w-16 h-16 mx-auto mb-4 relative">
-              <svg className="w-16 h-16 animate-spin text-[#ff00ff]" fill="none" viewBox="0 0 24 24">
-                <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="2" />
-                <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" />
+              <svg
+                className="w-16 h-16 animate-spin text-[#ff00ff]"
+                fill="none"
+                viewBox="0 0 24 24"
+              >
+                <circle
+                  className="opacity-25"
+                  cx="12"
+                  cy="12"
+                  r="10"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                />
+                <path
+                  className="opacity-75"
+                  fill="currentColor"
+                  d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
+                />
               </svg>
             </div>
-            <h3 className="text-xl font-bold text-white mb-2">Packing Collection</h3>
+            <h3 className="text-xl font-bold text-white mb-2">
+              Packing Collection
+            </h3>
             <p className="text-gray-400 text-sm mb-4">
               Downloading and zipping {tracks.length} tracks...
             </p>
@@ -2574,7 +3290,9 @@ export default function TracksPage() {
                 style={{ width: `${downloadProgress}%` }}
               />
             </div>
-            <p className="text-[#ff00ff] font-mono text-lg">{downloadProgress}%</p>
+            <p className="text-[#ff00ff] font-mono text-lg">
+              {downloadProgress}%
+            </p>
           </div>
         </div>
       )}

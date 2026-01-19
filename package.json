@@ -11,7 +11,8 @@
     "ceo:video-to-audio": "./scripts/video_to_audio.sh",
     "ceo:ig-pipeline": "./scripts/ig_pipeline.sh",
     "reverse-engineer:eminem-production": "npx tsx sounds/scripts/eminem/analyze-eminem-genome.ts",
-    "apply-sound:eminem": "npx tsx sounds/scripts/eminem/apply-eminem-sound.ts"
+    "apply-sound:eminem": "npx tsx sounds/scripts/eminem/apply-eminem-sound.ts",
+    "md-to-pdf": "node scripts/md-to-pdf.js"
   },
   "dependencies": {
     "@cashfreepayments/cashfree-js": "^1.0.5",
@@ -31,6 +32,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.1.1",
+    "md-to-pdf": "^5.2.5",
     "tailwindcss": "^4",
     "ts-node": "^10.9.2",
     "tsx": "^4.21.0",
