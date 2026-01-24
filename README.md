@@ -36,7 +36,7 @@ CEO Bars™ treats every verse like a boardroom decision and every release like 
 ## The 114 Pillars of CEO Bars™.
 
 1. The Song.
-2. The Woman (Ekta).
+2. The Woman.
 3. The Brands.
 4. The Code.
 5. The Consciousness.
